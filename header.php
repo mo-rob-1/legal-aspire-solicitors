@@ -1,59 +1,74 @@
-<?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package Legal_Aspire_Solicitors
- */
-
-?>
-<!doctype html>
-<html <?php language_attributes(); ?>>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php wp_head(); ?>
 </head>
+<body>
+<header class="header">
+	<div class="header__container">
+		<div class="header__banner">
+			<a class="header__social-icon" href="#"><i class="fab fa-twitter"></i></a>
+			<a class="header__social-icon" href="#"><i class="fab fa-instagram"></i></a>
+			<a class="header__social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+		</div>
+		<div class="header__wrapper-mobile">
+        <div class="header__logo-wrapper">
+          <!-- <a class="header__logo-link" href="#"><img class="header__logo" src="images/logo.svg" alt="Legal Aspire Solicitors" /></a> -->
+		  <a class="header__logo-link" href="#">Legal Aspire Solicitors</a>
+        </div>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'legal-aspire-solicitors' ); ?></a>
+        <div class="header__hamburger-wrapper">
+          <button id="toggle_btn" class="hamburger hamburger--squeeze js-hamburger menu-icon" type="button">
+              <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+              </span>
+          </button>
+        </div>
+      </div>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$legal_aspire_solicitors_description = get_bloginfo( 'description', 'display' );
-			if ( $legal_aspire_solicitors_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $legal_aspire_solicitors_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+      <!-- <div class="clk"><a href="javascript:void"><i class="fa fa-plus-circle"></i>some text</a><div> -->
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'legal-aspire-solicitors' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+        <nav class="header__nav show-nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-list-item"><a class="header__nav-link" href="#">Home</a></li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="#">About</a></li>
+            <li class="header__nav-list-item clk" id="toggle_submenu"><div class="header__submenu-item-container"><div class="header__submenu-item header__services">Services</div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
+              <ul class="header__submenu-dropdown header__nav-2 show-nav-2">
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#!">Personal Injury</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#!">Medical Negligence</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#!">Employment</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#!">Property</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#!">Family</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#!">Immigration</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#!">Pensions</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="#!">Real Estate</a>
+                  </li>
+                </ul>
+			      </li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="#">News</a></li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header__number-wrapper">
+        	<a class="header__number" href="tel:0800000000">0800 00 0000</a>
+        </div>
+	</div>
+</header>	
