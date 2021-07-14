@@ -60,6 +60,129 @@ get_header();
 			</div>
 		</section>
 
+		<section class="contact">
+			<div class="contact__container">
+				<h2 class="contact__heading">Get a Free Counsultation for Your Case.</h2>
+				<a class="contact__link" href="#">Contact Us</a>
+			</div>
+		</section>
+
+		<section class="services">
+			<div class="services__container">
+
+			<div class="services__text-container">
+				<div class="services__text-col-1">
+					<h5 class="services__title">Our Services</h5>
+					<h1 class="services__heading">Reputation. Respect. Result.</h1>
+				</div>
+				<div class="services__text-col-2">
+					<p class="services__desc">We offer the best legal services in the world. We are a small team of highly qualified professionals who are dedicated to providing the best legal advice and services to our clients. Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad.</p>
+				</div>
+			</div>
+
+			<div class="services__item-container">
+				<div class="services__item-1">
+					<h3>Item 1</h3>
+				</div>
+				<div class="services__item-2">
+					<h3>Item 2</h3>	
+				</div>					
+				<div class="services__item-3">
+					<h3>Item 3</h3>
+				</div>
+				<div class="services__item-4">
+					<h3>Item 4</h3>
+				</div>
+				<div class="services__item-5">
+					<h3>Item 5</h3>
+				</div>
+				<div class="services__item-6">
+					<h3>Item 6</h3>
+				</div>
+			</div>
+
+			</div>
+		</section>
+
+		<section class="experience">
+			<div class="experience__container">	
+				<div class="experience__img-container">
+					<img class="experience__img" />
+				</div>
+				<div class="experience__text-container">
+					<h5 class="experience__title">Why Choose Us</h5>
+					<h1 class="experience__heading">15 Years of Experience</h1>
+					<p class="experience__desc">Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="counter">
+			<div class="counter__container">
+				<div class="counter__item-1">
+					<p class="counter__number">5000</p>
+					<h5 class="counter__title">Counter</h5>
+				</div>
+				<div class="counter__item-2">
+					<p class="counter__number">5000</p>
+					<h5 class="counter__title">Counter</h5>
+				</div>
+				<div class="counter__item-3">
+					<p class="counter__number">5000</p>
+					<h5 class="counter__title">Counter</h5>
+				</div>
+				<div class="counter__item-4">
+					<p class="counter__number">5000</p>
+					<h5 class="counter__title">Counter</h5>
+				</div>
+				<div class="counter__item-5">
+					<p class="counter__number">5000</p>
+					<h5 class="counter__title">Counter</h5>
+				</div>
+				<div class="counter__item-6">
+					<p class="counter__number">5000</p>
+					<h5 class="counter__title">Counter</h5>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials">
+			<div class="testimonials__container">
+				<div class="testimonials__item-1">
+					<h1>Item 1</h1>
+				</div>
+				<div class="testimonials__item-2">
+					<h1>Item 2</h1>
+				</div>
+				<div class="testimonials__item-3">
+					<h1>Item 3</h1>
+				</div>
+				<div class="testimonials__item-4">
+					<h1>Item 4</h1>
+				</div>
+				<div class="testimonials__item-5">
+					<h1>Item 5</h1>
+				</div>
+				<div class="testimonials__item-6">
+					<h1>Item 6</h1>
+				</div>
+				<div class="testimonials__item-7">
+					<h1>Item 7</h1>
+				</div>
+				<div class="testimonials__item-8">
+					<h1>Item 8</h1>
+				</div>
+				<div class="testimonials__item-9">
+					<h1>Item 9</h1>
+				</div>
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="news__container">
+
+			</div>
+		</section>
 	</main>
 <?php
 
