@@ -32,30 +32,26 @@ get_header();
 ?>
 	<main>
 		<section class="hero">
-			<div class="hero__container">
-				<div class="hero__item-one">
-					<img src="<?php echo $pictureone; ?>" alt="<?php echo $altone ?>" />
-					<h5><?php the_field('subheading_one'); ?></h5>
-					<h1><?php the_field('heading_one'); ?></h1>
-					<p><?php the_field('description_one'); ?></p>
+			<div class="hero__container carousel" data-flickity='{"autoPlay": true, "wrapAround": true}'>
+				<div class="hero__item-one carousel-cell">
+					<h5 class="hero__item-subheading"><?php the_field('subheading_one'); ?></h5>
+					<h1 class="hero__item-heading"><?php the_field('heading_one'); ?></h1>
+					<p class="hero__item-desc"><?php the_field('description_one'); ?></p>
 				</div>
-				<div class="hero__item-two">
-					<img src="<?php echo $picturetwo; ?>" alt="<?php echo $alttwo ?>" />
-					<h5><?php the_field('subheading_two'); ?></h5>
-					<h1><?php the_field('heading_two'); ?></h1>
-					<p><?php the_field('description_two'); ?></p>
+				<div class="hero__item-two carousel-cell">
+					<h5 class="hero__item-subheading"><?php the_field('subheading_two'); ?></h5>
+					<h1 class="hero__item-heading"><?php the_field('heading_two'); ?></h1>
+					<p class="hero__item-desc"><?php the_field('description_two'); ?></p>
 				</div>
-				<div class="hero__item-three">
-					<img src="<?php echo $picturethree; ?>" alt="<?php echo $altthree ?>" />
-					<h5><?php the_field('subheading_three'); ?></h5>
-					<h1><?php the_field('heading_three'); ?></h1>
-					<p><?php the_field('description_three'); ?></p>
+				<div class="hero__item-three carousel-cell">
+					<h5 class="hero__item-subheading"><?php the_field('subheading_three'); ?></h5>
+					<h1 class="hero__item-heading"><?php the_field('heading_three'); ?></h1>
+					<p class="hero__item-desc"><?php the_field('description_three'); ?></p>
 				</div>
-				<div class="hero__item-four">
-					<img src="<?php echo $picturefour; ?>" alt="<?php echo $altfour ?>" />
-					<h5><?php the_field('subheading_four'); ?></h5>
-					<h1><?php the_field('heading_four'); ?></h1>
-					<p><?php the_field('description_four'); ?></p>
+				<div class="hero__item-four carousel-cell">
+					<h5 class="hero__item-subheading"><?php the_field('subheading_four'); ?></h5>
+					<h1 class="hero__item-heading"><?php the_field('heading_four'); ?></h1>
+					<p class="hero__item-desc"><?php the_field('description_four'); ?></p>
 				</div>
 			</div>
 		</section>
