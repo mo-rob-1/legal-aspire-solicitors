@@ -10,7 +10,7 @@ button2.addEventListener("click", (e) => {
 });
 
 $(".clk").click(function () {
-  $(this).find("i").toggleClass("fa-chevron-up");
+  $(this).find("i").toggleClass("fa-chevron-up ");
 });
 
 !(function () {

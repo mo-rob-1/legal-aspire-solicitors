@@ -876,6 +876,80 @@ textarea {
 	font-size: 1.3rem;
 }
 
+.hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
+	background-color: #cccccc;
+	height: 70vh;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1rem;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	flex-direction: column;
+}
+
+.hero__item-one {
+	background-image: url("images/gavel.jpg");
+}
+
+.hero__item-two {
+	background-image: url("images/legal-aspire-solicitors-team.jpg");
+}
+
+.hero__item-three {
+	background-image: url("images/three-lawyers-working-at-a-computer.jpg");
+}
+
+.hero__item-four {
+	background-image: url("images/solicitors-coversation.jpg");
+}
+
+.hero__item-heading {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+}
+
+.hero__item-desc {
+	font-family: "Jost", sans-serif;
+	font-size: 0.9rem;
+}
+
+.carousel-cell {
+	width: 100%;
+	margin-right: 10px;
+}
+
+/* cell number */
+.carousel-cell:before {
+	display: block;
+	text-align: center;
+	line-height: 200px;
+	font-size: 80px;
+	color: white;
+}
+
+/* position dots in gallery */
+.flickity-page-dots {
+	bottom: 0px;
+	margin-bottom: 1rem;
+}
+
+/* white circles */
+.flickity-page-dots .dot {
+	width: 12px;
+	height: 12px;
+	opacity: 1;
+	background: transparent;
+	border: 2px solid white;
+}
+
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+	background: white;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
