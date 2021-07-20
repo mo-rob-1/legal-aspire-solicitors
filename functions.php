@@ -10,12 +10,12 @@ function custom_theme_features() {
 add_action('after_setup_theme', 'custom_theme_features');
 
 function theme_files() {
-    wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css', false );
+    wp_register_script( 'jQuery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', null, null, true );
+    wp_enqueue_script('script', get_theme_file_uri('/js/script.js'), NULL, '1.0', true);
     wp_enqueue_style('hamburgers', get_stylesheet_directory_uri() . '/node_modules/hamburgers/dist/hamburgers.css');
     wp_enqueue_style('flickity', get_stylesheet_directory_uri() . '/node_modules/flickity/dist/flickity.min.css');
-    wp_enqueue_script('script', get_theme_file_uri('/js/script.js'), NULL, '1.0', true);
-    wp_register_script( 'jQuery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', null, null, true );
     wp_enqueue_script('script-flickity', get_theme_file_uri('/node_modules/flickity/dist/flickity.pkgd.min.js'), NULL, '1.0', true);
+    wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css', false );
 }
 
 add_action('wp_enqueue_scripts', 'theme_files');
