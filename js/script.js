@@ -1,16 +1,32 @@
 const button = document.querySelector("#toggle_btn");
 const button2 = document.querySelector("#toggle_submenu");
 
-button.addEventListener("click", (e) => {
-  document.querySelector(".show-nav").classList.toggle("header__nav");
+const counters = document.querySelectorAll(".counter__number");
+const speed = 200;
+
+counters.forEach((counter) => {
+  const animate = () => {
+    const value = +counter.getAttribute("counter");
+    const data = +counter.innerText;
+
+    const time = value / speed;
+    if (data < value) {
+      counter.innerText = Math.ceil(data + time);
+      setTimeout(animate, 1);
+    } else {
+      counter.innerText = value;
+    }
+  };
+
+  animate();
 });
 
 button2.addEventListener("click", (e) => {
   document.querySelector(".show-nav-2").classList.toggle("header__nav-2");
 });
 
-$(".clk").click(function () {
-  $(this).find("i").toggleClass("fa-chevron-up ");
+button.addEventListener("click", (e) => {
+  document.querySelector(".show-nav").classList.toggle("header__nav");
 });
 
 !(function () {
@@ -154,3 +170,7 @@ $(".clk").click(function () {
   };
   t.make();
 })();
+
+$(".clk").click(function () {
+  $(this).find("i").toggleClass("fa-chevron-up ");
+});
