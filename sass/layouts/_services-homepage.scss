@@ -1,0 +1,63 @@
+.services {
+  &__container {
+    padding: 4rem 1rem;
+  }
+  &__title {
+    font-family: $thirdFont;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+  }
+  &__heading {
+    font-family: $primaryFont;
+  }
+  &__desc {
+    font-family: $thirdFont;
+    line-height: 1.6;
+    font-weight: lighter;
+  }
+  &__line {
+    background-color: #000;
+    height: 3px;
+    width: 40%;
+  }
+  &__item-container {
+    display: grid;
+    gap: 1rem;
+    overflow: hidden;
+  }
+  &__item-1,
+  &__item-2,
+  &__item-3,
+  &__item-4,
+  &__item-5,
+  &__item-6 {
+    position: relative;
+    overflow: hidden;
+  }
+  &__item-text-content {
+    left: 0;
+    position: absolute;
+    bottom: 0;
+  }
+  &__item-title {
+    color: #fff;
+    margin: 0;
+    padding-left: 1rem;
+    padding-bottom: 1.3rem;
+    font-family: $primaryFont;
+  }
+  &__item-image-wrapper {
+    display: block;
+    overflow: hidden;
+  }
+  &__item-image {
+    display: block;
+    width: 100%;
+    transition: transform 0.4s;
+  }
+  &__item-image:hover {
+    transform: scale(1.5);
+    transform-origin: 50% 50%;
+  }
+}
