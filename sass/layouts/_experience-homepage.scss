@@ -1,0 +1,28 @@
+.experience {
+  &__text-container {
+    padding: 3rem 1rem;
+    background-color: $LightNavy;
+    color: #fff;
+  }
+  &__img {
+    display: block;
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+  }
+  &__title {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: $thirdFont;
+    letter-spacing: 2px;
+  }
+  &__heading {
+    font-family: $primaryFont;
+  }
+  &__desc {
+    font-family: $thirdFont;
+    font-weight: lighter;
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+}
