@@ -79,11 +79,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
+@import "components/counter";
+
 @import "components/components";
 
 @import "layouts/header";
 
 @import "layouts/hero";
+
+@import "layouts/contact-homepage-cta";
+
+@import "layouts/services-homepage";
+
+@import "layouts/experience-homepage";
 
 /*--------------------------------------------------------------
 # Plugins

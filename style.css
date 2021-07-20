@@ -638,6 +638,28 @@ textarea {
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
+.counter__container {
+	text-align: center;
+	padding: 4rem 1rem;
+	display: grid;
+	gap: 4rem;
+	background-color: #111111;
+	color: #fff;
+}
+
+.counter__title {
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 1rem;
+	margin: 0;
+}
+
+.counter__number {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	font-size: 2.6rem;
+	margin: 0;
+}
+
 /* Navigation
 --------------------------------------------- */
 /* Posts and pages
@@ -882,7 +904,8 @@ textarea {
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	color: #fff;
 	display: flex;
 	justify-content: center;
@@ -911,9 +934,26 @@ textarea {
 	font-weight: bold;
 }
 
+.hero__item-subheading {
+	margin-top: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
 .hero__item-desc {
 	font-family: "Jost", sans-serif;
-	font-size: 0.9rem;
+}
+
+.hero__item-link-container {
+	margin-top: 2rem;
+}
+
+.hero__item-link {
+	background-color: #112236;
+	color: #fff !important;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	font-family: "Jost", sans-serif;
 }
 
 .carousel-cell {
@@ -948,6 +988,131 @@ textarea {
 /* fill-in selected dot */
 .flickity-page-dots .dot.is-selected {
 	background: white;
+}
+
+.contact {
+	background-color: #112236;
+}
+
+.contact__container {
+	padding: 3rem 1rem;
+	padding-bottom: 3.9rem;
+}
+
+.contact__heading {
+	font-family: "Julius Sans One", sans-serif;
+	margin-top: 0;
+	color: #fff;
+}
+
+.contact__link-container {
+	margin-top: 3rem;
+}
+
+.contact__link {
+	border: 2px solid #fff;
+	padding: 1rem 2rem;
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.services__container {
+	padding: 4rem 1rem;
+}
+
+.services__title {
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 0;
+}
+
+.services__heading {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.services__desc {
+	font-family: "Jost", sans-serif;
+	line-height: 1.6;
+	font-weight: lighter;
+}
+
+.services__line {
+	background-color: #000;
+	height: 3px;
+	width: 40%;
+}
+
+.services__item-container {
+	display: grid;
+	gap: 1rem;
+	overflow: hidden;
+}
+
+.services__item-1, .services__item-2, .services__item-3, .services__item-4, .services__item-5, .services__item-6 {
+	position: relative;
+	overflow: hidden;
+}
+
+.services__item-text-content {
+	left: 0;
+	position: absolute;
+	bottom: 0;
+}
+
+.services__item-title {
+	color: #fff;
+	margin: 0;
+	padding-left: 1rem;
+	padding-bottom: 1.3rem;
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.services__item-image-wrapper {
+	display: block;
+	overflow: hidden;
+}
+
+.services__item-image {
+	display: block;
+	width: 100%;
+	transition: transform 0.4s;
+}
+
+.services__item-image:hover {
+	transform: scale(1.5);
+	transform-origin: 50% 50%;
+}
+
+.experience__text-container {
+	padding: 3rem 1rem;
+	background-color: #112236;
+	color: #fff;
+}
+
+.experience__img {
+	display: block;
+	width: 100%;
+	height: 340px;
+	object-fit: cover;
+}
+
+.experience__title {
+	margin-top: 0;
+	text-transform: uppercase;
+	font-family: "Jost", sans-serif;
+	letter-spacing: 2px;
+}
+
+.experience__heading {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.experience__desc {
+	font-family: "Jost", sans-serif;
+	font-weight: lighter;
+	margin-bottom: 0;
+	line-height: 1.6;
 }
 
 /*--------------------------------------------------------------
