@@ -1,0 +1,21 @@
+.counter {
+  &__container {
+    text-align: center;
+    padding: 4rem 1rem;
+    display: grid;
+    gap: 4rem;
+    background-color: $Black;
+    color: #fff;
+  }
+  &__title {
+    font-family: $primaryFont;
+    font-size: 1rem;
+    margin: 0;
+  }
+  &__number {
+    font-family: $thirdFont;
+    font-weight: bold;
+    font-size: 2.6rem;
+    margin: 0;
+  }
+}
