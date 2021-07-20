@@ -1,0 +1,21 @@
+.contact {
+  background-color: $LightNavy;
+  &__container {
+    padding: 3rem 1rem;
+    padding-bottom: 3.9rem;
+  }
+  &__heading {
+    font-family: $primaryFont;
+    margin-top: 0;
+    color: #fff;
+  }
+  &__link-container {
+    margin-top: 3rem;
+  }
+  &__link {
+    border: 2px solid #fff;
+    padding: 1rem 2rem;
+    color: #fff !important;
+    text-decoration: none;
+  }
+}
