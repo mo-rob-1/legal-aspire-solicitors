@@ -17,7 +17,7 @@
 		<div class="header__wrapper-mobile">
         <div class="header__logo-wrapper">
           <!-- <a class="header__logo-link" href="#"><img class="header__logo" src="images/logo.svg" alt="Legal Aspire Solicitors" /></a> -->
-		      <a class="header__logo-link" href="#">Legal Aspire Solicitors</a>
+		      <a class="header__logo-link" href="<?php echo home_url(); ?>">Legal Aspire Solicitors</a>
         </div>
 
         <div class="header__hamburger-wrapper">
