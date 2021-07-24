@@ -1,0 +1,86 @@
+.testimonials {
+  background-color: $LightNavy;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  &__container {
+    width: 98%;
+    height: 410px;
+    display: flex;
+    justify-content: left;
+    overflow-x: auto;
+    margin-top: 2rem;
+  }
+  &__container::-webkit-scrollbar {
+    visibility: hidden;
+  }
+  &__heading {
+    font-family: $primaryFont;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  &__item {
+    min-width: 330px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    margin: 10px 20px;
+    transition: 0.5s;
+  }
+  &__name {
+    font-family: $primaryFont;
+    color: #fff;
+  }
+  &__summary {
+    font-family: $thirdFont;
+    color: #fff;
+  }
+  &__review {
+    font-family: $thirdFont;
+    font-weight: lighter;
+    color: #fff;
+    margin-right: 3rem;
+  }
+  &__line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.6rem;
+  }
+  &__line {
+    height: 3px;
+    background-color: #fff;
+    width: 40%;
+  }
+}
+
+.fa-chevron-right,
+.fa-chevron-left,
+.fa-quote-left {
+  color: #fff;
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+  background-color: rgba(255, 255, 255, 0.199);
+  padding: 1rem;
+}
+
+.fa-quote-left {
+  font-size: 2rem;
+}
+
+.span {
+  font-size: 60px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  left: 0.5%;
+  z-index: 1;
+}
+.span:nth-of-type(2) {
+  text-align: right;
+  left: 90%;
+}
