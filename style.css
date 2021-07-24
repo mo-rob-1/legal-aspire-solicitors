@@ -474,6 +474,10 @@ body {
 	text-rendering: optimizeSpeed;
 }
 
+main {
+	position: relative;
+}
+
 hr {
 	background-color: #ccc;
 	border: 0;
@@ -642,9 +646,13 @@ textarea {
 	text-align: center;
 	padding: 4rem 1rem;
 	display: grid;
-	gap: 4rem;
 	background-color: #111111;
 	color: #fff;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 6rem;
 }
 
 .counter__title {
@@ -1113,6 +1121,175 @@ textarea {
 	font-weight: lighter;
 	margin-bottom: 0;
 	line-height: 1.6;
+}
+
+.testimonials {
+	background-color: #112236;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+
+.testimonials__container {
+	width: 98%;
+	height: 410px;
+	display: flex;
+	justify-content: left;
+	overflow-x: auto;
+	margin-top: 2rem;
+}
+
+.testimonials__container::-webkit-scrollbar {
+	visibility: hidden;
+}
+
+.testimonials__heading {
+	font-family: "Julius Sans One", sans-serif;
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+
+.testimonials__item {
+	min-width: 330px;
+	height: 200px;
+	position: relative;
+	left: 0;
+	margin: 10px 20px;
+	transition: 0.5s;
+}
+
+.testimonials__name {
+	font-family: "Julius Sans One", sans-serif;
+	color: #fff;
+}
+
+.testimonials__summary {
+	font-family: "Jost", sans-serif;
+	color: #fff;
+}
+
+.testimonials__review {
+	font-family: "Jost", sans-serif;
+	font-weight: lighter;
+	color: #fff;
+	margin-right: 3rem;
+}
+
+.testimonials__line-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0.6rem;
+}
+
+.testimonials__line {
+	height: 3px;
+	background-color: #fff;
+	width: 40%;
+}
+
+.fa-chevron-right,
+.fa-chevron-left,
+.fa-quote-left {
+	color: #fff;
+}
+
+.fa-chevron-right,
+.fa-chevron-left {
+	background-color: rgba(255, 255, 255, 0.199);
+	padding: 1rem;
+}
+
+.fa-quote-left {
+	font-size: 2rem;
+}
+
+.span {
+	font-size: 60px;
+	font-weight: bold;
+	color: #000;
+	cursor: pointer;
+	z-index: 1;
+	position: absolute;
+	left: 0.5%;
+	z-index: 1;
+}
+
+.span:nth-of-type(2) {
+	text-align: right;
+	left: 90%;
+}
+
+.news {
+	padding: 4rem 1rem;
+	background-color: #fafafa;
+}
+
+.news__container {
+	display: grid;
+	gap: 3rem;
+	margin-top: 4rem;
+}
+
+.news__line-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0.6rem;
+}
+
+.news__line {
+	height: 3px;
+	background-color: #111111;
+	width: 40%;
+}
+
+.news__heading {
+	text-align: center;
+	margin: 0;
+}
+
+.news__card {
+	transition: 0.2s ease-in;
+}
+
+.news__card:hover {
+	transform: translateY(-5px);
+}
+
+.news__title {
+	font-family: "Jost", sans-serif;
+}
+
+.news__author {
+	font-family: "Jost", sans-serif;
+	font-weight: lighter;
+}
+
+.news__excerpt {
+	font-family: "Jost", sans-serif;
+	font-size: 0.9rem;
+}
+
+.news__link {
+	font-family: "Jost", sans-serif;
+	text-decoration: none !important;
+	color: black !important;
+	font-weight: bold;
+}
+
+.news__featured-img img {
+	width: 100%;
+	object-fit: cover;
+	display: block;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.news__text-container {
+	background-color: #fff;
+	padding: 1.5rem;
+	padding-bottom: 1.4rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
 
 /*--------------------------------------------------------------
