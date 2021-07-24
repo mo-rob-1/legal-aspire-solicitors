@@ -188,40 +188,122 @@ get_header();
 		</section>
 
 		<section class="testimonials">
+			<h1 class="testimonials__heading">Testimonials</h1>
+			<div class="testimonials__line-container">
+				<div class="testimonials__line"></div>
+			</div>
+						<span class="span"><i class="fas fa-chevron-left"></i></span>
+						<span class="span"><i class="fas fa-chevron-right"></i></span>
 			<div class="testimonials__container">
-				<div class="testimonials__item-1">
-					<h1>Item 1</h1>
+				<div class="testimonials__item-1 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_one'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_one'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_one'); ?></h4>
 				</div>
-				<div class="testimonials__item-2">
-					<h1>Item 2</h1>
+				<div class="testimonials__item-2 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_two'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_two'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_two'); ?></h4>
 				</div>
-				<div class="testimonials__item-3">
-					<h1>Item 3</h1>
+				<div class="testimonials__item-3 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_three'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_three'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_three'); ?></h4>
 				</div>
-				<div class="testimonials__item-4">
-					<h1>Item 4</h1>
+				<div class="testimonials__item-4 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_four'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_four'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_four'); ?></h4>
 				</div>
-				<div class="testimonials__item-5">
-					<h1>Item 5</h1>
+				<div class="testimonials__item-5 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_five'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_five'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_five'); ?></h4>
 				</div>
-				<div class="testimonials__item-6">
-					<h1>Item 6</h1>
+				<div class="testimonials__item-6 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
 				</div>
-				<div class="testimonials__item-7">
-					<h1>Item 7</h1>
+				<div class="testimonials__item-6 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
 				</div>
-				<div class="testimonials__item-8">
-					<h1>Item 8</h1>
+				<div class="testimonials__item-6 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
 				</div>
-				<div class="testimonials__item-9">
-					<h1>Item 9</h1>
+				<div class="testimonials__item-6 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
+				</div>
+				<div class="testimonials__item-6 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
+				</div>
+				<div class="testimonials__item-6 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
+				</div>
+				<div class="testimonials__item-6 testimonials__item">
+					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
+					<i class="fas fa-quote-left"></i>
+					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
+					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
 				</div>
 			</div>
 		</section>
-
+		
 		<section class="news">
-			<div class="news__container">
+		
+		<h1 class="news__heading">Latest News</h1>
+			<div class="news__line-container">
+				<div class="news__line"></div>
+			</div>
 
+			<div class="news__container">
+	
+	<?php
+    $args = array(
+        'post_type' => 'post',
+		'posts_per_page' => '3',
+    );
+
+    $post_query = new WP_Query($args);
+
+    if($post_query->have_posts() ) {
+        while($post_query->have_posts() ) {
+            $post_query->the_post();
+            ?>
+			<div class="news__card">
+				<div class="news__featured-img"><?php the_post_thumbnail(); ?></div>
+				<div class="news__text-container">
+					<p class="news__author">By <?php the_author(); ?></p>
+					<h2 class="news__title"><?php the_title(); ?></h2>
+					<div class="news__excerpt"><?php the_excerpt(); ?></div>
+					<a class="news__link" href="<?php the_permalink(); ?>">Read more</a>
+				</div>
+			</div>
+            <?php
+            }
+        }
+	?>
 			</div>
 		</section>
 	</main>
