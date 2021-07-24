@@ -3,9 +3,13 @@
     text-align: center;
     padding: 4rem 1rem;
     display: grid;
-    gap: 4rem;
     background-color: $Black;
     color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 6rem;
   }
   &__title {
     font-family: $primaryFont;
