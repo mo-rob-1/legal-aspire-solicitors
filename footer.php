@@ -17,8 +17,21 @@
 				<a class="footer__logo-link" href="#">Legal Aspire Solicitors</a>
 
 				<div class="footer__contact-container">
-					<p class="footer__address">64 Litigation Street <br>London<br> LE1 4NE</p>
-					<a class="footer__number" href="tel:0800001234">0800 00 1234</a>
+					<div class="footer__contact-icon-wrapper">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div class="footer__contact-text-wrapper">
+						<p class="footer__address">64 Litigation Street <br>London<br> LE1 4NE</p>
+					</div>
+				</div>
+
+				<div class="footer__number-container">
+					<div class="footer__number-icon-wrapper">
+						<i class="fas fa-phone-alt"></i>
+					</div>
+					<div class="footer__numver-text-wrapper">
+						<a class="footer__number" href="tel:0800001234">0800 00 1234</a>
+					</div>
 				</div>
 
 				<div class="footer__social-container">
@@ -53,10 +66,18 @@
 				<h3 class="footer__newsletter-title">Newsletter</h3>
 				<p class="footer__newsletter-desc">Signup for our newsletter to get the latest news, updates and special offers in your inbox.</p>
 				<form class="newsletter__form">
-					<input class="footer__newsletter-input" type="email" id="emails" name="emails" multiple>
-					<input  class="footer__newsletter-btn" type="submit">
+					<!-- <div class="footer__label-wrapper">
+						<input class="footer__newsletter-input" type="email" id="emails" name="emails" multiple>
+						<label class="footer__newsletter-label" for="name">Your Name</label>
+					</div> -->
+						<div class="foo">
+							<input class="input" type="text" placeholder="Email">
+							<label class="label">Email</label>
+						</div>
+					<input class="footer__newsletter-btn" type="submit">
 				</form>
 			</div>
+
 		</div>
 		<small class="footer__copyright">© 2021 Legal Aspire Solicitors</small>
 	</footer><!-- #colophon -->
