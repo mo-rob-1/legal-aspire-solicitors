@@ -23,6 +23,7 @@
   }
   &__card {
     transition: 0.2s ease-in;
+    cursor: pointer;
   }
   &__card:hover {
     transform: translateY(-5px);
@@ -31,16 +32,21 @@
     font-family: $thirdFont;
   }
   &__author {
+    color: #9c9c9c;
     font-family: $thirdFont;
     font-weight: lighter;
+    margin-bottom: 0;
   }
   &__excerpt {
     font-family: $thirdFont;
     font-size: 0.9rem;
   }
+  &__excerpt p {
+    margin-top: 0;
+  }
   &__link {
     font-family: $thirdFont;
-    text-decoration: none !important;
+    // text-decoration: none !important;
     color: black !important;
     font-weight: bold;
   }
