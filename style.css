@@ -668,6 +668,120 @@ textarea {
 	margin: 0;
 }
 
+.foo {
+	position: relative;
+}
+
+.input {
+	background: transparent;
+	width: 100%;
+	padding: 8px !important;
+	border: 2px solid #fff !important;
+	outline: none;
+	font-size: 1rem;
+	border-radius: none !important;
+}
+
+.input::placeholder {
+	opacity: 0;
+}
+
+.input:focus + label, .input:not(:placeholder-shown) + label {
+	top: -1.2rem;
+	left: 0rem;
+	font-size: 0.75rem;
+}
+
+.newsletter__form {
+	display: flex;
+}
+
+.footer__newsletter-btn {
+	border-radius: none !important;
+	background: #2a3e57 !important;
+	color: #fff !important;
+	font-weight: bold !important;
+	border: 3px solid #2a3e57 !important;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none !important;
+	border-radius: none !important;
+}
+
+.footer__newsletter-desc {
+	font-family: "Jost", sans-serif;
+	line-height: 1.5;
+}
+
+.footer__col-2 {
+	margin-top: 4rem;
+}
+
+.footer__col-3 {
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+}
+
+.label {
+	color: #fff !important;
+	position: absolute;
+	top: 8.5px;
+	left: calc(0.75rem + 1px);
+	transition: all 0.15s ease-in-out;
+	pointer-events: none;
+	cursor: text;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #fff !important;
+	border-radius: none !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	border-radius: 0 !important;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border-radius: 0 !important;
+}
+
 /* Navigation
 --------------------------------------------- */
 /* Posts and pages
@@ -1251,6 +1365,7 @@ textarea {
 
 .news__card {
 	transition: 0.2s ease-in;
+	cursor: pointer;
 }
 
 .news__card:hover {
@@ -1262,8 +1377,10 @@ textarea {
 }
 
 .news__author {
+	color: #9c9c9c;
 	font-family: "Jost", sans-serif;
 	font-weight: lighter;
+	margin-bottom: 0;
 }
 
 .news__excerpt {
@@ -1271,9 +1388,12 @@ textarea {
 	font-size: 0.9rem;
 }
 
+.news__excerpt p {
+	margin-top: 0;
+}
+
 .news__link {
 	font-family: "Jost", sans-serif;
-	text-decoration: none !important;
 	color: black !important;
 	font-weight: bold;
 }
@@ -1290,6 +1410,124 @@ textarea {
 	padding: 1.5rem;
 	padding-bottom: 1.4rem;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.footer {
+	background-color: #112236;
+}
+
+.footer__container {
+	padding: 4rem 1rem;
+	color: #fff;
+}
+
+.footer__logo-link {
+	font-family: "Julius Sans One", sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.4rem;
+	color: #fff !important;
+}
+
+.footer__address {
+	font-family: "Jost", sans-serif;
+	line-height: 2;
+	margin: 0;
+}
+
+.footer__contact-container {
+	display: flex;
+}
+
+.footer__contact-container {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.footer__contact-icon-wrapper {
+	margin-right: 1rem;
+}
+
+.footer__number-container {
+	display: flex;
+}
+
+.footer__number-icon-wrapper {
+	margin-right: 1rem;
+}
+
+.footer__number {
+	font-family: "Jost", sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer__number:hover {
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+.footer__social-container {
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+}
+
+.footer__social-icon {
+	margin-right: 1.2rem;
+}
+
+.footer__social-icon > .fa-twitter,
+.footer__social-icon > .fa-facebook-f,
+.footer__social-icon > .fa-instagram {
+	color: #fff !important;
+	font-size: 1.6rem;
+}
+
+.footer__nav-title {
+	font-family: "Jost", sans-serif;
+}
+
+.footer__nav-list {
+	margin: 0;
+	padding: 0;
+	line-height: 2.8;
+	list-style-type: none !important;
+	font-family: "Jost", sans-serif;
+}
+
+.footer__nav-link {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.footer__nav-link:hover {
+	text-decoration: underline;
+}
+
+.footer__col-2 {
+	margin-top: 4rem;
+}
+
+.footer__col-3 {
+	margin-top: 3rem;
+	margin-bottom: 4rem;
+}
+
+.footer__col-4 {
+	margin-top: 3rem;
+}
+
+.footer__copyright {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	color: #fff !important;
+}
+
+.fa-map-marker-alt {
+	position: relative;
+	top: 8px;
 }
 
 /*--------------------------------------------------------------

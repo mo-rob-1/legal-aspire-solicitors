@@ -81,6 +81,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 @import "components/counter";
 
+@import "components/newsletter-input";
+
 @import "components/components";
 
 @import "layouts/header";
@@ -96,6 +98,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "layouts/testimonials";
 
 @import "layouts/news";
+
+@import "layouts/footer";
 
 /*--------------------------------------------------------------
 # Plugins
