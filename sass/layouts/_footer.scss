@@ -1,0 +1,97 @@
+.footer {
+  background-color: $LightNavy;
+  &__container {
+    padding: 4rem 1rem;
+    color: #fff;
+  }
+  &__logo-link {
+    font-family: "Julius Sans One", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #fff !important;
+  }
+  &__address {
+    font-family: $thirdFont;
+    line-height: 2;
+    margin: 0;
+  }
+  &__contact-container {
+    display: flex;
+  }
+  &__contact-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  &__contact-icon-wrapper {
+    margin-right: 1rem;
+  }
+  &__number-container {
+    display: flex;
+  }
+  &__number-icon-wrapper {
+    margin-right: 1rem;
+  }
+  &__number {
+    font-family: $thirdFont;
+    color: #fff;
+    text-decoration: none;
+  }
+  &__number:hover {
+    color: #fff !important;
+    text-decoration: underline;
+  }
+  &__social-container {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  &__social-icon {
+    margin-right: 1.2rem;
+  }
+  &__social-icon > .fa-twitter,
+  &__social-icon > .fa-facebook-f,
+  &__social-icon > .fa-instagram {
+    color: #fff !important;
+    font-size: 1.6rem;
+  }
+  &__nav-title {
+    font-family: $thirdFont;
+  }
+  &__nav-list {
+    margin: 0;
+    padding: 0;
+    line-height: 2.8;
+    list-style-type: none !important;
+    font-family: $thirdFont;
+  }
+  &__nav-link {
+    color: #fff !important;
+    text-decoration: none;
+  }
+  &__nav-link:hover {
+    text-decoration: underline;
+  }
+  &__col-2 {
+    margin-top: 4rem;
+  }
+
+  &__col-3 {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  &__col-4 {
+    margin-top: 3rem;
+  }
+  &__copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: #fff !important;
+  }
+}
+
+.fa-map-marker-alt {
+  position: relative;
+  top: 8px;
+}
