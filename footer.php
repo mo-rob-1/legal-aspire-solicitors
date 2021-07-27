@@ -41,7 +41,7 @@
 				</div>
 			</div>
 			<div class="footer__col-2">
-				<h3 class="footer__nav-title">Pages</h3>
+				<h3 class="footer__nav-title">Quick Links</h3>
 				<nav class="footer__nav">
 					<ul class="footer__nav-list">
 						<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">Home</a></li>
