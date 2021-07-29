@@ -1,0 +1,50 @@
+.entry-top-wrapper {
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.entry-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.entry-title {
+  margin-top: 0;
+  font-family: $primaryFont;
+}
+.entry-date,
+.author a {
+  color: #000 !important;
+  font-weight: bold !important;
+}
+.entry-content {
+  padding: 1rem;
+  font-family: $thirdFont;
+}
+.comments-area,
+.widget-area,
+.nav-links,
+.entry-footer {
+  padding: 1rem;
+}
+.nav-next a,
+.nav-previous a {
+  font-family: $thirdFont;
+  color: #000 !important;
+}
+.post-thumbnail img {
+  width: 100%;
+}
+.entry-meta-container {
+  display: grid;
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+.nav-subtitle {
+  font-weight: bold;
+}
+.entry-footer-news-template,
+.logged-in-as {
+  display: none;
+}
