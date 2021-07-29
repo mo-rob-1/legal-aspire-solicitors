@@ -1620,6 +1620,7 @@ label {
 }
 
 .footer__copyright {
+	font-family: "Jost", sans-serif;
 	display: flex;
 	align-items: center;
 	justify-content: center;
