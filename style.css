@@ -752,34 +752,8 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-	color: #fff !important;
+	color: #999999 !important;
 	border-radius: none !important;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
-textarea {
-	border-radius: 0 !important;
-}
-
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-	border-radius: 0 !important;
 }
 
 /* Navigation
@@ -820,14 +794,142 @@ input[type="submit"] {
 	display: block;
 }
 
+.comment-form {
+	display: grid;
+	padding: 1rem;
+	padding-top: 2rem;
+}
+
+.comment-form-url {
+	display: none;
+}
+
+.form-submit {
+	order: 6;
+}
+
+.comment-form-cookies-consent {
+	order: 5;
+}
+
+.comment-form-comment {
+	order: 4;
+	margin-top: 0;
+}
+
+.comment-form-author,
+.comment-form-email {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0;
+}
+
+.comment-notes {
+	margin-top: 0;
+}
+
+.comment-reply-title {
+	margin: 0;
+	padding: 1rem;
+	font-family: "Julius Sans One", sans-serif !important;
+	background-color: #2a3e57;
+	color: #fff;
+}
+
+.comment-respond {
+	border: 1px solid #e0e0e0;
+}
+
+.comment-reply-title,
+.comment-notes,
+label {
+	font-family: "Jost", sans-serif;
+}
+
+.comment-form-author input,
+.comment-form-email input {
+	padding: 0.4rem;
+}
+
+.form-submit input {
+	padding: 1rem;
+	background-color: #2a3e57;
+	color: #fff;
+}
+
+.submit {
+	border-radius: 0 !important;
+	font-family: "Jost", sans-serif;
+}
+
 /* Widgets
 --------------------------------------------- */
 .widget {
 	margin: 0 0 1.5em;
+	border: 1px solid #e4e4e4;
+	padding: 0;
 }
 
 .widget select {
 	max-width: 100%;
+}
+
+.widget-title {
+	background-color: #112236;
+	font-family: "Julius Sans One", sans-serif;
+	margin: 0;
+	padding: 1rem;
+	color: #fff;
+	font-size: 20px;
+}
+
+.search-form {
+	padding: 1rem;
+	display: flex;
+}
+
+.search-submit,
+.search-field {
+	padding: 0.5rem !important;
+	border-radius: 0 !important;
+}
+
+.search-submit {
+	background-color: #112236 !important;
+	color: #fff !important;
+	font-family: "Jost", sans-serif;
+}
+
+.widget ul {
+	margin: 0;
+	padding: 1rem;
+	line-height: 2.5;
+}
+
+.widget ul li {
+	list-style-type: none;
+	border-bottom: 1px solid #d6d6d6;
+	padding-top: 0.3rem;
+	padding-bottom: 0.3rem;
+}
+
+.widget ul li:last-child {
+	border-bottom: none;
+}
+
+.widget li a {
+	font-family: "Jost", sans-serif;
+	text-decoration: none !important;
+	color: #000 !important;
+}
+
+.search-field {
+	padding: 1rem;
+	width: 100%;
+}
+
+label {
+	width: 100%;
 }
 
 /* Media
@@ -956,8 +1058,8 @@ input[type="submit"] {
 	list-style-type: none;
 	text-transform: uppercase;
 	border-bottom: 1px solid #c2c2c2;
-	padding-top: 0.8rem;
-	padding-bottom: 0.8rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .header__logo-wrapper {
@@ -1528,6 +1630,67 @@ input[type="submit"] {
 .fa-map-marker-alt {
 	position: relative;
 	top: 8px;
+}
+
+.entry-top-wrapper {
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+
+.entry-header {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.entry-title {
+	margin-top: 0;
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.entry-date,
+.author a {
+	color: #000 !important;
+	font-weight: bold !important;
+}
+
+.entry-content {
+	padding: 1rem;
+	font-family: "Jost", sans-serif;
+}
+
+.comments-area,
+.widget-area,
+.nav-links,
+.entry-footer {
+	padding: 1rem;
+}
+
+.nav-next a,
+.nav-previous a {
+	font-family: "Jost", sans-serif;
+	color: #000 !important;
+}
+
+.post-thumbnail img {
+	width: 100%;
+}
+
+.entry-meta-container {
+	display: grid;
+	gap: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.nav-subtitle {
+	font-weight: bold;
+}
+
+.entry-footer-news-template,
+.logged-in-as {
+	display: none;
 }
 
 /*--------------------------------------------------------------
