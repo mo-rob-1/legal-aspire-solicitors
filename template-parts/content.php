@@ -10,28 +10,42 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php
-		if ( is_singular() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );
-		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
-		endif;
+	<div class="entry-top-wrapper">
+		<header class="entry-header">
+			<?php
+			if ( is_singular() ) :
+				the_title( '<h1 class="entry-title">', '</h1>' );
+			else :
+				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			endif;
 
-		if ( 'post' === get_post_type() ) :
-			?>
-			<div class="entry-meta">
-				<?php
-				legal_aspire_solicitors_posted_on();
-				legal_aspire_solicitors_posted_by();
+			if ( 'post' === get_post_type() ) :
 				?>
-			</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
 
-	<?php legal_aspire_solicitors_post_thumbnail(); ?>
+			<?php endif; ?>
+		</header><!-- .entry-header -->
+
+		<div class="entry-featured-image-wrapper">
+			<?php legal_aspire_solicitors_post_thumbnail(); ?>
+		</div>
+	</div>
 
 	<div class="entry-content">
+
+				<div class="entry-meta-container">
+					<div class="entry-meta">
+					<i class="far fa-calendar-alt"></i>
+						<?php
+						legal_aspire_solicitors_posted_on();
+						?>
+					</div><!-- .entry-meta -->
+					<div class="entry-meta">
+					<i class="far fa-user"></i>	
+						<?php
+						legal_aspire_solicitors_posted_by();
+						?>
+					</div><!-- .entry-meta -->
+				</div>
 		<?php
 		the_content(
 			sprintf(
@@ -57,7 +71,8 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<footer class="entry-footer-news-template">
 		<?php legal_aspire_solicitors_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
+	</footer>
+	<!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
