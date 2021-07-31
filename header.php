@@ -63,7 +63,7 @@
                   </li>
                 </ul>
 			      </li>
-            <li class="header__nav-list-item"><a class="header__nav-link" href="#">News</a></li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="<?php echo site_url('/news') ?>">News</a></li>
             <li class="header__nav-list-item"><a class="header__nav-link" href="#">Contact</a></li>
           </ul>
         </nav>
