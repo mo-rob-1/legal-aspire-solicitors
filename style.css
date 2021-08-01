@@ -1060,6 +1060,7 @@ label {
 	border-bottom: 1px solid #c2c2c2;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+	font-family: "Jost", sans-serif;
 }
 
 .header__logo-wrapper {
@@ -1234,6 +1235,7 @@ label {
 }
 
 .contact__link {
+	font-family: "Jost", sans-serif;
 	border: 2px solid #fff;
 	padding: 1rem 2rem;
 	color: #fff !important;
@@ -1637,7 +1639,7 @@ label {
 	display: grid;
 	gap: 4rem;
 	padding: 1rem;
-	margin-top: 4rem;
+	margin-top: 3rem;
 	margin-bottom: 4rem;
 }
 
@@ -1714,6 +1716,112 @@ label {
 	padding: 0.7rem;
 }
 
+.services-pg__container {
+	display: grid;
+	gap: 3rem;
+	padding: 1rem;
+	margin-bottom: 4rem;
+}
+
+.services-pg__text-container {
+	padding: 1rem;
+	padding-top: 3rem;
+}
+
+.services-pg__intro-title {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+}
+
+.services-pg__intro-heading {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.services-pg__intro-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.services-pg__icon {
+	width: 80px;
+}
+
+.services-pg__title {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.services-pg__excerpt {
+	font-family: "Jost", sans-serif;
+}
+
+.services-pg__container-item {
+	background: #f7f7f7;
+	padding: 1.3rem 1rem 3rem 1rem;
+}
+
+.services-pg__permalink-container {
+	margin-top: 2.5rem;
+}
+
+.services-pg__permalink {
+	background-color: #061123;
+	color: #fff !important;
+	text-decoration: none;
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	padding: 1rem;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+.services-pg__banner-image-background {
+	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.services-pg__banner-image-background::before {
+	content: "";
+	background: #263c53;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.services-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.services-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.services-pg__banner-title {
+	font-family: "Julius Sans One", sans-serif;
+	color: #fff;
+	font-size: 2.3rem;
+}
+
+.services-pg .services-pg-contact {
+	background-color: #374454;
+}
+
 .entry-top-wrapper {
 	position: relative;
 	text-align: center;
@@ -1773,6 +1881,67 @@ label {
 .entry-footer-news-template,
 .logged-in-as {
 	display: none;
+}
+
+.col-2 {
+	padding: 1rem;
+}
+
+.col-2-container {
+	margin-top: 4rem;
+	margin-bottom: 3rem;
+}
+
+.col-2-title {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.col-2-list {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 1.3rem;
+}
+
+.col-2-list-item {
+	list-style-type: none;
+	padding: 20px 15px;
+	border: 1px solid #e0e0e0;
+	color: #000 !important;
+}
+
+.col-2-link {
+	text-decoration: none;
+	color: #000;
+	font-family: "Jost", sans-serif;
+}
+
+.col-2-item-wrapper {
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.col-2-item-one {
+	margin-right: 1rem;
+}
+
+.col-2-item-two {
+	display: flex;
+	flex-direction: column;
+}
+
+.col-2-text {
+	font-family: "Jost", sans-serif;
+	margin: 0;
+}
+
+.col-2-item-span {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+}
+
+.services-pg-contact {
+	background-color: #374454;
 }
 
 /*--------------------------------------------------------------
