@@ -1718,7 +1718,7 @@ label {
 
 .services-pg__container {
 	display: grid;
-	gap: 3rem;
+	gap: 2rem;
 	padding: 1rem;
 	margin-bottom: 4rem;
 }
