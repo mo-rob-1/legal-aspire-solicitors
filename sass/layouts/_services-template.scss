@@ -1,0 +1,49 @@
+.col-2 {
+  padding: 1rem;
+}
+.col-2-container {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.col-2-title {
+  font-family: $primaryFont;
+}
+.col-2-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.3rem;
+}
+.col-2-list-item {
+  list-style-type: none;
+  padding: 20px 15px;
+  border: 1px solid #e0e0e0;
+  color: #000 !important;
+}
+.col-2-link {
+  text-decoration: none;
+  color: #000;
+  font-family: $thirdFont;
+}
+.col-2-item-wrapper {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.col-2-item-one {
+  margin-right: 1rem;
+}
+.col-2-item-two {
+  display: flex;
+  flex-direction: column;
+}
+.col-2-text {
+  font-family: $thirdFont;
+  margin: 0;
+}
+.col-2-item-span {
+  font-family: $thirdFont;
+  font-weight: bold;
+}
+.services-pg-contact {
+  background-color: #374454;
+}
