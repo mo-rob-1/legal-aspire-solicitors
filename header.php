@@ -35,31 +35,28 @@
           <ul class="header__nav-list">
             <li class="header__nav-list-item"><a class="header__nav-link" href="#">Home</a></li>
             <li class="header__nav-list-item"><a class="header__nav-link" href="#">About</a></li>
-            <li class="header__nav-list-item clk" id="toggle_submenu"><div class="header__submenu-item-container"><div class="header__submenu-item header__services">Services</div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
+            <li class="header__nav-list-item clk" id="toggle_submenu"><div class="header__submenu-item-container"><div class="header__submenu-item header__services"><a class="header__nav-link" href="<?php echo site_url('/services') ?>">Services</a></div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
               <ul class="header__submenu-dropdown header__nav-2 show-nav-2">
                   <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="#!">Personal Injury</a>
+                    <a class="header__nav-link" href="<?php echo site_url('/services/personal-injury') ?>">Personal Injury</a>
                   </li>
                   <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="#!">Medical Negligence</a>
+                    <a class="header__nav-link" href="<?php echo site_url('/services/medical-negligence') ?>">Medical Negligence</a>
                   </li>
                   <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="#!">Employment</a>
+                    <a class="header__nav-link" href="<?php echo site_url('/services/employment') ?>">Employment</a>
                   </li>
                   <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="#!">Property</a>
+                    <a class="header__nav-link" href="<?php echo site_url('/services/property') ?>">Property</a>
                   </li>
                   <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="#!">Family</a>
+                    <a class="header__nav-link" href="<?php echo site_url('/services/family') ?>">Family</a>
                   </li>
                   <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="#!">Immigration</a>
+                    <a class="header__nav-link" href="<?php echo site_url('/services/immigration') ?>">Immigration</a>
                   </li>
                   <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="#!">Pensions</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="#!">Real Estate</a>
+                    <a class="header__nav-link" href="<?php echo site_url('/services/pensions') ?>">Pensions</a>
                   </li>
                 </ul>
 			      </li>
