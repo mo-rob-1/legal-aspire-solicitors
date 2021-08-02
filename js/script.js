@@ -1,3 +1,15 @@
+jQuery(document).ready(function ($) {
+  $("#toggle_submenu-two").click(function () {
+    $(".show-nav-3").toggle();
+  });
+});
+
+jQuery(document).ready(function ($) {
+  $(".clk").click(function () {
+    $(this).find("i").toggleClass("fa-chevron-up ");
+  });
+});
+
 const button = document.querySelector("#toggle_btn");
 const button2 = document.querySelector("#toggle_submenu");
 
@@ -219,7 +231,3 @@ span[0].onclick = () => {
   };
   t.make();
 })();
-
-$(".clk").click(function () {
-  $(this).find("i").toggleClass("fa-chevron-up ");
-});
