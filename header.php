@@ -60,6 +60,28 @@
                   </li>
                 </ul>
 			      </li>
+            <li class="header__nav-list-item clk" id="toggle_submenu-two"><div class="header__submenu-item-container"><div class="header__submenu-item header__services"><a class="header__nav-link" href="<?php echo site_url('/sectors') ?>">Sectors</a></div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
+              <ul class="header__submenu-dropdown header__nav-3 show-nav-3">
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/sectors/real-estate-law') ?>">Real Estate Law</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/sectors/recruitment-law') ?>">Recruitment Law</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/sectors/healthcare-law') ?>">Healthcare Law</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/sectors/technology-law') ?>">Technology Law</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/sectors/insurance-law') ?>">Insurance Law</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/sectors/retail-law') ?>">Retail Law</a>
+                  </li>
+                </ul>
+			      </li>
             <li class="header__nav-list-item"><a class="header__nav-link" href="<?php echo site_url('/news') ?>">News</a></li>
             <li class="header__nav-list-item"><a class="header__nav-link" href="#">Contact</a></li>
           </ul>
