@@ -27,4 +27,15 @@ function google_fonts() {
 }
 add_action( 'wp_enqueue_scripts', 'google_fonts' );
 
+
+function uikit_cdn() {
+    wp_register_style( 'uikit-css', 'https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css');
+    wp_enqueue_style('uikit-css');
+    wp_register_script( 'uikit-js', 'https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js', null, null, true );
+    wp_enqueue_script('uikit-js');
+    wp_register_script( 'uikit-js-icons', 'https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js', null, null, true );
+    wp_enqueue_script('uikit-js-icons');
+}
+add_action( 'wp_enqueue_scripts', 'uikit_cdn' );
+
 ?>
