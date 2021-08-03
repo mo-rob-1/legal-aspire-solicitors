@@ -659,6 +659,8 @@ textarea {
 	font-family: "Julius Sans One", sans-serif;
 	font-size: 1rem;
 	margin: 0;
+	color: #fff;
+	font-weight: bold;
 }
 
 .counter__number {
@@ -1071,7 +1073,7 @@ label {
 
 .header__logo-link {
 	font-family: "Julius Sans One", sans-serif;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-weight: bold;
 	font-size: 1.4rem;
 	color: #fff !important;
@@ -1157,12 +1159,15 @@ label {
 .hero__item-heading {
 	font-family: "Julius Sans One", sans-serif;
 	font-weight: bold;
+	color: #fff;
 }
 
 .hero__item-subheading {
+	font-weight: bold;
 	margin-top: 0;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	color: #fff;
 }
 
 .hero__item-desc {
@@ -1226,6 +1231,7 @@ label {
 
 .contact__heading {
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 	margin-top: 0;
 	color: #fff;
 }
@@ -1251,16 +1257,19 @@ label {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-top: 0;
+	font-weight: bold;
 }
 
 .services__heading {
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 }
 
 .services__desc {
 	font-family: "Jost", sans-serif;
 	line-height: 1.6;
 	font-weight: lighter;
+	margin-top: 1rem;
 }
 
 .services__line {
@@ -1292,6 +1301,7 @@ label {
 	padding-left: 1rem;
 	padding-bottom: 1.3rem;
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 }
 
 .services__item-image-wrapper {
@@ -1324,6 +1334,8 @@ label {
 }
 
 .experience__title {
+	color: #fff;
+	font-weight: bold;
 	margin-top: 0;
 	text-transform: uppercase;
 	font-family: "Jost", sans-serif;
@@ -1332,6 +1344,8 @@ label {
 
 .experience__heading {
 	font-family: "Julius Sans One", sans-serif;
+	color: #fff;
+	font-weight: bold;
 }
 
 .experience__desc {
@@ -1379,10 +1393,13 @@ label {
 .testimonials__name {
 	font-family: "Julius Sans One", sans-serif;
 	color: #fff;
+	font-weight: bold;
+	margin-top: 1rem;
 }
 
 .testimonials__summary {
 	font-family: "Jost", sans-serif;
+	font-weight: bold;
 	color: #fff;
 }
 
@@ -1477,7 +1494,9 @@ label {
 }
 
 .news__title {
+	margin-top: 1rem;
 	font-family: "Jost", sans-serif;
+	font-weight: bold;
 }
 
 .news__author {
@@ -1588,7 +1607,9 @@ label {
 }
 
 .footer__nav-title {
-	font-family: "Jost", sans-serif;
+	font-family: "Jost", sans-serif !important;
+	font-weight: bold;
+	color: #fff !important;
 }
 
 .footer__nav-list {
@@ -1610,6 +1631,11 @@ label {
 
 .footer__col-2 {
 	margin-top: 4rem;
+}
+
+.footer__newsletter-title {
+	color: #fff;
+	font-weight: bold;
 }
 
 .footer__col-3 {
@@ -1738,6 +1764,7 @@ label {
 
 .services-pg__intro-heading {
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 }
 
 .services-pg__intro-desc {
@@ -1750,6 +1777,7 @@ label {
 
 .services-pg__title {
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 }
 
 .services-pg__excerpt {
@@ -1814,6 +1842,7 @@ label {
 
 .services-pg__banner-title {
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
 }
@@ -1834,6 +1863,10 @@ label {
 	padding-top: 3rem;
 }
 
+.sectors-pg__title {
+	font-weight: bold;
+}
+
 .sectors-pg__intro-title {
 	font-family: "Jost", sans-serif;
 	font-weight: bold;
@@ -1844,6 +1877,7 @@ label {
 
 .sectors-pg__intro-heading {
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 }
 
 .sectors-pg__intro-desc {
@@ -1920,6 +1954,7 @@ label {
 
 .sectors-pg__banner-title {
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
 }
@@ -1942,6 +1977,9 @@ label {
 }
 
 .entry-title {
+	color: #fff;
+	font-weight: bold;
+	line-height: 1.5;
 	margin-top: 0;
 	font-family: "Julius Sans One", sans-serif;
 }
@@ -1989,6 +2027,11 @@ label {
 	display: none;
 }
 
+.nav-title {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 .col-2 {
 	padding: 1rem;
 }
@@ -2000,6 +2043,7 @@ label {
 
 .col-2-title {
 	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
 }
 
 .col-2-list {
