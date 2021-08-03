@@ -7,14 +7,17 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 0;
+    font-weight: bold;
   }
   &__heading {
     font-family: $primaryFont;
+    font-weight: bold;
   }
   &__desc {
     font-family: $thirdFont;
     line-height: 1.6;
     font-weight: lighter;
+    margin-top: 1rem;
   }
   &__line {
     background-color: #000;
@@ -46,6 +49,7 @@
     padding-left: 1rem;
     padding-bottom: 1.3rem;
     font-family: $primaryFont;
+    font-weight: bold;
   }
   &__item-image-wrapper {
     display: block;

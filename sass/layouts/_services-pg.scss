@@ -18,6 +18,7 @@
   }
   &__intro-heading {
     font-family: $primaryFont;
+    font-weight: bold;
   }
   &__intro-desc {
     font-family: $thirdFont;
@@ -27,6 +28,7 @@
   }
   &__title {
     font-family: $primaryFont;
+    font-weight: bold;
   }
   &__excerpt {
     font-family: $thirdFont;
@@ -82,6 +84,7 @@
   }
   &__banner-title {
     font-family: $primaryFont;
+    font-weight: bold;
     color: #fff;
     font-size: 2.3rem;
   }

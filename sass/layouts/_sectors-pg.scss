@@ -9,6 +9,9 @@
     padding: 1rem;
     padding-top: 3rem;
   }
+  &__title {
+    font-weight: bold;
+  }
   &__intro-title {
     font-family: $thirdFont;
     font-weight: bold;
@@ -18,6 +21,7 @@
   }
   &__intro-heading {
     font-family: $primaryFont;
+    font-weight: bold;
   }
   &__intro-desc {
     font-family: $thirdFont;
@@ -82,6 +86,7 @@
   }
   &__banner-title {
     font-family: $primaryFont;
+    font-weight: bold;
     color: #fff;
     font-size: 2.3rem;
   }

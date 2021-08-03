@@ -30,9 +30,12 @@
   &__name {
     font-family: $primaryFont;
     color: #fff;
+    font-weight: bold;
+    margin-top: 1rem;
   }
   &__summary {
     font-family: $thirdFont;
+    font-weight: bold;
     color: #fff;
   }
   &__review {

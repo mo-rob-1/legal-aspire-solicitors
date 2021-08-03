@@ -32,11 +32,14 @@
   &__item-heading {
     font-family: $primaryFont;
     font-weight: bold;
+    color: #fff;
   }
   &__item-subheading {
+    font-weight: bold;
     margin-top: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: #fff;
   }
   &__item-desc {
     font-family: $thirdFont;

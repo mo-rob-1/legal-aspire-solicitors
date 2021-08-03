@@ -29,7 +29,9 @@
     transform: translateY(-5px);
   }
   &__title {
+    margin-top: 1rem;
     font-family: $thirdFont;
+    font-weight: bold;
   }
   &__author {
     color: #9c9c9c;
