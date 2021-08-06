@@ -34,7 +34,19 @@
         <nav class="header__nav show-nav">
           <ul class="header__nav-list">
             <li class="header__nav-list-item"><a class="header__nav-link" href="#">Home</a></li>
-            <li class="header__nav-list-item"><a class="header__nav-link" href="#">About</a></li>
+            <li class="header__nav-list-item clk" id="toggle_submenu-three"><div class="header__submenu-item-container"><div class="header__submenu-item header__services"><a class="header__nav-link" href="<?php echo site_url('/about-us') ?>">About Us</a></div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
+              <ul class="header__submenu-dropdown header__nav-4 show-nav-4">
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/services/our-team') ?>">Our Team</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/services/case-studies') ?>">Case Studies</a>
+                  </li>
+                  <li class="header__nav-list-item">
+                    <a class="header__nav-link" href="<?php echo site_url('/services/locations') ?>">Locations</a>
+                  </li>
+                </ul>
+			      </li>
             <li class="header__nav-list-item clk" id="toggle_submenu"><div class="header__submenu-item-container"><div class="header__submenu-item header__services"><a class="header__nav-link" href="<?php echo site_url('/services') ?>">Services</a></div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
               <ul class="header__submenu-dropdown header__nav-2 show-nav-2">
                   <li class="header__nav-list-item">
