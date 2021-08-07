@@ -19,7 +19,8 @@
     display: none;
   }
   &__nav-2,
-  &__nav-3 {
+  &__nav-3,
+  &__nav-4 {
     display: none;
   }
   &__nav-list {
@@ -87,7 +88,14 @@
   height: 2px !important;
   background-color: #fff !important;
 }
+.hamburger-icon-uikit {
+  padding-right: 0 !important;
+}
 
 .fas {
   font-size: 1.3rem;
+}
+.fa-bars {
+  color: #fff;
+  font-size: 2rem;
 }
