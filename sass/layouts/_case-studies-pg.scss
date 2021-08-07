@@ -1,0 +1,110 @@
+.case-studies-pg {
+  &__container {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+    margin-bottom: 4rem;
+  }
+  &__text-container {
+    padding: 1rem;
+    padding-top: 3rem;
+  }
+  &__intro-title {
+    font-family: $thirdFont;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+  &__intro-heading {
+    font-family: $primaryFont;
+    font-weight: bold;
+  }
+  &__intro-desc {
+    font-family: $thirdFont;
+  }
+  &__icon {
+    width: 80px;
+  }
+  &__title {
+    font-family: $primaryFont;
+    font-weight: bold;
+  }
+  &__excerpt {
+    font-family: $thirdFont;
+  }
+  &__container-item {
+    background: #f7f7f7;
+  }
+  &__card-text-container {
+    padding: 2rem 1rem 2.6rem 1rem;
+  }
+  &__permalink-container {
+    margin-top: 2.5rem;
+  }
+  &__permalink {
+    background-color: $DarkNavy;
+    color: #fff !important;
+    text-decoration: none;
+    font-family: $thirdFont;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  &__banner-image-background {
+    background-image: url("images/legal-aspire-solicitors-team.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  &__banner-image-background::before {
+    content: "";
+    background: #263c53;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  &__banner-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &__banner-content {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &__banner-title {
+    font-family: $primaryFont;
+    font-weight: bold;
+    color: #fff;
+    font-size: 2.3rem;
+  }
+  .services-pg-contact {
+    background-color: #374454;
+  }
+}
+
+.uk-child-width-1-2 > * {
+  width: 100%;
+}
+.uk-text-center {
+  text-align: left !important;
+}
+.uk-subnav-pill > .uk-active > a {
+  background-color: $DarkNavy !important;
+  font-family: $thirdFont !important;
+}
+.uk-subnav > * {
+  padding-bottom: 1rem !important;
+}
