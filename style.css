@@ -478,6 +478,15 @@ main {
 	position: relative;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+}
+
 hr {
 	background-color: #ccc;
 	border: 0;
@@ -1042,7 +1051,7 @@ label {
 	display: none;
 }
 
-.header__nav-2, .header__nav-3 {
+.header__nav-2, .header__nav-3, .header__nav-4 {
 	display: none;
 }
 
@@ -1121,8 +1130,25 @@ label {
 	background-color: #fff !important;
 }
 
+.hamburger-icon-uikit {
+	padding: 0 !important;
+}
+
 .fas {
 	font-size: 1.3rem;
+}
+
+.fa-bars {
+	color: #fff;
+	font-size: 2rem;
+}
+
+.uk-offcanvas-bar {
+	background-color: #112236;
+}
+
+.uk-parent a {
+	color: #fff !important;
 }
 
 .hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
@@ -1961,6 +1987,441 @@ label {
 
 .sectors-pg .sectors-pg-contact {
 	background-color: #374454;
+}
+
+.case-studies-pg__container {
+	display: grid;
+	gap: 2rem;
+	padding: 1rem;
+	margin-bottom: 4rem;
+}
+
+.case-studies-pg__text-container {
+	padding: 1rem;
+	padding-top: 3rem;
+}
+
+.case-studies-pg__intro-title {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+}
+
+.case-studies-pg__intro-heading {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+}
+
+.case-studies-pg__intro-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.case-studies-pg__icon {
+	width: 80px;
+}
+
+.case-studies-pg__title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+}
+
+.case-studies-pg__excerpt {
+	font-family: "Jost", sans-serif;
+}
+
+.case-studies-pg__container-item {
+	background: #f7f7f7;
+}
+
+.case-studies-pg__card-text-container {
+	padding: 2rem 1rem 2.6rem 1rem;
+}
+
+.case-studies-pg__permalink-container {
+	margin-top: 2.5rem;
+}
+
+.case-studies-pg__permalink {
+	background-color: #061123;
+	color: #fff !important;
+	text-decoration: none;
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	padding: 1rem;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+.case-studies-pg__banner-image-background {
+	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.case-studies-pg__banner-image-background::before {
+	content: "";
+	background: #263c53;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.case-studies-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.case-studies-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.case-studies-pg__banner-title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 2.3rem;
+}
+
+.case-studies-pg .services-pg-contact {
+	background-color: #374454;
+}
+
+.uk-child-width-1-2 > * {
+	width: 100%;
+}
+
+.uk-text-center {
+	text-align: left !important;
+}
+
+.uk-subnav-pill > .uk-active > a {
+	background-color: #061123 !important;
+	font-family: "Jost", sans-serif !important;
+}
+
+.uk-subnav > * {
+	padding-bottom: 1rem !important;
+}
+
+.team-pg__container {
+	display: grid;
+	gap: 2rem;
+	padding: 1rem;
+	margin-bottom: 4rem;
+}
+
+.team-pg__text-container {
+	padding: 1rem;
+	padding-top: 3rem;
+}
+
+.team-pg__intro-title {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+}
+
+.team-pg__intro-heading {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+}
+
+.team-pg__intro-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.team-pg__icon {
+	width: 80px;
+}
+
+.team-pg__title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+.team-pg__excerpt {
+	font-family: "Jost", sans-serif;
+}
+
+.team-pg__expertise {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+}
+
+.team-pg__job-role {
+	font-family: "Jost", sans-serif;
+	font-weight: 300;
+}
+
+.team-pg__socials-container {
+	display: flex;
+	font-size: 1.8rem;
+}
+
+.team-pg__socials-item-one {
+	margin-right: 1rem;
+}
+
+.team-pg__card-text-container {
+	padding: 2rem 1rem 2.6rem 1rem;
+}
+
+.team-pg__container-item {
+	background: #f7f7f7;
+}
+
+.team-pg__permalink-container {
+	margin-top: 2.5rem;
+}
+
+.team-pg__permalink {
+	background-color: #112236;
+	color: #fff !important;
+	text-decoration: none;
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	padding: 1rem;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+.team-pg__banner-image-background {
+	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.team-pg__banner-image-background::before {
+	content: "";
+	background: #263c53;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.team-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.team-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.team-pg__banner-title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 2.3rem;
+}
+
+.team-pg .services-pg-contact {
+	background-color: #374454;
+}
+
+.twitter-profile,
+.linkedin-profile {
+	color: #112236 !important;
+}
+
+.locations-pg__container {
+	display: grid;
+	gap: 2rem;
+	padding: 1rem;
+	margin-bottom: 4rem;
+}
+
+.locations-pg__text-container {
+	padding: 1rem;
+	padding-top: 3rem;
+}
+
+.locations-pg__intro-title {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+}
+
+.locations-pg__intro-heading {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+}
+
+.locations-pg__intro-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.locations-pg__icon {
+	width: 80px;
+}
+
+.locations-pg__title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+.locations-pg__excerpt {
+	font-family: "Jost", sans-serif;
+}
+
+.locations-pg__expertise {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+}
+
+.locations-pg__job-role {
+	font-family: "Jost", sans-serif;
+}
+
+.locations-pg__socials-container {
+	display: flex;
+	font-size: 1.8rem;
+}
+
+.locations-pg__socials-item-one {
+	margin-right: 1rem;
+}
+
+.locations-pg__card-text-container {
+	padding: 2rem 1rem 2.6rem 1rem;
+}
+
+.locations-pg__container-item {
+	background: #f7f7f7;
+}
+
+.locations-pg__permalink-container {
+	margin-top: 2.5rem;
+}
+
+.locations-pg__permalink {
+	background-color: #112236;
+	color: #fff !important;
+	text-decoration: none;
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	padding: 1rem;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+.locations-pg__banner-image-background {
+	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.locations-pg__banner-image-background::before {
+	content: "";
+	background: #263c53;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.locations-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.locations-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.locations-pg__banner-title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 2.3rem;
+}
+
+.locations-pg__contact-info-wrapper {
+	display: flex;
+}
+
+.locations-pg__contact-info-wrapper > .fas {
+	margin-right: 1rem;
+}
+
+.locations-pg__contact-p {
+	margin-top: 0;
+	font-family: "Jost", sans-serif;
+}
+
+.locations-pg__contact-address-p {
+	margin-top: 0;
+	font-family: "Jost", sans-serif;
+}
+
+.locations-pg__contact-address {
+	margin-top: 2rem;
+}
+
+.locations-pg__contact-link {
+	color: #000;
+}
+
+.locations-pg .services-pg-contact {
+	background-color: #374454;
+}
+
+.twitter-profile,
+.linkedin-profile {
+	color: #112236 !important;
 }
 
 .entry-top-wrapper {
