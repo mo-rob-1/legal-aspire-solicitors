@@ -89,7 +89,7 @@
   background-color: #fff !important;
 }
 .hamburger-icon-uikit {
-  padding-right: 0 !important;
+  padding: 0 !important;
 }
 
 .fas {
@@ -98,4 +98,10 @@
 .fa-bars {
   color: #fff;
   font-size: 2rem;
+}
+.uk-offcanvas-bar {
+  background-color: $LightNavy;
+}
+.uk-parent a {
+  color: #fff !important;
 }
