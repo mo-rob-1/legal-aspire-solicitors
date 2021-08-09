@@ -41,7 +41,7 @@
                 </ul> -->
             </li>
             <li class="uk-parent">
-                <a href="<?php echo site_url('/services') ?>">Sectors</a>
+                <a href="<?php echo site_url('/sectors') ?>">Sectors</a>
                 <!-- <ul class="uk-nav-sub">
                     <li><a href="<?php echo site_url('/sectors/real-estate-law') ?>">Real Estate Law</a></li>
                     <li><a href="<?php echo site_url('/sectors/recruitment-law') ?>">Recruitment Law</a></li>
