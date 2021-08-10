@@ -1,0 +1,90 @@
+.entry-content-case-study {
+  padding: 3rem 1rem;
+}
+
+.case-study-overview-heading,
+.case-study-solicitor-heading,
+.case-study-category-heading,
+.case-study-time-heading,
+.case-study-result-heading {
+  font-family: $primaryFont;
+  margin-bottom: 0;
+}
+
+.case-study-solicitor,
+.case-study-category,
+.case-study-time,
+.case-study-result {
+  margin-top: 0;
+}
+
+.case-study-overview-heading {
+  margin-top: 1.5rem;
+}
+
+.case-study-span {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+.case-study-overview-img > p img {
+  width: 100%;
+}
+.entry-title-case-study {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.case-study-main-content h3 {
+  font-family: $primaryFont !important;
+}
+.case-study-main-content p {
+  font-family: $thirdFont !important;
+}
+.case-study-overview {
+  font-family: $thirdFont;
+}
+.case-study-icon {
+  height: 30px;
+}
+.case-study-icon-wrapper {
+  margin-right: 1rem;
+}
+.case-study-overview-icon-wrapper {
+  display: flex;
+}
+.case-study-card {
+  background: #f7f7f7;
+}
+.case-study-card-title a {
+  font-family: $primaryFont;
+  color: #000;
+}
+.case-study-card-excerpt {
+  margin-bottom: 2.5rem;
+  font-family: $thirdFont !important;
+}
+.case-study-card-text-wrapper {
+  padding: 1.6rem 1rem 1.6rem 1rem;
+}
+.case-study-card-link-wrapper {
+  margin-bottom: 1rem;
+}
+.case-study-more-cards-container {
+  display: grid;
+  gap: 2rem;
+}
+.case-study-card-link {
+  background-color: #061123;
+  color: #fff !important;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
