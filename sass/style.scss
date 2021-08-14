@@ -121,10 +121,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 @import "layouts/case-study-template";
 
+@import "layouts/team-member";
+
+@import "layouts/location-template";
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
-
 /* Jetpack infinite scroll
 --------------------------------------------- */
 @import "plugins/jetpack/infinite-scroll";
