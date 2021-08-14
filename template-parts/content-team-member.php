@@ -25,8 +25,8 @@
 			<?php endif; ?>
 		</header><!-- .entry-header -->
 
-		<div class="entry-featured-image-wrapper">
-			<?php legal_aspire_solicitors_post_thumbnail(); ?>
+		<div class="entry-bg-color">
+			
 		</div>
 	</div>
 
@@ -66,7 +66,7 @@
     </div>
 
     <form class="team-member-form" action="/">
-        <h1 class="team-member-contact-us">Contact Us</h1>
+        <h1 class="team-member-contact-us">Contact <?php the_title(); ?></h1>
         <div class="team-member-form-info">
             <div class="team-member-input-wrapper">
                 <label class="team-member-form-label" for="fname">First name:</label><br>
@@ -75,7 +75,7 @@
 
             <div class="team-member-input-wrapper">
                 <label class="team-member-form-label" for="lname">Last name:</label><br>
-                <input class="team-member-form-input" type="text" id="lname" name="lname"><br><br>
+                <input class="team-member-form-input" type="text" id="lname" name="lname"><br>
             </div>
 
             <div class="team-member-input-wrapper">
@@ -89,10 +89,10 @@
             </div>
         </div>
 
-        <div class="team-member-input-wrapper">
+        <div class="team-member-input-wrapper team-member-input-message-wrapper">
             <p class="team-member-message-heading">Message:</p>
             <div class="team-member-textarea">
-            <textarea rows="4"></textarea>
+            <textarea rows="10"></textarea>
             </div>
         </div>
 
