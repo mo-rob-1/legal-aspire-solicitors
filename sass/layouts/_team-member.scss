@@ -1,0 +1,66 @@
+.team-member-main-content h2 {
+  font-family: $primaryFont;
+  line-height: 1.5;
+}
+
+.team-member-icon-wrapper {
+  display: grid;
+  gap: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.team-member-icon-img {
+  height: 40px;
+}
+
+.team-member-icon-heading {
+  margin-top: 1rem;
+  margin-bottom: 0.6rem;
+  font-family: $primaryFont;
+}
+.team-member-contact-us {
+  font-family: $primaryFont;
+  line-height: 1.5;
+}
+.team-member-form {
+  margin-top: 7rem;
+}
+.team-member-form-info {
+  display: grid;
+  gap: 0.8rem;
+}
+.team-member-icon-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000 !important;
+}
+.team-member-form-input {
+  width: 100%;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  border-radius: 0 !important;
+}
+.team-member-input-message-wrapper {
+  margin-top: 0.8rem;
+}
+.team-member-message-heading {
+  margin-bottom: 0.6rem;
+}
+.team-member-form-submit-btn {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #112236;
+  color: #fff !important;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-radius: 0;
+}
+.entry-bg-color {
+  height: 400px;
+  background-color: $DarkBlue;
+}
+textarea {
+  border-radius: 0;
+}

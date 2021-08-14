@@ -1,0 +1,67 @@
+.location-main-content h2 {
+  font-family: $primaryFont;
+}
+.location-contact-us {
+  font-family: $primaryFont;
+}
+.location-map iframe {
+  width: 100%;
+}
+.location-form-info {
+  display: grid;
+  gap: 0.8rem;
+}
+.location-icon-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000 !important;
+}
+.location-form-input {
+  width: 100%;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  border-radius: 0 !important;
+}
+.location-input-message-wrapper {
+  margin-top: 0.8rem;
+}
+.location-message-heading {
+  margin-bottom: 0.6rem;
+}
+.location-form-submit-btn {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #112236;
+  color: #fff !important;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-radius: 0;
+}
+.location-icon-wrapper {
+  display: flex;
+}
+.location-address,
+.loaction-number,
+.loaction-email {
+  margin-top: 0;
+}
+.location-col-2 {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #f7f7f7;
+  padding: 3rem 1.5rem;
+}
+.location-icon {
+  margin-right: 1rem;
+  color: $LightNavy;
+}
+.location-socials-wrapper {
+  font-size: 2rem;
+}
+.linkedin-location,
+.twitter-location {
+  margin-right: 0.6rem;
+  color: $LightNavy;
+}
