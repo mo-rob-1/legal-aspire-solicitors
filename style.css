@@ -1132,6 +1132,7 @@ label {
 
 .hamburger-icon-uikit {
 	padding: 0 !important;
+	margin: 0 !important;
 }
 
 .fas {
@@ -1141,6 +1142,8 @@ label {
 .fa-bars {
 	color: #fff;
 	font-size: 2rem;
+	position: relative;
+	top: 5px;
 }
 
 .uk-offcanvas-bar {
@@ -2659,6 +2662,165 @@ label {
 	padding: 1rem;
 	margin-top: 1rem;
 	font-size: 0.9rem;
+}
+
+.team-member-main-content h2 {
+	font-family: "Julius Sans One", sans-serif;
+	line-height: 1.5;
+}
+
+.team-member-icon-wrapper {
+	display: grid;
+	gap: 4rem;
+	text-align: center;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.team-member-icon-img {
+	height: 40px;
+}
+
+.team-member-icon-heading {
+	margin-top: 1rem;
+	margin-bottom: 0.6rem;
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.team-member-contact-us {
+	font-family: "Julius Sans One", sans-serif;
+	line-height: 1.5;
+}
+
+.team-member-form {
+	margin-top: 7rem;
+}
+
+.team-member-form-info {
+	display: grid;
+	gap: 0.8rem;
+}
+
+.team-member-icon-text {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000 !important;
+}
+
+.team-member-form-input {
+	width: 100%;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+	border-radius: 0 !important;
+}
+
+.team-member-input-message-wrapper {
+	margin-top: 0.8rem;
+}
+
+.team-member-message-heading {
+	margin-bottom: 0.6rem;
+}
+
+.team-member-form-submit-btn {
+	width: 100%;
+	margin-top: 1rem;
+	background-color: #112236;
+	color: #fff !important;
+	text-transform: uppercase;
+	padding: 1rem;
+	border-radius: 0;
+}
+
+.entry-bg-color {
+	height: 400px;
+	background-color: #2a3e57;
+}
+
+textarea {
+	border-radius: 0;
+}
+
+.location-main-content h2 {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.location-contact-us {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.location-map iframe {
+	width: 100%;
+}
+
+.location-form-info {
+	display: grid;
+	gap: 0.8rem;
+}
+
+.location-icon-text {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #000 !important;
+}
+
+.location-form-input {
+	width: 100%;
+	margin-top: 0.4rem;
+	margin-bottom: 0.4rem;
+	border-radius: 0 !important;
+}
+
+.location-input-message-wrapper {
+	margin-top: 0.8rem;
+}
+
+.location-message-heading {
+	margin-bottom: 0.6rem;
+}
+
+.location-form-submit-btn {
+	width: 100%;
+	margin-top: 1rem;
+	background-color: #112236;
+	color: #fff !important;
+	text-transform: uppercase;
+	padding: 1rem;
+	border-radius: 0;
+}
+
+.location-icon-wrapper {
+	display: flex;
+}
+
+.location-address,
+.loaction-number,
+.loaction-email {
+	margin-top: 0;
+}
+
+.location-col-2 {
+	display: grid;
+	gap: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	background: #f7f7f7;
+	padding: 3rem 1.5rem;
+}
+
+.location-icon {
+	margin-right: 1rem;
+	color: #112236;
+}
+
+.location-socials-wrapper {
+	font-size: 2rem;
+}
+
+.linkedin-location,
+.twitter-location {
+	margin-right: 0.6rem;
+	color: #112236;
 }
 
 /*--------------------------------------------------------------
