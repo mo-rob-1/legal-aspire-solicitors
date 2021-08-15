@@ -37,12 +37,12 @@ get_header();
 			<div class="col-2-list-container">
 				<h2 class="col-2-title">Sectors</h2>
 				<ul class="col-2-list">
-					<a class="col-2-link" href="<?php echo site_url('/services/real-estate-law') ?>"><li class="col-2-list-item">Real Estate Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/services/recruitment-law') ?>"><li class="col-2-list-item">Recruitment Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/services/healthcare-law') ?>"><li class="col-2-list-item">Healthcare Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/services/technology-law') ?>"><li class="col-2-list-item">Technology Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/services/insurance-law') ?>"><li class="col-2-list-item">Insurance Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/services/retail-law') ?>"><li class="col-2-list-item">Retail Law</li></a>
+					<a class="col-2-link" href="<?php echo site_url('/sectors/real-estate-law') ?>"><li class="col-2-list-item">Real Estate Law</li></a>
+					<a class="col-2-link" href="<?php echo site_url('/sectors/recruitment-law') ?>"><li class="col-2-list-item">Recruitment Law</li></a>
+					<a class="col-2-link" href="<?php echo site_url('/sectors/healthcare-law') ?>"><li class="col-2-list-item">Healthcare Law</li></a>
+					<a class="col-2-link" href="<?php echo site_url('/sectors/technology-law') ?>"><li class="col-2-list-item">Technology Law</li></a>
+					<a class="col-2-link" href="<?php echo site_url('/sectors/insurance-law') ?>"><li class="col-2-list-item">Insurance Law</li></a>
+					<a class="col-2-link" href="<?php echo site_url('/sectors/retail-law') ?>"><li class="col-2-list-item">Retail Law</li></a>
 				</ul>
 			</div>
 			<div class="col-2-container">
