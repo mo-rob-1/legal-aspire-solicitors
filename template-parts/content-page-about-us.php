@@ -110,7 +110,7 @@
     </div>
 
     <div class="about-us-pg__team">
-        <h2>Meet Our Expert Solicitors</h2>
+        <h2>Meet Our Legal Experts</h2>
         <?php
             $args = array(
                 'post_type' => 'our-team',
