@@ -80,6 +80,7 @@
     </div>
 
     <div class="case-study-more-cards-container">
+        <h2 class="case-study-card-title-main">Other Case Studies</h2>
         <?php
             $args = array(
                 'post_type' => 'case-study',
