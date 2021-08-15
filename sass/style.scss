@@ -85,6 +85,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 @import "components/components";
 
+@import "components/timeline";
+
 @import "layouts/header";
 
 @import "layouts/hero";
@@ -126,6 +128,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "layouts/location-template";
 
 @import "layouts/contact-pg";
+
+@import "layouts/about-us-pg";
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
