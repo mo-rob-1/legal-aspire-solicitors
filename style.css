@@ -1034,7 +1034,7 @@ label {
 	position: relative;
 	max-width: 1200px;
 	margin: 0 auto;
-	background-color: #f7f7f7;
+	background-color: #061123;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
@@ -1044,7 +1044,7 @@ label {
 	content: "";
 	position: absolute;
 	width: 6px;
-	background-color: #000;
+	background-color: white;
 	top: 0;
 	bottom: 0;
 	left: 50%;
@@ -1067,7 +1067,7 @@ label {
 	height: 25px;
 	right: -13px;
 	background-color: white;
-	border: 4px solid #4a647d;
+	border: 4px solid white;
 	top: 15px;
 	border-radius: 50%;
 	z-index: 1;
@@ -3129,12 +3129,88 @@ textarea {
 }
 
 .about-us-pg__filter {
-	margin-top: 4rem;
-	margin-bottom: 4rem;
+	margin-bottom: 3rem;
+}
+
+.about-us-pg__item-one-wrapper, .about-us-pg__item-two-wrapper, .about-us-pg__filter, .about-us-pg__team {
+	padding: 1rem;
+}
+
+.about-us-pg__item-one-wrapper {
+	padding-top: 3rem;
+}
+
+.about-us-pg__team {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.about-us-pg__intro-title {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+}
+
+.about-us-pg__col-1-title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.about-us-pg__col-1-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.about-us-pg__item-two-title {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.about-us-pg__item-two-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.about-us-pg__item-filter-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.about-us-pg__timeline-heading {
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.about-us-pg__timeline-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.about-us-pg__team-title {
+	font-family: "Julius Sans One", sans-serif;
+	line-height: 1.5;
+}
+
+.about-us-pg__team-members-title a {
+	font-family: "Julius Sans One", sans-serif;
+	color: #000 !important;
+}
+
+.about-us-pg__team-members-job-title {
+	font-family: "Jost", sans-serif;
+}
+
+.about-us-pg__team-members-link {
+	background-color: #061123;
+	color: #fff !important;
+	text-decoration: none;
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	padding: 1rem;
+	margin-top: 1rem;
+	font-size: 0.9rem;
 }
 
 .card-box-shadow-none {
 	box-shadow: none !important;
+	padding: 0;
 }
 
 /*--------------------------------------------------------------
