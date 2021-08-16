@@ -41,11 +41,75 @@
     font-size: 2.3rem;
   }
   &__filter {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
+  }
+  &__item-one-wrapper,
+  &__item-two-wrapper,
+  &__filter,
+  &__team {
+    padding: 1rem;
+  }
+  &__item-one-wrapper {
+    padding-top: 3rem;
+  }
+  &__team {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  &__intro-title {
+    font-family: $thirdFont;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+  &__col-1-title {
+    font-family: $primaryFont;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  &__col-1-desc {
+    font-family: $thirdFont;
+  }
+  &__item-two-title {
+    font-family: $primaryFont;
+  }
+  &__item-two-desc {
+    font-family: $thirdFont;
+  }
+  &__item-filter-desc {
+    font-family: $thirdFont;
+  }
+  &__timeline-heading {
+    font-family: $primaryFont;
+  }
+  &__timeline-desc {
+    font-family: $thirdFont;
+  }
+  &__team-title {
+    font-family: $primaryFont;
+    line-height: 1.5;
+  }
+  &__team-members-title a {
+    font-family: $primaryFont;
+    color: #000 !important;
+  }
+  &__team-members-job-title {
+    font-family: $thirdFont;
+  }
+  &__team-members-link {
+    background-color: #061123;
+    color: #fff !important;
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
   }
 }
 
 .card-box-shadow-none {
   box-shadow: none !important;
+  padding: 0;
 }
