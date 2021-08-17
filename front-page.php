@@ -269,7 +269,7 @@ get_header();
 				</div>
 			</div>
 		</section>
-		
+
 		<section class="news">
 		
 		<h1 class="news__heading">Latest News</h1>
