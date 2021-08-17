@@ -3142,7 +3142,7 @@ textarea {
 
 .about-us-pg__team {
 	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding-bottom: 4rem;
 }
 
 .about-us-pg__intro-title {
@@ -3208,9 +3208,36 @@ textarea {
 	font-size: 0.9rem;
 }
 
+.about-us-pg__team-members-card-text-wrapper {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.about-us-pg__team-members-title {
+	margin-bottom: 0;
+}
+
+.about-us-pg__team-members-job-title {
+	margin-top: 0;
+}
+
+.about-us-pg__team-members-wrapper {
+	display: grid;
+	gap: 1.5rem;
+	margin-top: 3rem;
+}
+
+.about-us-pg__team-members-link-wrapper {
+	margin-top: 1.5rem;
+}
+
 .card-box-shadow-none {
 	box-shadow: none !important;
 	padding: 0;
+}
+
+.span-number {
+	color: #d9c570;
 }
 
 /*--------------------------------------------------------------
