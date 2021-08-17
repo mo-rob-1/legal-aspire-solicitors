@@ -126,7 +126,7 @@
                     $post_query->the_post();
                     ?>
                         <div class="about-us-pg__team-members">
-                            <div class="about-us-pg__team-members-img-wrapper"><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a></div>
+                            <div class="about-us-pg__team-members-img-wrapper"><?php the_post_thumbnail(); ?></div>
                                 <div class="about-us-pg__team-members-card-text-wrapper">
                                     <h2 class="about-us-pg__team-members-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                                     <p class="about-us-pg__team-members-job-title"><?php the_field('job_title'); ?></p>
