@@ -3086,6 +3086,10 @@ textarea {
 	color: #000;
 }
 
+.contact-pg__card-img-wrapper img {
+	width: 100%;
+}
+
 .about-us-pg__container {
 	padding: 3rem 1rem;
 }
