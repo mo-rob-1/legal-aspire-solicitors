@@ -119,11 +119,14 @@
   }
   &__team-members-wrapper {
     display: grid;
-    gap: 1.5rem;
+    gap: 1.1rem;
     margin-top: 3rem;
   }
   &__team-members-link-wrapper {
     margin-top: 1.5rem;
+  }
+  &__team-members-img-wrapper img {
+    width: 100%;
   }
 }
 
