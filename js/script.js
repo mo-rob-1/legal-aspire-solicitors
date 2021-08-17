@@ -5,6 +5,12 @@ jQuery(document).ready(function ($) {
 });
 
 jQuery(document).ready(function ($) {
+  $("#toggle_submenu-three").click(function () {
+    $(".show-nav-4").toggle();
+  });
+});
+
+jQuery(document).ready(function ($) {
   $(".clk").click(function () {
     $(this).find("i").toggleClass("fa-chevron-up ");
   });
