@@ -1276,6 +1276,11 @@ label {
 
 .uk-parent a {
 	color: #fff !important;
+	font-family: "Jost", sans-serif !important;
+}
+
+.uk-nav ul {
+	font-family: "Jost", sans-serif;
 }
 
 .hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
