@@ -32,17 +32,17 @@
 
         <div class="about-us-pg__item-two-wrapper">
             <div class="about-us-pg__item-two-col-1">
-                <h3 class="about-us-pg__item-two-title">01 Legal Advisors</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">01</span> Legal Advisors</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>
             <div class="about-us-pg__item-two-col-2">
-                <h3 class="about-us-pg__item-two-title">02 Trusted Experience</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">02</span> Trusted Experience</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>
             <div class="about-us-pg__item-two-col-3">
-                <h3 class="about-us-pg__item-two-title">03 Responsiveness</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">03</span> Responsiveness</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>
@@ -112,6 +112,7 @@
 
     <div class="about-us-pg__team">
         <h2 class="about-us-pg__team-title">Meet Our Legal Experts</h2>
+        <div class="about-us-pg__team-members-wrapper">
         <?php
             $args = array(
                 'post_type' => 'our-team',
@@ -135,7 +136,11 @@
                         } wp_reset_postdata();
                     }
         ?>
-        <a class="about-us-pg__team-members-link" href="<?php echo site_url('/our-team') ?>">View All</a>
+        </div>
+
+        <div class="about-us-pg__team-members-link-wrapper">
+            <a class="about-us-pg__team-members-link" href="<?php echo site_url('/our-team') ?>">View All</a>
+        </div>
 
         </div>
 
