@@ -19,29 +19,29 @@ jQuery(document).ready(function ($) {
 const button = document.querySelector("#toggle_btn");
 const button2 = document.querySelector("#toggle_submenu");
 
-const counters = document.querySelectorAll(".counter__number");
-const speed = 200;
+// const counters = document.querySelectorAll(".counter__number");
+// const speed = 200;
 
 var span = document.getElementsByClassName("span");
 var div = document.getElementsByClassName("testimonials__item");
 var l = 0;
 
-counters.forEach((counter) => {
-  const animate = () => {
-    const value = +counter.getAttribute("counter");
-    const data = +counter.innerText;
+// counters.forEach((counter) => {
+//   const animate = () => {
+//     const value = +counter.getAttribute("counter");
+//     const data = +counter.innerText;
 
-    const time = value / speed;
-    if (data < value) {
-      counter.innerText = Math.ceil(data + time);
-      setTimeout(animate, 1);
-    } else {
-      counter.innerText = value;
-    }
-  };
+//     const time = value / speed;
+//     if (data < value) {
+//       counter.innerText = Math.ceil(data + time);
+//       setTimeout(animate, 1);
+//     } else {
+//       counter.innerText = value;
+//     }
+//   };
 
-  animate();
-});
+//   animate();
+// });
 
 button2.addEventListener("click", (e) => {
   document.querySelector(".show-nav-2").classList.toggle("header__nav-2");
