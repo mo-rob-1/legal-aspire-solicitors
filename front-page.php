@@ -161,33 +161,70 @@ get_header();
 		<section class="counter">
 			<div class="counter__container">
 				<div class="counter__item-1">
-					<p class="counter__number" counter="10000">0</p>
-					<h5 class="counter__title">Counter</h5>
+					<p class="counter__number">500+</p>
+					<h5 class="counter__title">Happy Clients</h5>
 				</div>
 				<div class="counter__item-2">
-					<p class="counter__number" counter="500">0</p>
-					<h5 class="counter__title">Counter</h5>
+					<p class="counter__number">$2.5m</p>
+					<h5 class="counter__title">Won Cases</h5>
 				</div>
 				<div class="counter__item-3">
-					<p class="counter__number" counter="3000">0</p>
-					<h5 class="counter__title">Counter</h5>
+					<p class="counter__number">20</p>
+					<h5 class="counter__title">Years in Business</h5>
 				</div>
 				<div class="counter__item-4">
-					<p class="counter__number" counter="25">0</p>
-					<h5 class="counter__title">Counter</h5>
+					<p class="counter__number">5th</p>
+					<h5 class="counter__title">Top UK Law Firm</h5>
 				</div>
 				<div class="counter__item-5">
-					<p class="counter__number" counter="4000">0</p>
-					<h5 class="counter__title">Counter</h5>
+					<p class="counter__number">9</p>
+					<h5 class="counter__title">Attorneys</h5>
 				</div>
 				<div class="counter__item-6">
-					<p class="counter__number" counter="5000">0</p>
-					<h5 class="counter__title">Counter</h5>
+					<p class="counter__number">8</p>
+					<h5 class="counter__title">Locations</h5>
 				</div>
 			</div>
 		</section>
+		
+		<section class="solicitors">
+			<div class="solicitors__container">
+			<div class="solicitors__heading-wrapper">
+				<h5 class="solicitors__intro-heading">Meet Our Experts</h5>
+				<h1 class="solicitors__main-heading">Our Solicitors</h1>
+			</div>
+			<div class="solicitors__card-container">
+				<?php
+					$args = array(
+						'post_type' => 'our-team',
+						'posts_per_page' => 4
+					);
 
-		<section class="testimonials">
+					$post_query = new WP_Query($args);
+
+					if($post_query->have_posts() ) {
+						while($post_query->have_posts() ) {
+							$post_query->the_post();
+							?>
+								<div class="solicitors__card">
+									<div class="solicitors__card-img"><?php the_post_thumbnail(); ?></div>
+										<div>
+											<h2 class="solicitors__card-name"><a class="solicitors__card-name-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+											<p class="solicitors__card-title"><?php the_field('job_title'); ?></p>
+										</div>
+								</div>
+							<?php
+								} wp_reset_postdata();
+							}
+				?>
+			</div>
+			<div class="solicitors__btn-wrapper">
+				<a class="solicitors__btn" href="<?php echo site_url('/our-team') ?>">View All Solicitors</a>
+			</div>
+			</div>
+		</section>
+
+		<!-- <section class="testimonials">
 			<h1 class="testimonials__heading">Testimonials</h1>
 			<div class="testimonials__line-container">
 				<div class="testimonials__line"></div>
@@ -268,7 +305,7 @@ get_header();
 					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section class="news">
 		
