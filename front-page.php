@@ -153,6 +153,7 @@ get_header();
 				<div class="experience__text-container">
 					<h5 class="experience__title">Why Choose Us</h5>
 					<h1 class="experience__heading">15 Years of Experience</h1>
+					<div class="experience__line"></div>
 					<p class="experience__desc">Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad.</p>
 				</div>
 			</div>
@@ -192,6 +193,7 @@ get_header();
 			<div class="solicitors__heading-wrapper">
 				<h5 class="solicitors__intro-heading">Meet Our Experts</h5>
 				<h1 class="solicitors__main-heading">Our Solicitors</h1>
+				<div class="solicitors__line"></div>
 			</div>
 			<div class="solicitors__card-container">
 				<?php
@@ -208,8 +210,8 @@ get_header();
 							?>
 								<div class="solicitors__card">
 									<div class="solicitors__card-img"><?php the_post_thumbnail(); ?></div>
-										<div>
-											<h2 class="solicitors__card-name"><a class="solicitors__card-name-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+										<div class="solicitors__name-info-wrapper">
+											<h3 class="solicitors__card-name"><a class="solicitors__card-name-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 											<p class="solicitors__card-title"><?php the_field('job_title'); ?></p>
 										</div>
 								</div>
@@ -329,6 +331,10 @@ get_header();
             $post_query->the_post();
             ?>
 			<div class="news__card">
+				<div class="news__date-wrapper">
+					<div class="news__day"><?php echo get_the_date('d'); ?></div>
+					<div class="news__month"><?php echo get_the_date('M'); ?></div>
+				</div>
 				<div class="news__featured-img"><?php the_post_thumbnail(); ?></div>
 				<div class="news__text-container">
 					<p class="news__author">By <?php the_author(); ?></p>
