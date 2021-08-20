@@ -1513,6 +1513,12 @@ label {
 	line-height: 1.6;
 }
 
+.experience__line {
+	background-color: white;
+	height: 3px;
+	width: 40%;
+}
+
 .testimonials {
 	background-color: #112236;
 	padding-top: 4rem;
@@ -1638,6 +1644,7 @@ label {
 }
 
 .news__heading {
+	font-family: "Julius Sans One", sans-serif;
 	text-align: center;
 	margin: 0;
 }
@@ -1658,7 +1665,7 @@ label {
 }
 
 .news__author {
-	color: #9c9c9c;
+	color: #111;
 	font-family: "Jost", sans-serif;
 	font-weight: lighter;
 	margin-bottom: 0;
@@ -1675,6 +1682,7 @@ label {
 
 .news__link {
 	font-family: "Jost", sans-serif;
+	text-decoration: underline !important;
 	color: black !important;
 	font-weight: bold;
 }
@@ -1691,6 +1699,29 @@ label {
 	padding: 1.5rem;
 	padding-bottom: 1.4rem;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.news__date-wrapper {
+	position: absolute;
+	color: #fff;
+	padding: 1rem;
+	font-family: "Jost", sans-serif;
+	text-align: center;
+}
+
+.news__day {
+	font-size: 32px;
+	background-color: #112236;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.news__month {
+	padding: 8px;
+	background-color: #2a3e57;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
 }
 
 .footer {
@@ -3251,6 +3282,89 @@ textarea {
 
 .span-number {
 	color: #d9c570;
+}
+
+.solicitors {
+	padding: 4rem 1rem;
+	background-color: #112236;
+}
+
+.solicitors__intro-heading {
+	color: #fff;
+}
+
+.solicitors__main-heading {
+	color: #fff;
+}
+
+.solicitors__intro-heading {
+	color: #fff;
+	font-weight: bold;
+	margin-top: 0;
+	text-transform: uppercase;
+	font-family: "Jost", sans-serif;
+	letter-spacing: 2px;
+}
+
+.solicitors__main-heading {
+	font-family: "Julius Sans One", sans-serif;
+	color: #fff;
+	font-weight: bold;
+}
+
+.solicitors__line {
+	background-color: white;
+	height: 3px;
+	width: 40%;
+}
+
+.solicitors__card-container {
+	margin-top: 2rem;
+	display: grid;
+	gap: 2rem;
+}
+
+.solicitors__card-name-link {
+	color: #fff !important;
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.solicitors__card-title {
+	font-family: "Jost", sans-serif;
+	color: #fff;
+}
+
+.solicitors__card-name {
+	margin-bottom: 0;
+}
+
+.solicitors__card-title {
+	margin-top: 0.4rem;
+	margin-bottom: 0;
+}
+
+.solicitors__name-info-wrapper {
+	background-color: #111;
+}
+
+.solicitors__name-info-wrapper {
+	padding: 1rem;
+}
+
+.solicitors__btn {
+	font-family: "Jost", sans-serif;
+	border: 2px solid #fff;
+	padding: 1rem 2rem;
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.solicitors__btn-wrapper {
+	margin-top: 3rem;
+}
+
+.solicitors__card-img img {
+	width: 100%;
 }
 
 /*--------------------------------------------------------------
