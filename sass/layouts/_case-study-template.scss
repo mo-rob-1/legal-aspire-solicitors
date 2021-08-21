@@ -1,5 +1,11 @@
 .entry-content-case-study {
   padding: 3rem 1rem;
+  @include responsive(tablet) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
 }
 
 .case-study-overview-heading,
@@ -11,11 +17,57 @@
   margin-bottom: 0;
 }
 
+.case-study-review-container {
+  @include responsive(tablet) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 4rem;
+  }
+}
+
+.case-study-overview-main-icon-wrapper {
+  @include responsive(tablet) {
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+  }
+}
+
+.case-study-3-col-wrapper {
+  display: grid;
+  gap: 2rem;
+  @include responsive(tablet) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+.case-study-line {
+  background-color: #000;
+  height: 3px;
+  width: 40%;
+  @include responsive(tablet) {
+    width: 20%;
+  }
+}
+
 .case-study-solicitor,
 .case-study-category,
 .case-study-time,
 .case-study-result {
+  font-family: $thirdFont;
   margin-top: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.case-study-time {
+  @include responsive(tablet) {
+    margin-bottom: 0;
+  }
 }
 
 .case-study-overview-heading {
@@ -38,6 +90,17 @@
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5;
+  @include responsive(tablet) {
+    font-size: 2rem;
+  }
+}
+.case-study-main-content {
+  @include responsive(tablet) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+  }
 }
 .case-study-main-content h3 {
   font-family: $primaryFont !important;
@@ -50,6 +113,9 @@
 }
 .case-study-icon {
   height: 30px;
+  @include responsive(tablet) {
+    object-fit: contain;
+  }
 }
 .case-study-icon-wrapper {
   margin-right: 1rem;

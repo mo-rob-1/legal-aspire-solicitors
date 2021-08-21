@@ -1,3 +1,32 @@
+.team-member-entry-content {
+  padding: 3rem 1rem;
+  font-family: "Jost", sans-serif;
+  @include responsive(tablet) {
+    padding-top: 4rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
+}
+.team-member-main-profile-overview-wrapper {
+  @include responsive(tablet) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
+}
+.team-member-profile-overview-desc {
+  @include responsive(tablet) {
+    margin-top: 0;
+  }
+}
+.team-member-main-content {
+  @include responsive(tablet) {
+    margin-top: 4rem;
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+  }
+}
 .team-member-main-content h2 {
   font-family: $primaryFont;
   line-height: 1.5;
@@ -9,6 +38,10 @@
   text-align: center;
   margin-top: 4rem;
   margin-bottom: 4rem;
+  @include responsive(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
 
 .team-member-icon-img {
@@ -26,6 +59,10 @@
 }
 .team-member-form {
   margin-top: 7rem;
+  @include responsive(tablet) {
+    padding-left: 3.6rem;
+    padding-right: 3.6rem;
+  }
 }
 .team-member-form-info {
   display: grid;

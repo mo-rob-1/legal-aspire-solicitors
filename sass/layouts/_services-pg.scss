@@ -4,10 +4,25 @@
     gap: 2rem;
     padding: 1rem;
     margin-bottom: 4rem;
+    @include responsive(tablet) {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+    }
   }
   &__text-container {
     padding: 1rem;
     padding-top: 3rem;
+    @include responsive(tablet) {
+      padding-top: 4rem;
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      gap: 4rem;
+    }
   }
   &__intro-title {
     font-family: $thirdFont;

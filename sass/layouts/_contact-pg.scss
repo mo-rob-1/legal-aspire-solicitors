@@ -1,6 +1,10 @@
 .contact-pg {
   &__container {
     padding: 3rem 1rem;
+    @include responsive(tablet) {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+    }
   }
   &__banner-image-background {
     background-image: url("images/legal-aspire-solicitors-team.jpg");
@@ -40,6 +44,11 @@
     color: #fff;
     font-size: 2.3rem;
   }
+  &__intro-wrapper {
+    @include responsive(tablet) {
+      width: 60%;
+    }
+  }
   &__intro-title {
     font-family: $primaryFont;
   }
@@ -54,6 +63,9 @@
   &__form {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    @include responsive(tablet) {
+      margin-top: 0;
+    }
   }
   &__form-input {
     width: 100%;
@@ -91,6 +103,11 @@
   &__cards-container {
     display: grid;
     gap: 2rem;
+    @include responsive(tablet) {
+      margin-top: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+    }
   }
   &__contact-info-wrapper {
     display: flex;
@@ -107,5 +124,19 @@
   }
   &__card-img-wrapper img {
     width: 100%;
+  }
+  &__2-col {
+    @include responsive(tablet) {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr;
+      margin-top: 2rem;
+      gap: 2rem;
+    }
+  }
+  &__line {
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 10%;
   }
 }

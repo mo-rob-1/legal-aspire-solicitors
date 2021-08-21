@@ -1,6 +1,10 @@
 .solicitors {
   padding: 4rem 1rem;
   background-color: $LightNavy;
+  @include responsive(tablet) {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+  }
   &__intro-heading {
     color: #fff;
   }
@@ -24,11 +28,21 @@
     background-color: rgb(255, 255, 255);
     height: 3px;
     width: 40%;
+    margin: 0 auto;
+    @include responsive(tablet) {
+      width: 20%;
+    }
   }
   &__card-container {
     margin-top: 2rem;
     display: grid;
     gap: 2rem;
+    @include responsive(tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin-top: 4rem;
+    }
   }
   &__card-name-link {
     color: #fff !important;
@@ -60,6 +74,15 @@
   }
   &__btn-wrapper {
     margin-top: 3rem;
+  }
+  &__heading-wrapper {
+    text-align: center;
+  }
+  &__line-wrapper {
+    @include responsive(tablet) {
+      display: flex;
+      justify-content: center;
+    }
   }
   &__card-img img {
     width: 100%;

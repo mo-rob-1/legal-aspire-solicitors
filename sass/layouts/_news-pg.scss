@@ -5,6 +5,9 @@
     padding: 1rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
+    @include responsive(tablet) {
+      padding-left: 1.8rem;
+    }
   }
   &__permalink {
     text-decoration: none !important;
@@ -21,6 +24,9 @@
   &__title {
     font-family: $primaryFont;
     color: $LightNavy;
+    @include responsive(tablet) {
+      margin-top: 1rem;
+    }
   }
   &__excerpt {
     font-family: $thirdFont;
@@ -61,6 +67,24 @@
     font-family: $primaryFont;
     color: #fff;
     font-size: 2.3rem;
+  }
+  &__column-wrapper {
+    @include responsive(tablet) {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+  &__column-two {
+    @include responsive(tablet) {
+      margin-top: 4rem;
+    }
+  }
+  &__column-two > #secondary {
+    @include responsive(tablet) {
+      padding-top: 0;
+      padding-right: 1.8rem;
+    }
   }
 }
 

@@ -5,6 +5,10 @@
   background-color: $DarkNavy;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  @include responsive(tablet) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 
 /* The actual timeline (the vertical ruler) */

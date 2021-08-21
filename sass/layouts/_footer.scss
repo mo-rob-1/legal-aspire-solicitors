@@ -3,6 +3,13 @@
   &__container {
     padding: 4rem 1rem;
     color: #fff;
+    @include responsive(tablet) {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+    }
   }
   &__logo-link {
     font-family: "Julius Sans One", sans-serif;
@@ -18,16 +25,21 @@
   }
   &__contact-container {
     display: flex;
-  }
-  &__contact-container {
     margin-top: 3rem;
     margin-bottom: 3rem;
+    @include responsive(tablet) {
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
   }
   &__contact-icon-wrapper {
     margin-right: 1rem;
   }
   &__number-container {
     display: flex;
+    @include responsive(tablet) {
+      margin-bottom: 2rem;
+    }
   }
   &__number-icon-wrapper {
     margin-right: 1rem;
@@ -44,6 +56,10 @@
   &__social-container {
     margin-top: 4rem;
     margin-bottom: 3rem;
+    @include responsive(tablet) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
   &__social-icon {
     margin-right: 1.2rem;
@@ -75,6 +91,9 @@
   }
   &__col-2 {
     margin-top: 4rem;
+    @include responsive(tablet) {
+      margin-top: 0;
+    }
   }
   &__newsletter-title {
     color: #fff;
@@ -83,9 +102,21 @@
   &__col-3 {
     margin-top: 3rem;
     margin-bottom: 4rem;
+    @include responsive(tablet) {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
   &__col-4 {
     margin-top: 3rem;
+    @include responsive(tablet) {
+      margin-top: 0;
+    }
+  }
+  &__logo-link-wrapper {
+    @include responsive(tablet) {
+      margin-bottom: 1rem;
+    }
   }
   &__copyright {
     font-family: $thirdFont;

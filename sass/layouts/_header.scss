@@ -56,6 +56,10 @@
     justify-content: space-between;
     padding: 1rem;
     background-color: $LightNavy;
+    @include responsive(tablet) {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+    }
   }
   &__number-wrapper {
     display: none;

@@ -3,15 +3,31 @@
   &__container {
     padding: 3rem 1rem;
     padding-bottom: 3.9rem;
+    @include responsive(tablet) {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+    }
   }
   &__heading {
     font-family: $primaryFont;
     font-weight: bold;
     margin-top: 0;
     color: #fff;
+    @include responsive(tablet) {
+      margin-bottom: 0;
+    }
   }
   &__link-container {
     margin-top: 3rem;
+    @include responsive(tablet) {
+      margin-top: 0;
+      display: grid;
+      justify-content: end;
+      align-items: center;
+    }
   }
   &__link {
     font-family: $thirdFont;
@@ -19,5 +35,8 @@
     padding: 1rem 2rem;
     color: #fff !important;
     text-decoration: none;
+    @include responsive(tablet) {
+      padding: 1rem 3rem;
+    }
   }
 }

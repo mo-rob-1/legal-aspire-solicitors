@@ -2,6 +2,12 @@
   &__container {
     padding: 3rem 1rem;
   }
+  &__img {
+    @include responsive(tablet) {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
   &__banner-image-background {
     background-image: url("images/legal-aspire-solicitors-team.jpg");
     height: 400px;
@@ -42,19 +48,49 @@
   }
   &__filter {
     margin-bottom: 3rem;
+    @include responsive(tablet) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-items: center;
+    }
   }
   &__item-one-wrapper,
   &__item-two-wrapper,
   &__filter,
   &__team {
     padding: 1rem;
+    @include responsive(tablet) {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+    }
   }
   &__item-one-wrapper {
     padding-top: 3rem;
+    @include responsive(tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr;
+      gap: 3rem;
+      padding-top: 5rem;
+    }
+  }
+  &__item-two-wrapper {
+    @include responsive(tablet) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+    }
   }
   &__team {
     padding-top: 3rem;
     padding-bottom: 4rem;
+    @include responsive(tablet) {
+      padding-top: 4rem;
+      padding-bottom: 6rem;
+    }
   }
   &__intro-title {
     font-family: $thirdFont;
@@ -62,6 +98,9 @@
     text-transform: uppercase;
     font-size: 0.8rem;
     letter-spacing: 2px;
+    @include responsive(tablet) {
+      margin-top: 1.5rem;
+    }
   }
   &__col-1-title {
     font-family: $primaryFont;
@@ -79,6 +118,11 @@
   }
   &__item-filter-desc {
     font-family: $thirdFont;
+    @include responsive(tablet) {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+    }
   }
   &__timeline-heading {
     font-family: $primaryFont;
@@ -89,6 +133,7 @@
   &__team-title {
     font-family: $primaryFont;
     line-height: 1.5;
+    text-align: center;
   }
   &__team-members-title a {
     font-family: $primaryFont;
@@ -121,6 +166,10 @@
     display: grid;
     gap: 1.1rem;
     margin-top: 3rem;
+    @include responsive(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
   }
   &__team-members-link-wrapper {
     margin-top: 1.5rem;
@@ -137,3 +186,8 @@
 .span-number {
   color: #d9c570;
 }
+// .js-filter {
+//   @include responsive(tablet) {
+//     width: 70%;
+//   }
+// }
