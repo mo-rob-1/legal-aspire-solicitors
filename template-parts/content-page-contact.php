@@ -97,6 +97,7 @@
 
 	<div class="contact-pg__item-2-wrapper">
 	<h2 class="contact-pg__item-2-heading">Our Offices</h2>
+	<div class="contact-pg__line"></div>
 
 	<div class="contact-pg__cards-container">
         <?php

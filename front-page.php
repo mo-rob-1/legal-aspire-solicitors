@@ -161,14 +161,14 @@ get_header();
 
 		<section class="counter">
 			<div class="counter__container">
-				<div class="counter__item-1">
+				<!-- <div class="counter__item-1">
 					<p class="counter__number">500+</p>
 					<h5 class="counter__title">Happy Clients</h5>
 				</div>
 				<div class="counter__item-2">
 					<p class="counter__number">$2.5m</p>
 					<h5 class="counter__title">Won Cases</h5>
-				</div>
+				</div> -->
 				<div class="counter__item-3">
 					<p class="counter__number">20</p>
 					<h5 class="counter__title">Years in Business</h5>
@@ -193,7 +193,9 @@ get_header();
 			<div class="solicitors__heading-wrapper">
 				<h5 class="solicitors__intro-heading">Meet Our Experts</h5>
 				<h1 class="solicitors__main-heading">Our Solicitors</h1>
-				<div class="solicitors__line"></div>
+				<div class="solicitors__line-wrapper">
+					<div class="solicitors__line"></div>
+				</div>
 			</div>
 			<div class="solicitors__card-container">
 				<?php

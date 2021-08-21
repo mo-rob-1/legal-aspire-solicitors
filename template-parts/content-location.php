@@ -30,7 +30,7 @@
 		</div>
 	</div>
 
-	<div class="entry-content">
+	<div class="location-entry-content">
 
     <div class="location-col-wrapper">
         <div class="location-img-col-1">

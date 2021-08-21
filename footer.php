@@ -14,7 +14,10 @@
 	<footer class="footer">
 		<div class="footer__container">
 			<div class="footer__col-1">
+
+			<div class="footer__logo-link-wrapper">
 				<a class="footer__logo-link" href="#">Legal Aspire Solicitors</a>
+			</div>
 
 				<div class="footer__contact-container">
 					<div class="footer__contact-icon-wrapper">

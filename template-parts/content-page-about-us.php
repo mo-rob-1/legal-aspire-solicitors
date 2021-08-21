@@ -32,17 +32,17 @@
 
         <div class="about-us-pg__item-two-wrapper">
             <div class="about-us-pg__item-two-col-1">
-                <h3 class="about-us-pg__item-two-title"><span class="span-number">01</span> Legal Advisors</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">01</span> Experience</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>
             <div class="about-us-pg__item-two-col-2">
-                <h3 class="about-us-pg__item-two-title"><span class="span-number">02</span> Trusted Experience</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">02</span> Experience</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>
             <div class="about-us-pg__item-two-col-3">
-                <h3 class="about-us-pg__item-two-title"><span class="span-number">03</span> Responsiveness</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">03</span> Experience</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>

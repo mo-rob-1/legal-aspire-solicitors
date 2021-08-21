@@ -30,13 +30,15 @@
 		</div>
 	</div>
 
-	<div class="entry-content">
+	<div class="team-member-entry-content">
 
-    <div class="team-member-profile-img">
-    <?php legal_aspire_solicitors_post_thumbnail(); ?>
+    <div class="team-member-main-profile-overview-wrapper">
+        <div class="team-member-profile-img">
+        <?php legal_aspire_solicitors_post_thumbnail(); ?>
+        </div>
+        
+        <p class="team-member-profile-overview-desc"><?php the_field('profile_overview'); ?></p>
     </div>
-    
-    <p><?php the_field('profile_overview'); ?></p>
 
     <div class="team-member-main-content">
         <?php the_content(); ?>

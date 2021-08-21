@@ -39,7 +39,7 @@ get_header();
     <li uk-filter-control="[data-color='injury']"><a href="#">Injury</a></li>
 </ul>
 
-<ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
+<ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center case-studies-pg__css-grid-wrapper" uk-grid>
     <li data-color="injury">
         <div class="case-studies-pg__container-item">
             <div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(171); ?></div>

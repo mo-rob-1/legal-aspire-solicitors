@@ -23,30 +23,41 @@ get_header();
         </div>
     </div>
 
-	<div class="news-pg__container">
-		<?php
-		if ( have_posts() ) {
-			while(have_posts()): the_post();
-		?>
 
-	
-				<div class="news-pg__container-item">
-					<div class="news-pg__thumbnail"><?php legal_aspire_solicitors_post_thumbnail(); ?></div>
-					<p class="news-pg__date"><?php legal_aspire_solicitors_posted_on(); ?></p>
-					<h2 class="news-pg__title"><?php the_title(); ?></h2>
-					<div class="news-pg__excerpt"><?php the_excerpt(); ?></div>
-					<a class="news-pg__permalink" href="<?php the_permalink(); ?>">Read more</a>
-				</div>
+	<div>
+
+	<div class="news-pg__column-wrapper">
+		<div class="news-pg__column-one">
+		<div class="news-pg__container">
+			<?php
+			if ( have_posts() ) {
+				while(have_posts()): the_post();
+			?>
+
 		
+					<div class="news-pg__container-item">
+						<div class="news-pg__thumbnail"><?php legal_aspire_solicitors_post_thumbnail(); ?></div>
+						<p class="news-pg__date"><?php legal_aspire_solicitors_posted_on(); ?></p>
+						<h2 class="news-pg__title"><?php the_title(); ?></h2>
+						<div class="news-pg__excerpt"><?php the_excerpt(); ?></div>
+						<a class="news-pg__permalink" href="<?php the_permalink(); ?>">Read more</a>
+					</div>
+			
 
-		<?php endwhile; } ?>
+			<?php endwhile; } ?>
+			</div>
+
+			<nav class="news-pg__pagination"><?php echo paginate_links(); ?></nav>
+			</div>
+
+		<div class="news-pg__column-two">
+			<?php get_sidebar(); ?>
 		</div>
 
-		<nav class="news-pg__pagination"><?php echo paginate_links(); ?></nav>
+		</div>
 
 		</section>
 	</main>
 
 <?php
-get_sidebar();
 get_footer();
