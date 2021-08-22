@@ -651,11 +651,14 @@ textarea {
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
+.counter {
+	background-color: #111111;
+}
+
 .counter__container {
 	text-align: center;
 	padding: 4rem 1rem;
 	display: grid;
-	background-color: #111111;
 	color: #fff;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -670,6 +673,19 @@ textarea {
 		padding-right: 1.8rem;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: 1fr;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.counter__container {
+		padding: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.counter__container {
+		margin: 0 auto;
+		max-width: 1300px;
 	}
 }
 
@@ -1242,6 +1258,13 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.header__wrapper-mobile {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
 .header__number-wrapper {
 	display: none;
 }
@@ -1328,6 +1351,13 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
 .hero__item-one {
 	background-image: url("images/gavel.jpg");
 }
@@ -1350,6 +1380,20 @@ label {
 	color: #fff;
 }
 
+@media only screen and (min-width: 600px) {
+	.hero__item-heading {
+		font-size: 2.5rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.hero__item-heading {
+		font-size: 3rem;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
 .hero__item-subheading {
 	font-weight: bold;
 	margin-top: 0;
@@ -1365,6 +1409,12 @@ label {
 @media only screen and (min-width: 600px) {
 	.hero__item-desc {
 		width: 65%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.hero__item-desc {
+		width: 45%;
 	}
 }
 
@@ -1433,6 +1483,19 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.contact__container {
+		padding: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.contact__container {
+		margin: 0 auto;
+		max-width: 1300px;
+	}
+}
+
 .contact__heading {
 	font-family: "Julius Sans One", sans-serif;
 	font-weight: bold;
@@ -1481,6 +1544,19 @@ label {
 	.services__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.services__container {
+		padding: 6rem 4rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.services__container {
+		margin: 0 auto;
+		max-width: 1300px;
 	}
 }
 
@@ -1533,6 +1609,14 @@ label {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, 1fr);
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.services__item-container {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		margin-top: 4.5rem;
 	}
 }
 
@@ -1600,6 +1684,12 @@ label {
 	.experience__text-container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.experience__text-container {
+		padding: 4rem;
 	}
 }
 
@@ -1745,7 +1835,6 @@ label {
 }
 
 .news {
-	padding: 4rem 1rem;
 	background-color: #fafafa;
 }
 
@@ -1753,6 +1842,37 @@ label {
 	.news {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.news {
+		padding: 6rem 4rem;
+	}
+}
+
+.news__container-main {
+	padding: 4rem 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.news__container-main {
+		padding-left: 1.8rem;
+		padding-right: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.news__container-main {
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.news__container-main {
+		margin: 0 auto;
+		max-width: 1300px;
 	}
 }
 
@@ -1777,6 +1897,13 @@ label {
 	margin-top: 0.6rem;
 }
 
+@media only screen and (min-width: 1024px) {
+	.news__line-container {
+		align-items: left;
+		justify-content: left;
+	}
+}
+
 .news__line {
 	height: 3px;
 	background-color: #111111;
@@ -1793,6 +1920,12 @@ label {
 	font-family: "Julius Sans One", sans-serif;
 	text-align: center;
 	margin: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+	.news__heading {
+		text-align: left;
+	}
 }
 
 .news__card {
@@ -1862,6 +1995,12 @@ label {
 	font-weight: bold;
 }
 
+@media only screen and (min-width: 600px) {
+	.news__day {
+		font-size: 16px;
+	}
+}
+
 .news__month {
 	padding: 8px;
 	background-color: #2a3e57;
@@ -1886,6 +2025,19 @@ label {
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: 1fr;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.footer__container {
+		padding: 6rem 4rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.footer__container {
+		margin: 0 auto;
+		max-width: 1300px;
 	}
 }
 
@@ -2004,6 +2156,7 @@ label {
 .footer__newsletter-title {
 	color: #fff;
 	font-weight: bold;
+	font-family: "Jost", sans-serif;
 }
 
 .footer__col-3 {
@@ -2059,6 +2212,12 @@ label {
 @media only screen and (min-width: 600px) {
 	.news-pg__container {
 		padding-left: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.news-pg__container {
+		padding-left: 4rem;
 	}
 }
 
@@ -2154,6 +2313,12 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.news-pg__column-two > #secondary {
+		padding-right: 4rem;
+	}
+}
+
 .page-numbers {
 	font-family: "Jost", sans-serif;
 	background-color: #061123;
@@ -2178,6 +2343,16 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.services-pg__container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+		margin-top: 2rem;
+	}
+}
+
 .services-pg__text-container {
 	padding: 1rem;
 	padding-top: 3rem;
@@ -2192,6 +2367,14 @@ label {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: 1fr;
 		gap: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.services-pg__text-container {
+		padding-top: 6rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 }
 
@@ -2308,6 +2491,16 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.sectors-pg__container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+		margin-top: 2rem;
+	}
+}
+
 .sectors-pg__text-container {
 	padding: 1rem;
 	padding-top: 3rem;
@@ -2322,6 +2515,14 @@ label {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: 1fr;
 		gap: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.sectors-pg__text-container {
+		padding-top: 6rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 }
 
@@ -2439,6 +2640,14 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.case-studies-pg__container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		padding-top: 0;
+	}
+}
+
 .case-studies-pg__text-container {
 	padding: 1rem;
 	padding-top: 3rem;
@@ -2453,6 +2662,13 @@ label {
 		padding-right: 1.8rem;
 		padding-left: 1.8rem;
 		gap: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.case-studies-pg__text-container {
+		padding: 6rem 4rem;
+		padding-bottom: 4rem;
 	}
 }
 
@@ -2598,6 +2814,15 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.team-pg__container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+	}
+}
+
 .team-pg__text-container {
 	padding: 1rem;
 	padding-top: 3rem;
@@ -2612,6 +2837,12 @@ label {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: 1fr;
 		gap: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.team-pg__text-container {
+		padding: 6rem 4rem;
 	}
 }
 
@@ -2640,6 +2871,12 @@ label {
 	font-family: "Julius Sans One", sans-serif;
 	font-weight: bold;
 	margin-top: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+	.team-pg__title {
+		font-size: 1.6rem;
+	}
 }
 
 .team-pg__excerpt {
@@ -2759,6 +2996,16 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.locations-pg__container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+		margin-top: 2rem;
+	}
+}
+
 .locations-pg__text-container {
 	padding: 1rem;
 	padding-top: 3rem;
@@ -2773,6 +3020,13 @@ label {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: 1fr;
 		gap: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.locations-pg__text-container {
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 }
 
@@ -2943,12 +3197,19 @@ label {
 	transform: translate(-50%, -50%);
 }
 
-.entry-title {
+.entry-title-custom {
 	color: #fff;
 	font-weight: bold;
 	line-height: 1.5;
 	margin-top: 0;
 	font-family: "Julius Sans One", sans-serif;
+	font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.entry-title-custom {
+		font-size: 2.3rem;
+	}
 }
 
 .entry-date,
@@ -2979,10 +3240,16 @@ label {
 	width: 100%;
 }
 
-.entry-meta-container {
+.entry-meta-container--col {
 	display: grid;
 	gap: 1.2rem;
 	margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.entry-meta-container--col {
+		display: flex;
+	}
 }
 
 .nav-subtitle {
@@ -2999,8 +3266,70 @@ label {
 	font-weight: bold;
 }
 
+@media only screen and (min-width: 600px) {
+	.blog-col {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 18px;
+		padding-left: 1.8rem;
+		margin-top: 3rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.blog-col {
+		padding-left: 4rem;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.blog-col-2 > .widget-area {
+		padding-top: 0;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.blog-col-2 > .widget-area {
+		padding-right: 3.8rem;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.comments-area {
+		padding-left: 1.8rem;
+		padding-right: 1.8rem;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		max-width: 800px;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.entry-featured-image-wrapper > .post-thumbnail img {
+		height: 400px;
+		object-fit: cover;
+	}
+}
+
 .col-2 {
 	padding: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.col-2 {
+		padding-top: 0;
+	}
+}
+
+.col-2-service {
+	padding-top: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.col-2-service {
+		padding-top: 0;
+	}
 }
 
 .col-2-container {
@@ -3061,6 +3390,46 @@ label {
 	background-color: #374454;
 }
 
+@media only screen and (min-width: 600px) {
+	.entry-content-service {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 18px;
+		padding-left: 1.6rem;
+		padding-right: 1.6rem;
+		margin-top: 3rem;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.entry-content-sector {
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-template-rows: 1fr;
+		gap: 18px;
+		padding-left: 1.6rem;
+		padding-right: 1.6rem;
+		margin-top: 3rem;
+	}
+}
+
+.col-2-sector {
+	padding-top: 3rem;
+}
+
+@media only screen and (min-width: 600px) {
+	.col-2-sector {
+		padding-top: 0;
+	}
+}
+
+.entry-content h1,
+h2,
+h3 {
+	font-family: "Julius Sans One", sans-serif;
+}
+
 .entry-content-case-study {
 	padding: 3rem 1rem;
 }
@@ -3071,6 +3440,14 @@ label {
 		padding-bottom: 4rem;
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.entry-content-case-study {
+		padding-top: 6rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 }
 
@@ -3181,6 +3558,14 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.case-study-main-content {
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 700px;
+	}
+}
+
 .case-study-main-content h3 {
 	font-family: "Julius Sans One", sans-serif !important;
 }
@@ -3218,6 +3603,12 @@ label {
 .case-study-card-title a {
 	font-family: "Julius Sans One", sans-serif;
 	color: #000;
+}
+
+@media only screen and (min-width: 1024px) {
+	.case-study-card-title a {
+		font-size: 1.6rem;
+	}
 }
 
 .case-study-card-excerpt {
@@ -3268,6 +3659,14 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.team-member-entry-content {
+		padding-top: 6rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
 @media only screen and (min-width: 600px) {
 	.team-member-main-profile-overview-wrapper {
 		display: grid;
@@ -3291,6 +3690,14 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.team-member-main-content {
+		padding-left: 0;
+		padding-right: 0;
+		max-width: 700px;
+	}
+}
+
 .team-member-main-content h2 {
 	font-family: "Julius Sans One", sans-serif;
 	line-height: 1.5;
@@ -3311,6 +3718,14 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.team-member-icon-wrapper {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr;
+		margin-top: 6rem;
+	}
+}
+
 .team-member-icon-img {
 	height: 40px;
 }
@@ -3319,6 +3734,12 @@ label {
 	margin-top: 1rem;
 	margin-bottom: 0.6rem;
 	font-family: "Julius Sans One", sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+	.team-member-icon-heading {
+		font-size: 1.1rem;
+	}
 }
 
 .team-member-contact-us {
@@ -3334,6 +3755,10 @@ label {
 	.team-member-form {
 		padding-left: 3.6rem;
 		padding-right: 3.6rem;
+		margin: 0 auto;
+		max-width: 700px;
+		margin-top: 6rem;
+		margin-bottom: 6rem;
 	}
 }
 
@@ -3395,6 +3820,14 @@ textarea {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.location-entry-content {
+		padding-top: 6rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
+	}
+}
+
 @media only screen and (min-width: 600px) {
 	.location-main-content {
 		margin-top: 4rem;
@@ -3424,6 +3857,10 @@ textarea {
 	.location-form {
 		padding-left: 3.6rem;
 		padding-right: 3.6rem;
+		margin: 0 auto;
+		max-width: 700px;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 	}
 }
 
@@ -3526,6 +3963,12 @@ textarea {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.contact-pg__container {
+		padding: 6rem 4rem;
+	}
+}
+
 .contact-pg__banner-image-background {
 	background-image: url("images/legal-aspire-solicitors-team.jpg");
 	height: 400px;
@@ -3581,6 +4024,12 @@ textarea {
 
 .contact-pg__intro-desc {
 	font-family: "Jost", sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+	.contact-pg__intro-desc {
+		width: 90%;
+	}
 }
 
 .contact-pg__social-icon {
@@ -3654,6 +4103,13 @@ textarea {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.contact-pg__cards-container {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+	}
+}
+
 .contact-pg__contact-info-wrapper {
 	display: flex;
 }
@@ -3688,6 +4144,12 @@ textarea {
 	background-color: black;
 	height: 3px;
 	width: 10%;
+}
+
+@media only screen and (min-width: 1024px) {
+	.col-2-text-address {
+		width: 60%;
+	}
 }
 
 .about-us-pg__container {
@@ -3765,6 +4227,13 @@ textarea {
 	.about-us-pg__item-one-wrapper, .about-us-pg__item-two-wrapper, .about-us-pg__filter, .about-us-pg__team {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.about-us-pg__item-one-wrapper, .about-us-pg__item-two-wrapper, .about-us-pg__filter, .about-us-pg__team {
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 }
 
@@ -3895,6 +4364,12 @@ textarea {
 	margin-top: 0;
 }
 
+@media only screen and (min-width: 1024px) {
+	.about-us-pg__team-members-title a {
+		font-size: 1.1rem;
+	}
+}
+
 .about-us-pg__team-members-wrapper {
 	display: grid;
 	gap: 1.1rem;
@@ -3905,6 +4380,13 @@ textarea {
 	.about-us-pg__team-members-wrapper {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.about-us-pg__team-members-wrapper {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr;
 	}
 }
 
@@ -3926,14 +4408,30 @@ textarea {
 }
 
 .solicitors {
-	padding: 4rem 1rem;
 	background-color: #112236;
 }
 
+.solicitors__container {
+	padding: 4rem 1rem;
+}
+
 @media only screen and (min-width: 600px) {
-	.solicitors {
+	.solicitors__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.solicitors__container {
+		padding: 6rem 4rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.solicitors__container {
+		margin: 0 auto;
+		max-width: 1300px;
 	}
 }
 
@@ -3973,6 +4471,12 @@ textarea {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.solicitors__line {
+		margin: inherit;
+	}
+}
+
 .solicitors__card-container {
 	margin-top: 2rem;
 	display: grid;
@@ -3985,6 +4489,13 @@ textarea {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
 		margin-top: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.solicitors__card-container {
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: 1fr;
 	}
 }
 
@@ -4031,10 +4542,22 @@ textarea {
 	text-align: center;
 }
 
+@media only screen and (min-width: 1024px) {
+	.solicitors__heading-wrapper {
+		text-align: left;
+	}
+}
+
 @media only screen and (min-width: 600px) {
 	.solicitors__line-wrapper {
 		display: flex;
 		justify-content: center;
+	}
+}
+
+@media only screen and (min-width: 600px) and (min-width: 1024px) {
+	.solicitors__line-wrapper {
+		justify-content: left;
 	}
 }
 
