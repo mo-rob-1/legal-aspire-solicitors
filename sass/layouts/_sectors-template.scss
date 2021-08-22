@@ -1,0 +1,22 @@
+.entry-content-sector {
+  @include responsive(tablet) {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 18px;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    margin-top: 3rem;
+  }
+}
+.col-2-sector {
+  padding-top: 3rem;
+  @include responsive(tablet) {
+    padding-top: 0;
+  }
+}
+.entry-content h1,
+h2,
+h3 {
+  font-family: $primaryFont;
+}
