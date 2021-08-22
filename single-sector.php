@@ -33,53 +33,6 @@ get_header();
 			endwhile; // End of the loop.
 			?>
 		</div>
-		<div class="col-2">
-			<div class="col-2-list-container">
-				<h2 class="col-2-title">Sectors</h2>
-				<ul class="col-2-list">
-					<a class="col-2-link" href="<?php echo site_url('/sectors/real-estate-law') ?>"><li class="col-2-list-item">Real Estate Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/sectors/recruitment-law') ?>"><li class="col-2-list-item">Recruitment Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/sectors/healthcare-law') ?>"><li class="col-2-list-item">Healthcare Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/sectors/technology-law') ?>"><li class="col-2-list-item">Technology Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/sectors/insurance-law') ?>"><li class="col-2-list-item">Insurance Law</li></a>
-					<a class="col-2-link" href="<?php echo site_url('/sectors/retail-law') ?>"><li class="col-2-list-item">Retail Law</li></a>
-				</ul>
-			</div>
-			<div class="col-2-container">
-				<h2 class="col-2-title">Contact</h2>
-				<div class="col-2-contact-container">
-					<div class="col-2-item-wrapper">
-						<div class="col-2-item-one">
-						<i class="fas fa-map-marker-alt"></i>
-						</div>
-						<div class="col-2-item-two">
-							<span class="col-2-item-span">Address</span>
-							<p class="col-2-text">64 Litigation Street, London, LE1 4NE</p>
-						</div>
-					</div>
-
-					<div class="col-2-item-wrapper">
-						<div class="col-2-item-one">
-						<i class="fas fa-phone-alt"></i>
-						</div>
-						<div class="col-2-item-two">
-							<span class="col-2-item-span">Phone</span>
-							<a class="col-2-text col-2-link" href="tel:0800001234">0800 00 1234</a>
-						</div>
-					</div>
-
-					<div class="col-2-item-wrapper">
-						<div class="col-2-item-one">
-						<i class="fas fa-envelope"></i>
-						</div>
-						<div class="col-2-item-two">
-							<span class="col-2-item-span">Email</span>
-							<a class="col-2-text col-2-link" href="mailto:info@Legalaspiresolicitors.com">info@legalaspiresolicitors.com</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
 		<section class="contact services-pg-contact">
 			<div class="contact__container">
 				<h2 class="contact__heading">Get a Free Counsultation for Your Case.</h2>

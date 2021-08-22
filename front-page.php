@@ -312,7 +312,7 @@ get_header();
 		</section> -->
 
 		<section class="news">
-		
+		<div class="news__container-main">
 		<h1 class="news__heading">Latest News</h1>
 			<div class="news__line-container">
 				<div class="news__line"></div>
@@ -349,6 +349,7 @@ get_header();
             }
         }
 	?>
+			</div>
 			</div>
 		</section>
 	</main>

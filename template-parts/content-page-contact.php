@@ -68,7 +68,7 @@
 						</div>
 						<div class="col-2-item-two">
 							<span class="col-2-item-span">Address</span>
-							<p class="col-2-text">64 Litigation Street, London, LE1 4NE</p>
+							<p class="col-2-text col-2-text-address">64 Litigation Street, London, LE1 4NE</p>
 						</div>
 					</div>
 
