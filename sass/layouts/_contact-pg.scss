@@ -5,6 +5,9 @@
       padding-left: 1.8rem;
       padding-right: 1.8rem;
     }
+    @include responsive(laptop) {
+      padding: 6rem 4rem;
+    }
   }
   &__banner-image-background {
     background-image: url("images/legal-aspire-solicitors-team.jpg");
@@ -54,6 +57,9 @@
   }
   &__intro-desc {
     font-family: $thirdFont;
+    @include responsive(laptop) {
+      width: 90%;
+    }
   }
   &__social-icon {
     color: $LightNavy !important;
@@ -108,6 +114,10 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
     }
+    @include responsive(laptop) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+    }
   }
   &__contact-info-wrapper {
     display: flex;
@@ -138,5 +148,10 @@
     background-color: rgb(0, 0, 0);
     height: 3px;
     width: 10%;
+  }
+}
+.col-2-text-address {
+  @include responsive(laptop) {
+    width: 60%;
   }
 }

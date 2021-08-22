@@ -64,6 +64,10 @@
       padding-left: 1.8rem;
       padding-right: 1.8rem;
     }
+    @include responsive(laptop) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
   }
   &__item-one-wrapper {
     padding-top: 3rem;
@@ -162,6 +166,11 @@
   &__team-members-job-title {
     margin-top: 0;
   }
+  &__team-members-title a {
+    @include responsive(laptop) {
+      font-size: 1.1rem;
+    }
+  }
   &__team-members-wrapper {
     display: grid;
     gap: 1.1rem;
@@ -169,6 +178,10 @@
     @include responsive(tablet) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
+    }
+    @include responsive(laptop) {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
     }
   }
   &__team-members-link-wrapper {

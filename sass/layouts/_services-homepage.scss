@@ -5,6 +5,13 @@
       padding-left: 1.8rem;
       padding-right: 1.8rem;
     }
+    @include responsive(laptop) {
+      padding: 6rem 4rem;
+    }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+    }
   }
   &__title {
     font-family: $thirdFont;
@@ -42,6 +49,11 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 1fr);
+    }
+    @include responsive(laptop) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin-top: 4.5rem;
     }
   }
   &__item-1,

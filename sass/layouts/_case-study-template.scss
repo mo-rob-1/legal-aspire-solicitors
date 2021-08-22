@@ -6,6 +6,11 @@
     padding-left: 1.8rem;
     padding-right: 1.8rem;
   }
+  @include responsive(laptop) {
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 
 .case-study-overview-heading,
@@ -101,6 +106,11 @@
     padding-left: 3.6rem;
     padding-right: 3.6rem;
   }
+  @include responsive(laptop) {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 700px;
+  }
 }
 .case-study-main-content h3 {
   font-family: $primaryFont !important;
@@ -129,6 +139,9 @@
 .case-study-card-title a {
   font-family: $primaryFont;
   color: #000;
+  @include responsive(laptop) {
+    font-size: 1.6rem;
+  }
 }
 .case-study-card-excerpt {
   margin-bottom: 2.5rem;

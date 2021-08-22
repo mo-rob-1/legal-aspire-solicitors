@@ -6,6 +6,11 @@
     padding-left: 1.8rem;
     padding-right: 1.8rem;
   }
+  @include responsive(laptop) {
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
 }
 .team-member-main-profile-overview-wrapper {
   @include responsive(tablet) {
@@ -26,6 +31,11 @@
     padding-left: 3.6rem;
     padding-right: 3.6rem;
   }
+  @include responsive(laptop) {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 700px;
+  }
 }
 .team-member-main-content h2 {
   font-family: $primaryFont;
@@ -42,6 +52,11 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+  @include responsive(laptop) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 6rem;
+  }
 }
 
 .team-member-icon-img {
@@ -52,6 +67,9 @@
   margin-top: 1rem;
   margin-bottom: 0.6rem;
   font-family: $primaryFont;
+  @include responsive(laptop) {
+    font-size: 1.1rem;
+  }
 }
 .team-member-contact-us {
   font-family: $primaryFont;
@@ -62,6 +80,10 @@
   @include responsive(tablet) {
     padding-left: 3.6rem;
     padding-right: 3.6rem;
+    margin: 0 auto;
+    max-width: 700px;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
   }
 }
 .team-member-form-info {

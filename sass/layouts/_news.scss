@@ -1,9 +1,26 @@
 .news {
-  padding: 4rem 1rem;
   background-color: #fafafa;
   @include responsive(tablet) {
     padding-left: 1.8rem;
     padding-right: 1.8rem;
+  }
+  @include responsive(laptop) {
+    padding: 6rem 4rem;
+  }
+  &__container-main {
+    padding: 4rem 1rem;
+    @include responsive(tablet) {
+      padding-left: 1.8rem;
+      padding-right: 1.8rem;
+    }
+    @include responsive(laptop) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+    }
   }
   &__container {
     display: grid;
@@ -20,6 +37,10 @@
     align-items: center;
     justify-content: center;
     margin-top: 0.6rem;
+    @include responsive(laptop) {
+      align-items: left;
+      justify-content: left;
+    }
   }
   &__line {
     height: 3px;
@@ -33,6 +54,9 @@
     font-family: $primaryFont;
     text-align: center;
     margin: 0;
+    @include responsive(laptop) {
+      text-align: left;
+    }
   }
   &__card {
     transition: 0.2s ease-in;
@@ -93,6 +117,9 @@
     background-color: $LightNavy;
     padding: 8px;
     font-weight: bold;
+    @include responsive(tablet) {
+      font-size: 16px;
+    }
   }
   &__month {
     padding: 8px;

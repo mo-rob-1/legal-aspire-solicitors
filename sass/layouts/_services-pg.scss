@@ -10,6 +10,13 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
     }
+    @include responsive(laptop) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr;
+      margin-top: 2rem;
+    }
   }
   &__text-container {
     padding: 1rem;
@@ -22,6 +29,11 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
       gap: 4rem;
+    }
+    @include responsive(laptop) {
+      padding-top: 6rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
     }
   }
   &__intro-title {

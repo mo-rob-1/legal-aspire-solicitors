@@ -10,6 +10,13 @@
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: 1fr;
     }
+    @include responsive(laptop) {
+      padding: 4rem;
+    }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+    }
   }
   &__heading {
     font-family: $primaryFont;

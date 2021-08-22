@@ -1,9 +1,9 @@
 .counter {
+  background-color: $Black;
   &__container {
     text-align: center;
     padding: 4rem 1rem;
     display: grid;
-    background-color: $Black;
     color: #fff;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -15,6 +15,13 @@
       padding-right: 1.8rem;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1fr;
+    }
+    @include responsive(laptop) {
+      padding: 4rem;
+    }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
     }
   }
   &__title {

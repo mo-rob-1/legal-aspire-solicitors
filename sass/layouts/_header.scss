@@ -60,6 +60,10 @@
       padding-left: 1.8rem;
       padding-right: 1.8rem;
     }
+    @include responsive(laptop) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
   }
   &__number-wrapper {
     display: none;

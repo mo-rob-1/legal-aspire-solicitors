@@ -19,6 +19,10 @@
       padding-left: 1.8rem;
       padding-right: 1.8rem;
     }
+    @include responsive(laptop) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
   }
   &__item-one {
     background-image: url("images/gavel.jpg");
@@ -37,6 +41,14 @@
     font-family: $primaryFont;
     font-weight: bold;
     color: #fff;
+    @include responsive(tablet) {
+      font-size: 2.5rem;
+    }
+    @include responsive(laptop) {
+      font-size: 3rem;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
   }
   &__item-subheading {
     font-weight: bold;
@@ -49,6 +61,9 @@
     font-family: $thirdFont;
     @include responsive(tablet) {
       width: 65%;
+    }
+    @include responsive(laptop) {
+      width: 45%;
     }
   }
   &__item-link-container {

@@ -10,6 +10,13 @@
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: 1fr;
     }
+    @include responsive(laptop) {
+      padding: 6rem 4rem;
+    }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+    }
   }
   &__logo-link {
     font-family: "Julius Sans One", sans-serif;
@@ -98,6 +105,7 @@
   &__newsletter-title {
     color: #fff;
     font-weight: bold;
+    font-family: $thirdFont;
   }
   &__col-3 {
     margin-top: 3rem;
