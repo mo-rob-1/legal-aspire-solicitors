@@ -663,8 +663,7 @@ textarea {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 6rem;
+	gap: 3rem;
 }
 
 @media only screen and (min-width: 600px) {
@@ -1400,10 +1399,18 @@ label {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #fff;
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+	.hero__item-subheading {
+		margin-bottom: 1rem;
+	}
 }
 
 .hero__item-desc {
 	font-family: "Jost", sans-serif;
+	margin-top: 0;
 }
 
 @media only screen and (min-width: 600px) {
@@ -1415,6 +1422,7 @@ label {
 @media only screen and (min-width: 1024px) {
 	.hero__item-desc {
 		width: 45%;
+		margin-top: 1rem;
 	}
 }
 
@@ -1845,12 +1853,6 @@ label {
 	}
 }
 
-@media only screen and (min-width: 1024px) {
-	.news {
-		padding: 6rem 4rem;
-	}
-}
-
 .news__container-main {
 	padding: 4rem 1rem;
 }
@@ -1866,6 +1868,8 @@ label {
 	.news__container-main {
 		padding-left: 4rem;
 		padding-right: 4rem;
+		padding-top: 6rem;
+		padding-bottom: 6rem;
 	}
 }
 
@@ -1998,6 +2002,12 @@ label {
 @media only screen and (min-width: 600px) {
 	.news__day {
 		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.news__day {
+		font-size: 24px;
 	}
 }
 
@@ -2238,12 +2248,7 @@ label {
 .news-pg__title {
 	font-family: "Julius Sans One", sans-serif;
 	color: #112236;
-}
-
-@media only screen and (min-width: 600px) {
-	.news-pg__title {
-		margin-top: 1rem;
-	}
+	margin-top: 1rem;
 }
 
 .news-pg__excerpt {
@@ -3271,7 +3276,7 @@ label {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 		grid-template-rows: 1fr;
-		gap: 18px;
+		gap: 60px;
 		padding-left: 1.8rem;
 		margin-top: 3rem;
 	}
@@ -3280,7 +3285,12 @@ label {
 @media only screen and (min-width: 1024px) {
 	.blog-col {
 		padding-left: 4rem;
+		gap: 100px;
 	}
+}
+
+.blog-col-2 > .widget-area {
+	padding: 0;
 }
 
 @media only screen and (min-width: 600px) {
@@ -3301,7 +3311,14 @@ label {
 		padding-right: 1.8rem;
 		margin-top: 3rem;
 		margin-bottom: 3rem;
-		max-width: 800px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.comments-area {
+		margin: 0 auto;
+		max-width: 650px;
+		margin-bottom: 3rem;
 	}
 }
 
@@ -3395,10 +3412,18 @@ label {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 		grid-template-rows: 1fr;
-		gap: 18px;
+		gap: 60px;
 		padding-left: 1.6rem;
 		padding-right: 1.6rem;
 		margin-top: 3rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.entry-content-service {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		gap: 100px;
 	}
 }
 
@@ -3407,10 +3432,18 @@ label {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 		grid-template-rows: 1fr;
-		gap: 18px;
+		gap: 60px;
 		padding-left: 1.6rem;
 		padding-right: 1.6rem;
 		margin-top: 3rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.entry-content-sector {
+		gap: 100px;
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 }
 
@@ -3562,7 +3595,10 @@ h3 {
 	.case-study-main-content {
 		padding-left: 0;
 		padding-right: 0;
-		max-width: 700px;
+		margin: 0 auto;
+		max-width: 650px;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 	}
 }
 
@@ -3676,6 +3712,13 @@ h3 {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.team-member-main-profile-overview-wrapper {
+		margin: 0 auto;
+		max-width: 650px;
+	}
+}
+
 @media only screen and (min-width: 600px) {
 	.team-member-profile-overview-desc {
 		margin-top: 0;
@@ -3694,7 +3737,9 @@ h3 {
 	.team-member-main-content {
 		padding-left: 0;
 		padding-right: 0;
-		max-width: 700px;
+		margin: 0 auto;
+		max-width: 650px;
+		margin-top: 4rem;
 	}
 }
 
@@ -3756,7 +3801,7 @@ h3 {
 		padding-left: 3.6rem;
 		padding-right: 3.6rem;
 		margin: 0 auto;
-		max-width: 700px;
+		max-width: 600px;
 		margin-top: 6rem;
 		margin-bottom: 6rem;
 	}
@@ -3833,6 +3878,16 @@ textarea {
 		margin-top: 4rem;
 		padding-left: 3.6rem;
 		padding-right: 3.6rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.location-main-content {
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+		max-width: 650px;
+		margin-top: 4rem;
 	}
 }
 
@@ -3947,8 +4002,15 @@ textarea {
 
 @media only screen and (min-width: 600px) {
 	.nav-links {
-		padding-left: 3.6rem;
-		padding-right: 3.6rem;
+		padding-left: 1.8rem;
+		padding-right: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.nav-links {
+		padding-left: 4rem;
+		padding-right: 4rem;
 	}
 }
 
@@ -3966,6 +4028,7 @@ textarea {
 @media only screen and (min-width: 1024px) {
 	.contact-pg__container {
 		padding: 6rem 4rem;
+		padding-bottom: 2rem;
 	}
 }
 
@@ -4136,7 +4199,7 @@ textarea {
 		grid-template-columns: 2fr 1fr;
 		grid-template-rows: 1fr;
 		margin-top: 2rem;
-		gap: 2rem;
+		gap: 4rem;
 	}
 }
 
@@ -4204,6 +4267,7 @@ textarea {
 	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
+	line-height: 1.5;
 }
 
 .about-us-pg__filter {
