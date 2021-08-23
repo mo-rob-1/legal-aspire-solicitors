@@ -19,6 +19,10 @@
     grid-template-rows: 1fr;
     gap: 1rem;
   }
+  @include responsive(laptop) {
+    margin: 0 auto;
+    max-width: 650px;
+  }
 }
 .team-member-profile-overview-desc {
   @include responsive(tablet) {
@@ -34,7 +38,10 @@
   @include responsive(laptop) {
     padding-left: 0;
     padding-right: 0;
-    max-width: 700px;
+    // max-width: 700px;
+    margin: 0 auto;
+    max-width: 650px;
+    margin-top: 4rem;
   }
 }
 .team-member-main-content h2 {
@@ -81,7 +88,7 @@
     padding-left: 3.6rem;
     padding-right: 3.6rem;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 600px;
     margin-top: 6rem;
     margin-bottom: 6rem;
   }

@@ -7,6 +7,7 @@
     }
     @include responsive(laptop) {
       padding: 6rem 4rem;
+      padding-bottom: 2rem;
     }
   }
   &__banner-image-background {
@@ -141,7 +142,7 @@
       grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr;
       margin-top: 2rem;
-      gap: 2rem;
+      gap: 4rem;
     }
   }
   &__line {

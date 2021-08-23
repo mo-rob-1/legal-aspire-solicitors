@@ -62,9 +62,14 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr;
-    gap: 18px;
+    gap: 60px;
     padding-left: 1.6rem;
     padding-right: 1.6rem;
     margin-top: 3rem;
+  }
+  @include responsive(laptop) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    gap: 100px;
   }
 }

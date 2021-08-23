@@ -56,14 +56,20 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #fff;
+    margin-bottom: 0;
+    @include responsive(laptop) {
+      margin-bottom: 1rem;
+    }
   }
   &__item-desc {
     font-family: $thirdFont;
+    margin-top: 0;
     @include responsive(tablet) {
       width: 65%;
     }
     @include responsive(laptop) {
       width: 45%;
+      margin-top: 1rem;
     }
   }
   &__item-link-container {

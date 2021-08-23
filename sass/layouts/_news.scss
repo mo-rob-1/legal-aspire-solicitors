@@ -4,9 +4,9 @@
     padding-left: 1.8rem;
     padding-right: 1.8rem;
   }
-  @include responsive(laptop) {
-    padding: 6rem 4rem;
-  }
+  // @include responsive(laptop) {
+  //   padding: 6rem 4rem;
+  // }
   &__container-main {
     padding: 4rem 1rem;
     @include responsive(tablet) {
@@ -16,6 +16,8 @@
     @include responsive(laptop) {
       padding-left: 4rem;
       padding-right: 4rem;
+      padding-top: 6rem;
+      padding-bottom: 6rem;
     }
     @include responsive(laptop-lg) {
       margin: 0 auto;
@@ -119,6 +121,9 @@
     font-weight: bold;
     @include responsive(tablet) {
       font-size: 16px;
+    }
+    @include responsive(laptop) {
+      font-size: 24px;
     }
   }
   &__month {

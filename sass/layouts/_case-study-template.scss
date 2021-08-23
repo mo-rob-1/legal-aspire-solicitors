@@ -109,7 +109,11 @@
   @include responsive(laptop) {
     padding-left: 0;
     padding-right: 0;
-    max-width: 700px;
+    // max-width: 700px;
+    margin: 0 auto;
+    max-width: 650px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
   }
 }
 .case-study-main-content h3 {
