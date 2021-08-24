@@ -39,10 +39,11 @@
     width: 40%;
     margin: 0 auto;
     @include responsive(tablet) {
-      width: 20%;
+      max-width: 20%;
     }
     @include responsive(laptop) {
       margin: inherit;
+      max-width: 10%;
     }
   }
   &__card-container {
