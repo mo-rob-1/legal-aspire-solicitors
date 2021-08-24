@@ -17,6 +17,14 @@
     @include responsive(laptop) {
       padding: 4rem;
     }
+    @include responsive(laptop-lg) {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
   }
   &__img {
     display: block;
@@ -25,6 +33,9 @@
     object-fit: cover;
     @include responsive(tablet) {
       height: 100%;
+    }
+    @include responsive(laptop) {
+      object-fit: unset;
     }
   }
   &__title {
@@ -45,6 +56,9 @@
     font-weight: lighter;
     margin-bottom: 0;
     line-height: 1.6;
+    @include responsive(laptop-lg) {
+      width: 80%;
+    }
   }
   &__line {
     background-color: white;

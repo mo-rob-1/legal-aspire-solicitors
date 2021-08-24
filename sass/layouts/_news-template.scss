@@ -49,7 +49,11 @@
   margin-bottom: 2rem;
   @include responsive(tablet) {
     display: flex;
+    gap: 0;
   }
+}
+.entry-meta-container--col > .entry-meta {
+  margin-right: 1.5rem;
 }
 .nav-subtitle {
   font-weight: bold;
@@ -74,6 +78,11 @@
   @include responsive(laptop) {
     padding-left: 4rem;
     gap: 100px;
+  }
+  @include responsive(laptop-lg) {
+    margin: 0 auto;
+    max-width: 1300px;
+    margin-top: 4rem;
   }
 }
 .blog-col-2 > .widget-area {

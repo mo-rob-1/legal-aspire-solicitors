@@ -55,6 +55,11 @@
       align-items: center;
       align-items: center;
     }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+      margin-bottom: 3rem;
+    }
   }
   &__item-one-wrapper,
   &__item-two-wrapper,
@@ -79,6 +84,11 @@
       gap: 3rem;
       padding-top: 5rem;
     }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+      gap: 3rem;
+    }
   }
   &__item-two-wrapper {
     @include responsive(tablet) {
@@ -88,6 +98,10 @@
       padding-top: 4rem;
       padding-bottom: 2rem;
     }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+    }
   }
   &__team {
     padding-top: 3rem;
@@ -95,6 +109,10 @@
     @include responsive(tablet) {
       padding-top: 4rem;
       padding-bottom: 6rem;
+    }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
     }
   }
   &__intro-title {

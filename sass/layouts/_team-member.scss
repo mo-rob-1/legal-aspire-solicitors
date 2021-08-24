@@ -11,6 +11,10 @@
     padding-left: 4rem;
     padding-right: 4rem;
   }
+  @include responsive(laptop-lg) {
+    margin: 0 auto;
+    max-width: 1300px;
+  }
 }
 .team-member-main-profile-overview-wrapper {
   @include responsive(tablet) {

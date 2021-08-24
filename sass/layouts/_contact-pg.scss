@@ -9,6 +9,10 @@
       padding: 6rem 4rem;
       padding-bottom: 2rem;
     }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+    }
   }
   &__banner-image-background {
     background-image: url("images/legal-aspire-solicitors-team.jpg");
@@ -60,6 +64,9 @@
     font-family: $thirdFont;
     @include responsive(laptop) {
       width: 90%;
+    }
+    @include responsive(laptop-lg) {
+      width: 70%;
     }
   }
   &__social-icon {

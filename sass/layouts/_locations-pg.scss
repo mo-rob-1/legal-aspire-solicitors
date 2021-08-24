@@ -17,6 +17,12 @@
       grid-template-rows: 1fr;
       margin-top: 2rem;
     }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+    }
   }
   &__text-container {
     padding: 1rem;
@@ -33,6 +39,10 @@
     @include responsive(laptop) {
       padding-left: 4rem;
       padding-right: 4rem;
+    }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
     }
   }
   &__intro-title {

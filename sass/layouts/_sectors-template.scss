@@ -13,6 +13,12 @@
     padding-left: 4rem;
     padding-right: 4rem;
   }
+  @include responsive(laptop-lg) {
+    margin: 0 auto;
+    max-width: 1300px;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+  }
 }
 .col-2-sector {
   padding-top: 3rem;
