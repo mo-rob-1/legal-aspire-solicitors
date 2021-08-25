@@ -660,13 +660,12 @@ textarea {
 	padding: 4rem 1rem;
 	display: grid;
 	color: #fff;
-	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	gap: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.counter__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -678,6 +677,7 @@ textarea {
 @media only screen and (min-width: 1024px) {
 	.counter__container {
 		padding: 4rem;
+		gap: 0;
 	}
 }
 
@@ -1063,7 +1063,7 @@ label {
 	padding-bottom: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.timeline {
 		padding-top: 4rem;
 		padding-bottom: 4rem;
@@ -1194,6 +1194,12 @@ label {
 	align-items: center;
 }
 
+@media only screen and (min-width: 768px) {
+	.header__banner {
+		display: none;
+	}
+}
+
 .header__social-icon {
 	color: #fff;
 }
@@ -1250,10 +1256,9 @@ label {
 	background-color: #112236;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.header__wrapper-mobile {
-		padding-left: 1.8rem;
-		padding-right: 1.8rem;
+		padding: 2rem 1.8rem;
 	}
 }
 
@@ -1328,6 +1333,10 @@ label {
 	font-family: "Jost", sans-serif;
 }
 
+.uk-active a {
+	font-family: "Jost", sans-serif !important;
+}
+
 .hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
 	background-color: #cccccc;
 	height: 70vh;
@@ -1343,7 +1352,7 @@ label {
 	flex-direction: column;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -1379,7 +1388,7 @@ label {
 	color: #fff;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.hero__item-heading {
 		font-size: 2.5rem;
 	}
@@ -1413,7 +1422,7 @@ label {
 	margin-top: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.hero__item-desc {
 		width: 65%;
 	}
@@ -1481,7 +1490,7 @@ label {
 	padding-bottom: 3.9rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -1511,7 +1520,7 @@ label {
 	color: #fff;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact__heading {
 		margin-bottom: 0;
 	}
@@ -1521,7 +1530,7 @@ label {
 	margin-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact__link-container {
 		margin-top: 0;
 		display: grid;
@@ -1535,10 +1544,10 @@ label {
 	border: 2px solid #fff;
 	padding: 1rem 2rem;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact__link {
 		padding: 1rem 3rem;
 	}
@@ -1548,7 +1557,7 @@ label {
 	padding: 4rem 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.services__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -1581,7 +1590,7 @@ label {
 	font-weight: bold;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.services__heading {
 		width: 90%;
 	}
@@ -1594,7 +1603,7 @@ label {
 	margin-top: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.services__desc {
 		margin: 0;
 	}
@@ -1606,7 +1615,7 @@ label {
 	width: 40%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.services__line {
 		max-width: 20%;
 	}
@@ -1624,7 +1633,7 @@ label {
 	overflow: hidden;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.services__item-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -1676,7 +1685,7 @@ label {
 	transform-origin: 50% 50%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.services__text-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -1686,7 +1695,7 @@ label {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.experience__container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -1700,7 +1709,7 @@ label {
 	color: #fff;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.experience__text-container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -1724,6 +1733,13 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1920px) {
+	.experience__text-container {
+		padding-left: 6rem;
+		padding-right: 6rem;
+	}
+}
+
 .experience__img {
 	display: block;
 	width: 100%;
@@ -1731,7 +1747,7 @@ label {
 	object-fit: cover;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.experience__img {
 		height: 100%;
 	}
@@ -1752,10 +1768,22 @@ label {
 	letter-spacing: 2px;
 }
 
+@media only screen and (min-width: 1440px) {
+	.experience__title {
+		margin-bottom: 0;
+	}
+}
+
 .experience__heading {
 	font-family: "Julius Sans One", sans-serif;
 	color: #fff;
 	font-weight: bold;
+}
+
+@media only screen and (min-width: 1920px) {
+	.experience__heading {
+		font-size: 2.4rem;
+	}
 }
 
 .experience__desc {
@@ -1768,6 +1796,12 @@ label {
 @media only screen and (min-width: 1440px) {
 	.experience__desc {
 		width: 80%;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.experience__desc {
+		width: 60%;
 	}
 }
 
@@ -1881,7 +1915,7 @@ label {
 	background-color: #fafafa;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -1892,7 +1926,7 @@ label {
 	padding: 4rem 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news__container-main {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -1921,7 +1955,7 @@ label {
 	margin-top: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news__container {
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: 1fr;
@@ -1949,7 +1983,7 @@ label {
 	width: 40%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news__line {
 		max-width: 20%;
 	}
@@ -2040,7 +2074,7 @@ label {
 	font-weight: bold;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news__day {
 		font-size: 16px;
 	}
@@ -2054,7 +2088,7 @@ label {
 
 @media only screen and (min-width: 1440px) {
 	.news__day {
-		font-size: 36px;
+		font-size: 30px;
 	}
 }
 
@@ -2075,7 +2109,7 @@ label {
 	color: #fff;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.footer__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -2100,7 +2134,7 @@ label {
 
 .footer__logo-link {
 	font-family: "Julius Sans One", sans-serif;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-weight: bold;
 	font-size: 1.4rem;
 	color: #fff !important;
@@ -2118,7 +2152,7 @@ label {
 	margin-bottom: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.footer__contact-container {
 		margin-top: 0;
 		margin-bottom: 2rem;
@@ -2133,7 +2167,7 @@ label {
 	display: flex;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.footer__number-container {
 		margin-bottom: 2rem;
 	}
@@ -2159,7 +2193,7 @@ label {
 	margin-bottom: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.footer__social-container {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -2204,7 +2238,7 @@ label {
 	margin-top: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.footer__col-2 {
 		margin-top: 0;
 	}
@@ -2221,7 +2255,7 @@ label {
 	margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.footer__col-3 {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -2232,13 +2266,13 @@ label {
 	margin-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.footer__col-4 {
 		margin-top: 0;
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.footer__logo-link-wrapper {
 		margin-bottom: 1rem;
 	}
@@ -2266,7 +2300,7 @@ label {
 	margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news-pg__container {
 		padding-left: 1.8rem;
 	}
@@ -2300,6 +2334,12 @@ label {
 
 .news-pg__excerpt {
 	font-family: "Jost", sans-serif;
+}
+
+@media only screen and (min-width: 1440px) {
+	.news-pg__excerpt {
+		max-width: 80%;
+	}
 }
 
 .news-pg__banner-image-background {
@@ -2344,7 +2384,7 @@ label {
 	font-size: 2.3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news-pg__column-wrapper {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
@@ -2359,13 +2399,13 @@ label {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news-pg__column-two {
 		margin-top: 4rem;
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.news-pg__column-two > #secondary {
 		padding-top: 0;
 		padding-right: 1.8rem;
@@ -2393,7 +2433,7 @@ label {
 	margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.services-pg__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -2426,7 +2466,7 @@ label {
 	padding-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.services-pg__text-container {
 		padding-top: 4rem;
 		padding-left: 1.8rem;
@@ -2485,7 +2525,7 @@ label {
 
 .services-pg__container-item {
 	background: #f7f7f7;
-	padding: 1.3rem 1rem 3rem 1rem;
+	padding: 2rem 1rem 3rem 1rem;
 }
 
 .services-pg__permalink-container {
@@ -2495,7 +2535,7 @@ label {
 .services-pg__permalink {
 	background-color: #061123;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-family: "Jost", sans-serif;
 	text-transform: uppercase;
 	padding: 1rem;
@@ -2557,7 +2597,7 @@ label {
 	margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.sectors-pg__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -2590,7 +2630,7 @@ label {
 	padding-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.sectors-pg__text-container {
 		padding-top: 4rem;
 		padding-left: 1.8rem;
@@ -2652,7 +2692,7 @@ label {
 
 .sectors-pg__container-item {
 	background: #f7f7f7;
-	padding: 1.3rem 1rem 3rem 1rem;
+	padding: 2rem 1rem 3rem 1rem;
 }
 
 .sectors-pg__permalink-container {
@@ -2662,7 +2702,7 @@ label {
 .sectors-pg__permalink {
 	background-color: #061123;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-family: "Jost", sans-serif;
 	text-transform: uppercase;
 	padding: 1rem;
@@ -2724,7 +2764,7 @@ label {
 	margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-studies-pg__container {
 		padding-right: 1.8rem;
 		padding-left: 1.8rem;
@@ -2753,7 +2793,7 @@ label {
 	padding-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-studies-pg__text-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -2824,7 +2864,7 @@ label {
 .case-studies-pg__permalink {
 	background-color: #061123;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-family: "Jost", sans-serif;
 	text-transform: uppercase;
 	padding: 1rem;
@@ -2879,7 +2919,7 @@ label {
 	background-color: #374454;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-studies-pg .case-studies-pg__css-grid-wrapper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -2911,7 +2951,7 @@ label {
 	margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.team-pg__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -2944,7 +2984,7 @@ label {
 	padding-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.team-pg__text-container {
 		padding-top: 4rem;
 		padding-left: 1.8rem;
@@ -3110,7 +3150,7 @@ label {
 	margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.locations-pg__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -3143,7 +3183,7 @@ label {
 	padding-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.locations-pg__text-container {
 		padding-top: 4rem;
 		padding-left: 1.8rem;
@@ -3237,7 +3277,7 @@ label {
 .locations-pg__permalink {
 	background-color: #112236;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-family: "Jost", sans-serif;
 	text-transform: uppercase;
 	padding: 1rem;
@@ -3314,6 +3354,10 @@ label {
 	color: #000;
 }
 
+.locations-pg__contact-link:hover {
+	color: #000 !important;
+}
+
 .locations-pg .services-pg-contact {
 	background-color: #374454;
 }
@@ -3345,7 +3389,7 @@ label {
 	font-size: 1.3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.entry-title-custom {
 		font-size: 2.3rem;
 	}
@@ -3385,7 +3429,7 @@ label {
 	margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.entry-meta-container--col {
 		display: flex;
 		gap: 0;
@@ -3410,7 +3454,7 @@ label {
 	font-weight: bold;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.blog-col {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
@@ -3440,7 +3484,7 @@ label {
 	padding: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.blog-col-2 > .widget-area {
 		padding-top: 0;
 	}
@@ -3452,7 +3496,7 @@ label {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.comments-area {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -3464,12 +3508,12 @@ label {
 @media only screen and (min-width: 1024px) {
 	.comments-area {
 		margin: 0 auto;
-		max-width: 650px;
+		max-width: 750px;
 		margin-bottom: 3rem;
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.entry-featured-image-wrapper > .post-thumbnail img {
 		height: 400px;
 		object-fit: cover;
@@ -3480,7 +3524,7 @@ label {
 	padding: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.col-2 {
 		padding-top: 0;
 	}
@@ -3490,7 +3534,7 @@ label {
 	padding-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.col-2-service {
 		padding-top: 0;
 	}
@@ -3554,7 +3598,7 @@ label {
 	background-color: #374454;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.entry-content-service {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
@@ -3583,7 +3627,7 @@ label {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.entry-content-sector {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
@@ -3616,7 +3660,7 @@ label {
 	padding-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.col-2-sector {
 		padding-top: 0;
 	}
@@ -3632,7 +3676,7 @@ h3 {
 	padding: 3rem 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.entry-content-case-study {
 		padding-top: 4rem;
 		padding-bottom: 4rem;
@@ -3665,7 +3709,7 @@ h3 {
 	margin-bottom: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-study-review-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -3674,7 +3718,7 @@ h3 {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-study-overview-main-icon-wrapper {
 		margin-top: 2.5rem;
 		display: grid;
@@ -3689,7 +3733,7 @@ h3 {
 	gap: 2rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-study-3-col-wrapper {
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: 1fr;
@@ -3702,9 +3746,9 @@ h3 {
 	width: 40%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-study-line {
-		width: 20%;
+		width: 10%;
 	}
 }
 
@@ -3718,7 +3762,7 @@ h3 {
 	font-weight: 700;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-study-time {
 		margin-bottom: 0;
 	}
@@ -3748,13 +3792,13 @@ h3 {
 	line-height: 1.5;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.entry-title-case-study {
 		font-size: 2rem;
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-study-main-content {
 		margin-top: 2rem;
 		margin-bottom: 2rem;
@@ -3790,7 +3834,7 @@ h3 {
 	height: 30px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.case-study-icon {
 		object-fit: contain;
 	}
@@ -3840,7 +3884,7 @@ h3 {
 .case-study-card-link {
 	background-color: #061123;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-family: "Jost", sans-serif;
 	text-transform: uppercase;
 	padding: 1rem;
@@ -3859,7 +3903,7 @@ h3 {
 	font-family: "Jost", sans-serif;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.team-member-entry-content {
 		padding-top: 4rem;
 		padding-left: 1.8rem;
@@ -3882,12 +3926,12 @@ h3 {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.team-member-main-profile-overview-wrapper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: 1fr;
-		gap: 1rem;
+		gap: 2rem;
 	}
 }
 
@@ -3898,13 +3942,13 @@ h3 {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.team-member-profile-overview-desc {
 		margin-top: 0;
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.team-member-main-content {
 		margin-top: 4rem;
 		padding-left: 3.6rem;
@@ -3935,7 +3979,7 @@ h3 {
 	margin-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.team-member-icon-wrapper {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
@@ -3947,6 +3991,7 @@ h3 {
 		grid-template-columns: repeat(4, 1fr);
 		grid-template-rows: 1fr;
 		margin-top: 6rem;
+		gap: 0;
 	}
 }
 
@@ -3975,7 +4020,7 @@ h3 {
 	margin-top: 7rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.team-member-form {
 		padding-left: 3.6rem;
 		padding-right: 3.6rem;
@@ -4020,6 +4065,7 @@ h3 {
 	text-transform: uppercase;
 	padding: 1rem;
 	border-radius: 0;
+	cursor: pointer;
 }
 
 .entry-bg-color {
@@ -4036,7 +4082,7 @@ textarea {
 	font-family: "Jost", sans-serif;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.location-entry-content {
 		padding-top: 4rem;
 		padding-left: 1.8rem;
@@ -4059,7 +4105,7 @@ textarea {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.location-main-content {
 		margin-top: 4rem;
 		padding-left: 3.6rem;
@@ -4094,7 +4140,7 @@ textarea {
 	gap: 0.8rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.location-form {
 		padding-left: 3.6rem;
 		padding-right: 3.6rem;
@@ -4105,7 +4151,7 @@ textarea {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.location-col-wrapper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -4164,7 +4210,7 @@ textarea {
 	padding: 3rem 1.5rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.location-col-2 {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -4186,7 +4232,7 @@ textarea {
 	color: #112236;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.nav-links {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -4204,7 +4250,7 @@ textarea {
 	padding: 3rem 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact-pg__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -4268,7 +4314,7 @@ textarea {
 	font-size: 2.3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact-pg__intro-wrapper {
 		width: 60%;
 	}
@@ -4305,7 +4351,7 @@ textarea {
 	margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact-pg__form {
 		margin-top: 0;
 	}
@@ -4331,6 +4377,7 @@ textarea {
 	text-transform: uppercase;
 	padding: 1rem;
 	border-radius: 0;
+	cursor: pointer;
 }
 
 .contact-pg__item-2-wrapper {
@@ -4357,7 +4404,7 @@ textarea {
 	gap: 2rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact-pg__cards-container {
 		margin-top: 2rem;
 		grid-template-columns: repeat(2, 1fr);
@@ -4388,11 +4435,15 @@ textarea {
 	color: #000;
 }
 
+.contact-pg__contact-link:hover {
+	color: #000 !important;
+}
+
 .contact-pg__card-img-wrapper img {
 	width: 100%;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.contact-pg__2-col {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
@@ -4418,7 +4469,7 @@ textarea {
 	padding: 3rem 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.about-us-pg__img {
 		height: 100%;
 		object-fit: cover;
@@ -4473,7 +4524,7 @@ textarea {
 	margin-bottom: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.about-us-pg__filter {
 		display: flex;
 		flex-direction: column;
@@ -4494,7 +4545,7 @@ textarea {
 	padding: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.about-us-pg__item-one-wrapper, .about-us-pg__item-two-wrapper, .about-us-pg__filter, .about-us-pg__team {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -4512,7 +4563,7 @@ textarea {
 	padding-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.about-us-pg__item-one-wrapper {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -4526,13 +4577,17 @@ textarea {
 	.about-us-pg__item-one-wrapper {
 		margin: 0 auto;
 		max-width: 1300px;
-		gap: 3rem;
+		gap: 6rem;
 	}
 }
 
-@media only screen and (min-width: 600px) {
+.about-us-pg__item-two-wrapper {
+	display: grid;
+	gap: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
 	.about-us-pg__item-two-wrapper {
-		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: 1fr;
 		padding-top: 4rem;
@@ -4540,10 +4595,19 @@ textarea {
 	}
 }
 
+@media only screen and (min-width: 1024px) {
+	.about-us-pg__item-two-wrapper {
+		padding-top: 6rem;
+		padding-bottom: 4rem;
+		gap: 2.5rem;
+	}
+}
+
 @media only screen and (min-width: 1440px) {
 	.about-us-pg__item-two-wrapper {
 		margin: 0 auto;
 		max-width: 1300px;
+		gap: 4rem;
 	}
 }
 
@@ -4552,7 +4616,7 @@ textarea {
 	padding-bottom: 4rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.about-us-pg__team {
 		padding-top: 4rem;
 		padding-bottom: 6rem;
@@ -4561,6 +4625,7 @@ textarea {
 
 @media only screen and (min-width: 1440px) {
 	.about-us-pg__team {
+		padding-top: 6rem;
 		margin: 0 auto;
 		max-width: 1300px;
 	}
@@ -4574,7 +4639,7 @@ textarea {
 	letter-spacing: 2px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.about-us-pg__intro-title {
 		margin-top: 1.5rem;
 	}
@@ -4602,11 +4667,23 @@ textarea {
 	font-family: "Jost", sans-serif;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.about-us-pg__item-filter-desc {
 		text-align: center;
 		width: 60%;
 		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.about-us-pg__item-filter-desc {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.about-us-pg__item-filter-desc {
+		width: 40%;
 	}
 }
 
@@ -4636,7 +4713,7 @@ textarea {
 .about-us-pg__team-members-link {
 	background-color: #061123;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-family: "Jost", sans-serif;
 	text-transform: uppercase;
 	padding: 1rem;
@@ -4669,7 +4746,7 @@ textarea {
 	margin-top: 3rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.about-us-pg__team-members-wrapper {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(2, 1fr);
@@ -4708,7 +4785,7 @@ textarea {
 	padding: 4rem 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.solicitors__container {
 		padding-left: 1.8rem;
 		padding-right: 1.8rem;
@@ -4758,7 +4835,7 @@ textarea {
 	margin: 0 auto;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.solicitors__line {
 		max-width: 20%;
 	}
@@ -4777,7 +4854,7 @@ textarea {
 	gap: 2rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.solicitors__card-container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
@@ -4825,7 +4902,7 @@ textarea {
 	border: 2px solid #fff;
 	padding: 1rem 2rem;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .solicitors__btn-wrapper {
@@ -4842,14 +4919,14 @@ textarea {
 	}
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 	.solicitors__line-wrapper {
 		display: flex;
 		justify-content: center;
 	}
 }
 
-@media only screen and (min-width: 600px) and (min-width: 1024px) {
+@media only screen and (min-width: 768px) and (min-width: 1024px) {
 	.solicitors__line-wrapper {
 		justify-content: left;
 	}
