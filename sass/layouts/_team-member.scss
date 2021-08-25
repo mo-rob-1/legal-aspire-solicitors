@@ -21,7 +21,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    gap: 1rem;
+    gap: 2rem;
   }
   @include responsive(laptop) {
     margin: 0 auto;
@@ -67,6 +67,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     margin-top: 6rem;
+    gap: 0;
   }
 }
 
@@ -126,6 +127,7 @@
   text-transform: uppercase;
   padding: 1rem;
   border-radius: 0;
+  cursor: pointer;
 }
 .entry-bg-color {
   height: 400px;
