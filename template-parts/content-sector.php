@@ -59,7 +59,7 @@
 
 		<div class="col-2-sector">
 			<div class="col-2-list-container">
-				<h2 class="col-2-title">Sectors</h2>
+				<h3 class="col-2-title">Sectors</h2>
 				<ul class="col-2-list">
 					<a class="col-2-link" href="<?php echo site_url('/sectors/real-estate-law') ?>"><li class="col-2-list-item">Real Estate Law</li></a>
 					<a class="col-2-link" href="<?php echo site_url('/sectors/recruitment-law') ?>"><li class="col-2-list-item">Recruitment Law</li></a>
@@ -70,7 +70,7 @@
 				</ul>
 			</div>
 			<div class="col-2-container">
-				<h2 class="col-2-title">Contact</h2>
+				<h3 class="col-2-title">Contact</h3>
 				<div class="col-2-contact-container">
 					<div class="col-2-item-wrapper">
 						<div class="col-2-item-one">
