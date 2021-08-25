@@ -31,6 +31,9 @@
   }
   &__excerpt {
     font-family: $thirdFont;
+    @include responsive(laptop-lg) {
+      max-width: 80%;
+    }
   }
   &__banner-image-background {
     background-image: url("images/legal-aspire-solicitors-team.jpg");
