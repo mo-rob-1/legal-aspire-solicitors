@@ -100,7 +100,7 @@
   &__permalink {
     background-color: $LightNavy;
     color: #fff !important;
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: $thirdFont;
     text-transform: uppercase;
     padding: 1rem;
@@ -164,6 +164,9 @@
   }
   &__contact-link {
     color: #000;
+  }
+  &__contact-link:hover {
+    color: #000 !important;
   }
   .services-pg-contact {
     background-color: #374454;

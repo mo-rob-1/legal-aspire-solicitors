@@ -59,7 +59,7 @@
   height: 3px;
   width: 40%;
   @include responsive(tablet) {
-    width: 20%;
+    width: 10%;
   }
 }
 
@@ -168,7 +168,7 @@
 .case-study-card-link {
   background-color: #061123;
   color: #fff !important;
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: "Jost", sans-serif;
   text-transform: uppercase;
   padding: 1rem;

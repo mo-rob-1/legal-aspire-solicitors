@@ -74,7 +74,7 @@
   }
   &__container-item {
     background: #f7f7f7;
-    padding: 1.3rem 1rem 3rem 1rem;
+    padding: 2rem 1rem 3rem 1rem;
   }
   &__permalink-container {
     margin-top: 2.5rem;
@@ -82,7 +82,7 @@
   &__permalink {
     background-color: $DarkNavy;
     color: #fff !important;
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: $thirdFont;
     text-transform: uppercase;
     padding: 1rem;
