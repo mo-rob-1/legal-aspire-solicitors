@@ -59,7 +59,7 @@
 
 		<div class="col-2-service">
 			<div class="col-2-list-container">
-				<h2 class="col-2-title">Services</h2>
+				<h3 class="col-2-title">Services</h3>
 				<ul class="col-2-list">
 					<a class="col-2-link" href="<?php echo site_url('/services/pensions') ?>"><li class="col-2-list-item">Pensions</li></a>
 					<a class="col-2-link" href="<?php echo site_url('/services/immigration') ?>"><li class="col-2-list-item">Immigration</li></a>
@@ -71,7 +71,7 @@
 				</ul>
 			</div>
 			<div class="col-2-container">
-				<h2 class="col-2-title">Contact</h2>
+				<h3 class="col-2-title">Contact</h3>
 				<div class="col-2-contact-container">
 					<div class="col-2-item-wrapper">
 						<div class="col-2-item-one">
