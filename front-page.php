@@ -72,7 +72,7 @@ get_header();
 			<div class="contact__container">
 				<h2 class="contact__heading">Get a Free Counsultation for Your Case.</h2>
 				<div class="contact__link-container">
-					<a class="contact__link" href="#">Contact Us</a>
+					<a class="contact__link" href="<?php echo site_url('/contact') ?>">Contact Us</a>
 				</div>
 			</div>
 		</section>
@@ -93,52 +93,64 @@ get_header();
 
 			<div class="services__item-container">
 				<div class="services__item-1">
-					<div class="services__item-image-wrapper">
-						<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
-					</div>
-					<div class="services__item-text-content">
-						<h3 class="services__item-title">Personal Injury</h3>
-					</div>
+					<a href="<?php echo site_url('/services/personal-injury') ?>">
+						<div class="services__item-image-wrapper">
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+						</div>
+						<div class="services__item-text-content">
+							<h3 class="services__item-title">Personal Injury</h3>
+						</div>
+					</a>
 				</div>
 				<div class="services__item-2">
-					<div class="services__item-image-wrapper">
-						<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
-					</div>
-					<div class="services__item-text-content">
-						<h3 class="services__item-title">Medical Negligence</h3>
-					</div>
+					<a href="<?php echo site_url('/services/medical-negligence') ?>">
+						<div class="services__item-image-wrapper">
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+						</div>
+						<div class="services__item-text-content">
+							<h3 class="services__item-title">Medical Negligence</h3>
+						</div>
+					</a>
 				</div>					
 				<div class="services__item-3">
-					<div class="services__item-image-wrapper">
-						<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
-					</div>
-					<div class="services__item-text-content">
-						<h3 class="services__item-title">Employment</h3>
-					</div>
+					<a href="<?php echo site_url('/services/employment') ?>">
+						<div class="services__item-image-wrapper">
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+						</div>
+						<div class="services__item-text-content">
+							<h3 class="services__item-title">Employment</h3>
+						</div>
+					</a>
 				</div>
 				<div class="services__item-4">
-					<div class="services__item-image-wrapper">
-						<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
-					</div>
-					<div class="services__item-text-content">
-						<h3 class="services__item-title">Property</h3>
-					</div>
+					<a href="<?php echo site_url('/services/property') ?>">
+						<div class="services__item-image-wrapper">
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+						</div>
+						<div class="services__item-text-content">
+							<h3 class="services__item-title">Property</h3>
+						</div>
+					</a>
 				</div>
 				<div class="services__item-5">
-					<div class="services__item-image-wrapper">
-						<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
-					</div>
-					<div class="services__item-text-content">
-						<h3 class="services__item-title">Family</h3>
-					</div>
+					<a href="<?php echo site_url('/services/family') ?>">
+						<div class="services__item-image-wrapper">
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+						</div>
+						<div class="services__item-text-content">
+							<h3 class="services__item-title">Family</h3>
+						</div>
+					</a>
 				</div>
 				<div class="services__item-6">
-					<div class="services__item-image-wrapper">
-						<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
-					</div>
-					<div class="services__item-text-content">
-						<h3 class="services__item-title">Immigration</h3>
-					</div>
+					<a href="<?php echo site_url('/services/immigration') ?>">
+						<div class="services__item-image-wrapper">
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+						</div>
+						<div class="services__item-text-content">
+							<h3 class="services__item-title">Immigration</h3>
+						</div>
+					</a>
 				</div>
 			</div>
 
@@ -340,7 +352,7 @@ get_header();
 				<div class="news__featured-img"><?php the_post_thumbnail(); ?></div>
 				<div class="news__text-container">
 					<p class="news__author">By <?php the_author(); ?></p>
-					<h2 class="news__title"><?php the_title(); ?></h2>
+					<h3 class="news__title"><?php the_title(); ?></h3>
 					<div class="news__excerpt"><?php the_excerpt(); ?></div>
 					<a class="news__link" href="<?php the_permalink(); ?>">Read more</a>
 				</div>
