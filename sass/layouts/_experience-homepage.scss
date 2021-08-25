@@ -25,6 +25,10 @@
       padding-left: 3rem;
       padding-right: 3rem;
     }
+    @include responsive(desktop) {
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
   }
   &__img {
     display: block;
@@ -45,11 +49,17 @@
     text-transform: uppercase;
     font-family: $thirdFont;
     letter-spacing: 2px;
+    @include responsive(laptop-lg) {
+      margin-bottom: 0;
+    }
   }
   &__heading {
     font-family: $primaryFont;
     color: #fff;
     font-weight: bold;
+    @include responsive(desktop) {
+      font-size: 2.4rem;
+    }
   }
   &__desc {
     font-family: $thirdFont;
@@ -58,6 +68,9 @@
     line-height: 1.6;
     @include responsive(laptop-lg) {
       width: 80%;
+    }
+    @include responsive(desktop) {
+      width: 60%;
     }
   }
   &__line {
