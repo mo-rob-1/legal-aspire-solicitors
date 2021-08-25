@@ -98,6 +98,7 @@
     text-transform: uppercase;
     padding: 1rem;
     border-radius: 0;
+    cursor: pointer;
   }
   &__item-2-wrapper {
     margin-top: 4rem;
@@ -139,6 +140,9 @@
   }
   &__contact-link {
     color: #000;
+  }
+  &__contact-link:hover {
+    color: #000 !important;
   }
   &__card-img-wrapper img {
     width: 100%;
