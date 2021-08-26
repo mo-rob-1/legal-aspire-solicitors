@@ -745,6 +745,7 @@ input[type="reset"],
 input[type="submit"] {
 	border: none !important;
 	border-radius: none !important;
+	cursor: pointer;
 }
 
 .footer__newsletter-desc {
@@ -1054,11 +1055,14 @@ label {
 	display: block;
 }
 
+.timeline-wrapper {
+	background-color: #061123;
+}
+
 .timeline {
 	position: relative;
 	max-width: 1200px;
 	margin: 0 auto;
-	background-color: #061123;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
@@ -1185,6 +1189,10 @@ label {
 	}
 }
 
+.header {
+	background-color: #112236;
+}
+
 .header__banner {
 	background-color: #111111;
 	color: #fff;
@@ -1269,6 +1277,13 @@ label {
 	}
 }
 
+@media only screen and (min-width: 1440px) {
+	.header__wrapper-mobile {
+		margin: 0 auto;
+		max-width: 1300px;
+	}
+}
+
 .header__number-wrapper {
 	display: none;
 }
@@ -1337,6 +1352,14 @@ label {
 	font-family: "Jost", sans-serif !important;
 }
 
+@media only screen and (min-width: 1440px) {
+	.navigation {
+		margin: 0 auto !important;
+		max-width: 1300px !important;
+		padding-bottom: 3rem !important;
+	}
+}
+
 .hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
 	background-color: #cccccc;
 	height: 70vh;
@@ -1363,6 +1386,20 @@ label {
 	.hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
 		padding-left: 4rem;
 		padding-right: 4rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
+		padding-left: 7rem;
+		padding-right: 7rem;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.hero__item-one, .hero__item-two, .hero__item-three, .hero__item-four {
+		padding-left: 10rem;
+		padding-right: 10rem;
 	}
 }
 
@@ -1432,6 +1469,18 @@ label {
 	.hero__item-desc {
 		width: 45%;
 		margin-top: 1rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.hero__item-desc {
+		width: 35%;
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	.hero__item-desc {
+		width: 25%;
 	}
 }
 
@@ -1749,13 +1798,7 @@ label {
 
 @media only screen and (min-width: 768px) {
 	.experience__img {
-		height: 100%;
-	}
-}
-
-@media only screen and (min-width: 1024px) {
-	.experience__img {
-		object-fit: unset;
+		height: 500px;
 	}
 }
 
@@ -2140,6 +2183,12 @@ label {
 	color: #fff !important;
 }
 
+@media only screen and (min-width: 768px) {
+	.footer__logo-link {
+		font-size: inherit;
+	}
+}
+
 .footer__address {
 	font-family: "Jost", sans-serif;
 	line-height: 2;
@@ -2185,7 +2234,7 @@ label {
 
 .footer__number:hover {
 	color: #fff !important;
-	text-decoration: underline;
+	text-decoration: none !important;
 }
 
 .footer__social-container {
@@ -2231,7 +2280,7 @@ label {
 }
 
 .footer__nav-link:hover {
-	text-decoration: underline;
+	text-decoration: none !important;
 }
 
 .footer__col-2 {
@@ -2285,6 +2334,10 @@ label {
 	justify-content: center;
 	padding: 1rem;
 	color: #fff !important;
+}
+
+.footer__newsletter-btn {
+	cursor: pointer;
 }
 
 .fa-map-marker-alt {
@@ -3083,7 +3136,7 @@ label {
 .team-pg__permalink {
 	background-color: #112236;
 	color: #fff !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-family: "Jost", sans-serif;
 	text-transform: uppercase;
 	padding: 1rem;
@@ -3565,7 +3618,7 @@ label {
 }
 
 .col-2-link {
-	text-decoration: none;
+	text-decoration: none !important;
 	color: #000;
 	font-family: "Jost", sans-serif;
 }
@@ -3587,6 +3640,10 @@ label {
 .col-2-text {
 	font-family: "Jost", sans-serif;
 	margin: 0;
+}
+
+.col-2-text:hover {
+	color: #000 !important;
 }
 
 .col-2-item-span {
@@ -4189,6 +4246,7 @@ textarea {
 	text-transform: uppercase;
 	padding: 1rem;
 	border-radius: 0;
+	cursor: pointer;
 }
 
 .location-icon-wrapper {
@@ -4934,6 +4992,20 @@ textarea {
 
 .solicitors__card-img img {
 	width: 100%;
+}
+
+.error-404 {
+	text-align: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Jost", sans-serif;
+}
+
+.page-title-404 {
+	font-family: "Julius Sans One", sans-serif;
 }
 
 /*--------------------------------------------------------------
