@@ -31,7 +31,7 @@
   color: #000 !important;
 }
 .col-2-link {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #000;
   font-family: $thirdFont;
 }
@@ -49,6 +49,9 @@
 .col-2-text {
   font-family: $thirdFont;
   margin: 0;
+}
+.col-2-text:hover {
+  color: #000 !important;
 }
 .col-2-item-span {
   font-family: $thirdFont;
