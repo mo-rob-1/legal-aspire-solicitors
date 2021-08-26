@@ -36,10 +36,7 @@
     height: 340px;
     object-fit: cover;
     @include responsive(tablet) {
-      height: 100%;
-    }
-    @include responsive(laptop) {
-      object-fit: unset;
+      height: 500px;
     }
   }
   &__title {
