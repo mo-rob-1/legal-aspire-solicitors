@@ -38,9 +38,9 @@
 				</div>
 
 				<div class="footer__social-container">
-					<a class="footer__social-icon" href="#"><i class="fab fa-twitter"></i></a>
-					<a class="footer__social-icon" href="#"><i class="fab fa-instagram"></i></a>
-					<a class="footer__social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+					<a class="footer__social-icon" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+					<a class="footer__social-icon" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+					<a class="footer__social-icon" href="https://en-gb.facebook.com/"><i class="fab fa-facebook-f"></i></a>
 				</div>
 			</div>
 			<div class="footer__col-2">
@@ -69,10 +69,6 @@
 				<h3 class="footer__newsletter-title">Newsletter</h3>
 				<p class="footer__newsletter-desc">Signup for our newsletter to get the latest news, updates and special offers in your inbox.</p>
 				<form class="newsletter__form">
-					<!-- <div class="footer__label-wrapper">
-						<input class="footer__newsletter-input" type="email" id="emails" name="emails" multiple>
-						<label class="footer__newsletter-label" for="name">Your Name</label>
-					</div> -->
 						<div class="foo">
 							<input class="input" type="text" placeholder="Email">
 							<label class="label">Email</label>
