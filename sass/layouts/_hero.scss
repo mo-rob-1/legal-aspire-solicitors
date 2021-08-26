@@ -23,6 +23,14 @@
       padding-left: 4rem;
       padding-right: 4rem;
     }
+    @include responsive(laptop-lg) {
+      padding-left: 7rem;
+      padding-right: 7rem;
+    }
+    @include responsive(desktop) {
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
   }
   &__item-one {
     background-image: url("images/gavel.jpg");
@@ -70,6 +78,12 @@
     @include responsive(laptop) {
       width: 45%;
       margin-top: 1rem;
+    }
+    @include responsive(laptop-lg) {
+      width: 35%;
+    }
+    @include responsive(desktop) {
+      width: 25%;
     }
   }
   &__item-link-container {
