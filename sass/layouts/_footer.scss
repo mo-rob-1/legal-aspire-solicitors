@@ -24,6 +24,9 @@
     font-weight: bold;
     font-size: 1.4rem;
     color: #fff !important;
+    @include responsive(tablet) {
+      font-size: inherit;
+    }
   }
   &__address {
     font-family: $thirdFont;
@@ -58,7 +61,7 @@
   }
   &__number:hover {
     color: #fff !important;
-    text-decoration: underline;
+    text-decoration: none !important;
   }
   &__social-container {
     margin-top: 4rem;
@@ -94,7 +97,7 @@
     text-decoration: none;
   }
   &__nav-link:hover {
-    text-decoration: underline;
+    text-decoration: none !important;
   }
   &__col-2 {
     margin-top: 4rem;
@@ -133,6 +136,9 @@
     justify-content: center;
     padding: 1rem;
     color: #fff !important;
+  }
+  &__newsletter-btn {
+    cursor: pointer;
   }
 }
 
