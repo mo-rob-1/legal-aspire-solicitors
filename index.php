@@ -33,8 +33,6 @@ get_header();
 			if ( have_posts() ) {
 				while(have_posts()): the_post();
 			?>
-
-		
 					<div class="news-pg__container-item">
 						<div class="news-pg__thumbnail"><?php legal_aspire_solicitors_post_thumbnail(); ?></div>
 						<p class="news-pg__date"><?php legal_aspire_solicitors_posted_on(); ?></p>
@@ -42,8 +40,6 @@ get_header();
 						<div class="news-pg__excerpt"><?php the_excerpt(); ?></div>
 						<a class="news-pg__permalink" href="<?php the_permalink(); ?>">Read more</a>
 					</div>
-			
-
 			<?php endwhile; } ?>
 			</div>
 
