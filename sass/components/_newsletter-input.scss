@@ -4,12 +4,9 @@
 
 .input {
   background: transparent;
-  // background: #fff;
   width: 100%;
   padding: 8px !important;
   border: 2px solid #fff !important;
-  //   border: none;
-  //   border: 1px solid #000;
   outline: none;
   font-size: 1rem;
   border-radius: none !important;
@@ -20,14 +17,9 @@
 
   &:focus,
   &:not(:placeholder-shown) {
-    // &::placeholder {
-    //   opacity: 0.5;
-    // }
-
     & + label {
       top: -1.2rem;
       left: 0rem;
-      //   background-color: white;
       font-size: 0.75rem;
     }
   }
@@ -51,6 +43,7 @@ input[type="reset"],
 input[type="submit"] {
   border: none !important;
   border-radius: none !important;
+  cursor: pointer;
 }
 
 .footer__newsletter-desc {
@@ -71,9 +64,7 @@ input[type="submit"] {
   color: #fff !important;
   position: absolute;
   top: 8.5px;
-  //   top: calc(0.75rem + 5px);
   left: calc(0.75rem + 1px);
-  //   padding: 0 0.25rem;
   transition: all 0.15s ease-in-out;
   pointer-events: none;
   cursor: text;
@@ -98,29 +89,3 @@ textarea:focus {
   color: rgb(153, 153, 153) !important;
   border-radius: none !important;
 }
-
-// input[type="text"],
-// input[type="email"],
-// input[type="url"],
-// input[type="password"],
-// input[type="search"],
-// input[type="number"],
-// input[type="tel"],
-// input[type="range"],
-// input[type="date"],
-// input[type="month"],
-// input[type="week"],
-// input[type="time"],
-// input[type="datetime"],
-// input[type="datetime-local"],
-// input[type="color"],
-// textarea {
-//   border-radius: 0 !important;
-// }
-
-// button,
-// input[type="button"],
-// input[type="reset"],
-// input[type="submit"] {
-//   border-radius: 0 !important;
-// }
