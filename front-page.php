@@ -12,22 +12,6 @@
  * @package Legal_Aspire_Solicitors
  */
 
-$imageone = get_field('image_one');
-$pictureone = $imageone['sizes']['large'];
-$altone = $imageone['alt'];
-
-$imagetwo = get_field('image_two');
-$picturetwo = $imagetwo['sizes']['large'];
-$alttwo = $imagetwo['alt'];
-
-$imagethree = get_field('image_three');
-$picturethree = $imagethree['sizes']['large'];
-$altthree = $imagethree['alt'];
-
-$imagefour = get_field('image_four');
-$picturefour = $imagefour['sizes']['large'];
-$altfour = $imagefour['alt'];
-
 get_header();
 ?>
 	<main>
@@ -57,14 +41,15 @@ get_header();
 						<a href="<?php the_field('link__url_three'); ?>" class="hero__item-link"><?php the_field('link_name_three'); ?></a>
 					</div>
 				</div>
-				<div class="hero__item-four carousel-cell">
-					<h5 class="hero__item-subheading"><?php the_field('subheading_four'); ?></h5>
-					<h1 class="hero__item-heading"><?php the_field('heading_four'); ?></h1>
-					<p class="hero__item-desc"><?php the_field('description_four'); ?></p>
-					<div class="hero__item-link-container">
-						<a href="<?php the_field('link__url_four'); ?>" class="hero__item-link"><?php the_field('link_name_four'); ?></a>
+					<div class="hero__item-four carousel-cell">
+						<h5 class="hero__item-subheading"><?php the_field('subheading_four'); ?></h5>
+						<h1 class="hero__item-heading"><?php the_field('heading_four'); ?></h1>
+						<p class="hero__item-desc"><?php the_field('description_four'); ?></p>
+						<div class="hero__item-link-container">
+							<a href="<?php the_field('link__url_four'); ?>" class="hero__item-link"><?php the_field('link_name_four'); ?></a>
+						</div>
 					</div>
-				</div>
+				
 			</div>
 		</section>
 
@@ -173,14 +158,6 @@ get_header();
 
 		<section class="counter">
 			<div class="counter__container">
-				<!-- <div class="counter__item-1">
-					<p class="counter__number">500+</p>
-					<h5 class="counter__title">Happy Clients</h5>
-				</div>
-				<div class="counter__item-2">
-					<p class="counter__number">$2.5m</p>
-					<h5 class="counter__title">Won Cases</h5>
-				</div> -->
 				<div class="counter__item-3">
 					<p class="counter__number">20</p>
 					<h5 class="counter__title">Years in Business</h5>
@@ -239,89 +216,6 @@ get_header();
 			</div>
 			</div>
 		</section>
-
-		<!-- <section class="testimonials">
-			<h1 class="testimonials__heading">Testimonials</h1>
-			<div class="testimonials__line-container">
-				<div class="testimonials__line"></div>
-			</div>
-						<span class="span"><i class="fas fa-chevron-left"></i></span>
-						<span class="span"><i class="fas fa-chevron-right"></i></span>
-			<div class="testimonials__container">
-				<div class="testimonials__item-1 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_one'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_one'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_one'); ?></h4>
-				</div>
-				<div class="testimonials__item-2 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_two'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_two'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_two'); ?></h4>
-				</div>
-				<div class="testimonials__item-3 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_three'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_three'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_three'); ?></h4>
-				</div>
-				<div class="testimonials__item-4 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_four'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_four'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_four'); ?></h4>
-				</div>
-				<div class="testimonials__item-5 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_five'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_five'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_five'); ?></h4>
-				</div>
-				<div class="testimonials__item-6 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
-				</div>
-				<div class="testimonials__item-6 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
-				</div>
-				<div class="testimonials__item-6 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
-				</div>
-				<div class="testimonials__item-6 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
-				</div>
-				<div class="testimonials__item-6 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
-				</div>
-				<div class="testimonials__item-6 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
-				</div>
-				<div class="testimonials__item-6 testimonials__item">
-					<h3 class="testimonials__summary"><?php the_field('summary_six'); ?></h3>
-					<i class="fas fa-quote-left"></i>
-					<p class="testimonials__review"><?php the_field('review_six'); ?></p>
-					<h4 class="testimonials__name"><?php the_field('name_six'); ?></h4>
-				</div>
-			</div>
-		</section> -->
 
 		<section class="news">
 		<div class="news__container-main">
