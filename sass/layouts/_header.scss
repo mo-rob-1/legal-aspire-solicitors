@@ -1,6 +1,5 @@
 .header {
-  // &__container {
-  // }
+  background-color: $LightNavy;
   &__banner {
     background-color: $Black;
     color: #fff;
@@ -66,6 +65,10 @@
       padding-left: 4rem;
       padding-right: 4rem;
     }
+    @include responsive(laptop-lg) {
+      margin: 0 auto;
+      max-width: 1300px;
+    }
   }
   &__number-wrapper {
     display: none;
@@ -124,4 +127,11 @@
 }
 .uk-active a {
   font-family: $thirdFont !important;
+}
+.navigation {
+  @include responsive(laptop-lg) {
+    margin: 0 auto !important;
+    max-width: 1300px !important;
+    padding-bottom: 3rem !important;
+  }
 }
