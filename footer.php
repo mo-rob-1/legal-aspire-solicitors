@@ -47,10 +47,10 @@
 				<h3 class="footer__nav-title">Quick Links</h3>
 				<nav class="footer__nav">
 					<ul class="footer__nav-list">
-						<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">Home</a></li>
-            			<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">About</a></li>
-						<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">News</a></li>
-						<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">Contact</a></li>
+						<li class="footer__nav-list-item"><a class="footer__nav-link" href="<?php echo home_url(); ?>">Home</a></li>
+            			<li class="footer__nav-list-item"><a class="footer__nav-link" href="<?php echo site_url('/about-us') ?>">About Us</a></li>
+						<li class="footer__nav-list-item"><a class="footer__nav-link" href="<?php echo site_url('/news') ?>">News</a></li>
+						<li class="footer__nav-list-item"><a class="footer__nav-link" href="<?php echo site_url('/contact') ?>">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -58,10 +58,10 @@
 			<h3 class="footer__nav-title">Services</h3>
 				<nav class="footer__nav">
 					<ul class="footer__nav-list">
-						<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">Personal Injury</a></li>
-            			<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">Medical Negligence</a></li>
-						<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">Employment</a></li>
-						<li class="footer__nav-list-item"><a class="footer__nav-link" href="#">Family</a></li>
+						<li class="footer__nav-list-item"><a class="footer__nav-link" href="<?php echo site_url('/services/personal-injury') ?>">Personal Injury</a></li>
+            			<li class="footer__nav-list-item"><a class="footer__nav-link" href="<?php echo site_url('/services/medical-negligence') ?>">Medical Negligence</a></li>
+						<li class="footer__nav-list-item"><a class="footer__nav-link" href="<?php echo site_url('/services/employment') ?>">Employment</a></li>
+						<li class="footer__nav-list-item"><a class="footer__nav-link" href="<?php echo site_url('/services/family') ?>">Family</a></li>
 					</ul>
 				</nav>
 			</div>
