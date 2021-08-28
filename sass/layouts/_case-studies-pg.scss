@@ -85,9 +85,9 @@
     font-size: 0.9rem;
   }
   &__banner-image-background {
-    background-image: url("images/legal-aspire-solicitors-team.jpg");
+    background-image: url("images/judge-signing-document-at-desk.jpeg");
     height: 400px;
-    background-position: center;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -121,6 +121,9 @@
     font-weight: bold;
     color: #fff;
     font-size: 2.3rem;
+    @include responsive(laptop-lg) {
+      font-size: 3rem;
+    }
   }
   .services-pg-contact {
     background-color: #374454;
