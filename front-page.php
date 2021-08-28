@@ -80,7 +80,7 @@ get_header();
 				<div class="services__item-1">
 					<a href="<?php echo site_url('/services/personal-injury') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/wheelchair-user.jpg" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Personal Injury</h3>
@@ -90,7 +90,7 @@ get_header();
 				<div class="services__item-2">
 					<a href="<?php echo site_url('/services/medical-negligence') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/gavel-as-a-symbol-of-medical-justice-scaled.jpeg" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Medical Negligence</h3>
@@ -100,7 +100,7 @@ get_header();
 				<div class="services__item-3">
 					<a href="<?php echo site_url('/services/employment') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/judge-working-on-laptop.jpg" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Employment</h3>
@@ -110,7 +110,7 @@ get_header();
 				<div class="services__item-4">
 					<a href="<?php echo site_url('/services/property') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/house-model-and-blurred-real-estate-agent-on-background-scaled.jpeg" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Property</h3>
@@ -120,7 +120,7 @@ get_header();
 				<div class="services__item-5">
 					<a href="<?php echo site_url('/services/family') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/family-signing-a-contract-scaled.jpeg" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Family</h3>
@@ -130,7 +130,7 @@ get_header();
 				<div class="services__item-6">
 					<a href="<?php echo site_url('/services/immigration') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/passport-next-to-a-gavel-scaled.jpeg" alt="Image" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Immigration</h3>
@@ -145,7 +145,7 @@ get_header();
 		<section class="experience">
 			<div class="experience__container">	
 				<div class="experience__img-container">
-					<img class="experience__img" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/pexels-sora-shimazaki-5668473.jpg" alt="Image" />
+					<img class="experience__img" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/solicitor-writing-on-a-paper-scaled.jpeg" />
 				</div>
 				<div class="experience__text-container">
 					<h5 class="experience__title">Why Choose Us</h5>
