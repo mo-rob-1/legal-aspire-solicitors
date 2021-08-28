@@ -1404,19 +1404,20 @@ label {
 }
 
 .hero__item-one {
-	background-image: url("images/gavel.jpg");
+	background-image: url("images/judge-signing-document-at-desk.jpeg");
+	background-position: right center;
 }
 
 .hero__item-two {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/lawyer-standing-against-bookshelf.jpeg");
 }
 
 .hero__item-three {
-	background-image: url("images/three-lawyers-working-at-a-computer.jpg");
+	background-image: url("images/justice-symbol.jpeg");
 }
 
 .hero__item-four {
-	background-image: url("images/solicitors-coversation.jpg");
+	background-image: url("images/gavel-on-a-law-book.jpeg");
 }
 
 .hero__item-heading {
@@ -1724,6 +1725,7 @@ label {
 }
 
 .services__item-image {
+	filter: brightness(70%);
 	display: block;
 	width: 100%;
 	transition: transform 0.4s;
@@ -2396,9 +2398,9 @@ label {
 }
 
 .news-pg__banner-image-background {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/judge-signing-document-at-desk.jpeg");
 	height: 400px;
-	background-position: center;
+	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -2435,6 +2437,12 @@ label {
 	font-family: "Julius Sans One", sans-serif;
 	color: #fff;
 	font-size: 2.3rem;
+}
+
+@media only screen and (min-width: 1440px) {
+	.news-pg__banner-title {
+		font-size: 3rem;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -2597,9 +2605,9 @@ label {
 }
 
 .services-pg__banner-image-background {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/justice-symbol.jpeg");
 	height: 400px;
-	background-position: center;
+	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -2637,6 +2645,12 @@ label {
 	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
+}
+
+@media only screen and (min-width: 1440px) {
+	.services-pg__banner-title {
+		font-size: 3rem;
+	}
 }
 
 .services-pg .services-pg-contact {
@@ -2764,7 +2778,7 @@ label {
 }
 
 .sectors-pg__banner-image-background {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/gavel-on-a-law-book.jpeg");
 	height: 400px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2804,6 +2818,12 @@ label {
 	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
+}
+
+@media only screen and (min-width: 1440px) {
+	.sectors-pg__banner-title {
+		font-size: 3rem;
+	}
 }
 
 .sectors-pg .sectors-pg-contact {
@@ -2926,9 +2946,9 @@ label {
 }
 
 .case-studies-pg__banner-image-background {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/judge-signing-document-at-desk.jpeg");
 	height: 400px;
-	background-position: center;
+	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -2966,6 +2986,12 @@ label {
 	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
+}
+
+@media only screen and (min-width: 1440px) {
+	.case-studies-pg__banner-title {
+		font-size: 3rem;
+	}
 }
 
 .case-studies-pg .services-pg-contact {
@@ -3145,7 +3171,7 @@ label {
 }
 
 .team-pg__banner-image-background {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/lawyer-standing-against-bookshelf.jpeg");
 	height: 400px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -3185,6 +3211,12 @@ label {
 	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
+}
+
+@media only screen and (min-width: 1440px) {
+	.team-pg__banner-title {
+		font-size: 3rem;
+	}
 }
 
 .team-pg .services-pg-contact {
@@ -3339,9 +3371,9 @@ label {
 }
 
 .locations-pg__banner-image-background {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/judge-signing-document-at-desk.jpeg");
 	height: 400px;
-	background-position: center;
+	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -3379,6 +3411,12 @@ label {
 	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
+}
+
+@media only screen and (min-width: 1440px) {
+	.locations-pg__banner-title {
+		font-size: 3rem;
+	}
 }
 
 .locations-pg__contact-info-wrapper {
@@ -3434,7 +3472,7 @@ label {
 }
 
 .entry-title-custom {
-	color: #fff;
+	color: black;
 	font-weight: bold;
 	line-height: 1.5;
 	margin-top: 0;
@@ -3445,6 +3483,13 @@ label {
 @media only screen and (min-width: 768px) {
 	.entry-title-custom {
 		font-size: 2.3rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.entry-title-custom {
+		font-size: 3rem;
+		margin-top: initial;
 	}
 }
 
@@ -3727,6 +3772,10 @@ label {
 h2,
 h3 {
 	font-family: "Julius Sans One", sans-serif;
+}
+
+.content-white-heading {
+	color: #fff !important;
 }
 
 .entry-content-case-study {
@@ -4304,6 +4353,11 @@ textarea {
 	}
 }
 
+.heading-background-color {
+	background-color: #112236;
+	padding: 1rem;
+}
+
 .contact-pg__container {
 	padding: 3rem 1rem;
 }
@@ -4330,9 +4384,9 @@ textarea {
 }
 
 .contact-pg__banner-image-background {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/judge-signing-document-at-desk.jpeg");
 	height: 400px;
-	background-position: center;
+	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -4370,6 +4424,12 @@ textarea {
 	font-weight: bold;
 	color: #fff;
 	font-size: 2.3rem;
+}
+
+@media only screen and (min-width: 1440px) {
+	.contact-pg__banner-title {
+		font-size: 3rem;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -4495,6 +4555,7 @@ textarea {
 
 .contact-pg__contact-link:hover {
 	color: #000 !important;
+	text-decoration: none !important;
 }
 
 .contact-pg__card-img-wrapper img {
@@ -4535,9 +4596,9 @@ textarea {
 }
 
 .about-us-pg__banner-image-background {
-	background-image: url("images/legal-aspire-solicitors-team.jpg");
+	background-image: url("images/judge-signing-document-at-desk.jpeg");
 	height: 400px;
-	background-position: center;
+	background-position: right center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -4576,6 +4637,12 @@ textarea {
 	color: #fff;
 	font-size: 2.3rem;
 	line-height: 1.5;
+}
+
+@media only screen and (min-width: 1440px) {
+	.about-us-pg__banner-title {
+		font-size: 3rem;
+	}
 }
 
 .about-us-pg__filter {
@@ -4992,6 +5059,8 @@ textarea {
 
 .solicitors__card-img img {
 	width: 100%;
+	height: 360px;
+	object-fit: cover;
 }
 
 .error-404 {
