@@ -46,7 +46,7 @@
 
 						<div class="contact-pg__input-wrapper">
 							<label class="contact-pg__form-label" for="email">Email:</label><br>
-							<input class="contact-pg__form-input" type="text" name="name">
+							<input class="contact-pg__form-input" type="text" name="email">
 						</div>
 					</div>
 
