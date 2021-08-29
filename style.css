@@ -2487,6 +2487,10 @@ label {
 	padding: 0.7rem;
 }
 
+.posted-on {
+	font-family: "Jost", sans-serif;
+}
+
 .services-pg__container {
 	display: grid;
 	gap: 2rem;
@@ -4046,6 +4050,10 @@ h3 {
 		margin: 0 auto;
 		max-width: 650px;
 	}
+}
+
+.team-member-profile-overview-desc {
+	font-family: "Jost", sans-serif;
 }
 
 @media only screen and (min-width: 768px) {
