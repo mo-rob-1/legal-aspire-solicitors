@@ -29,6 +29,7 @@
   }
 }
 .team-member-profile-overview-desc {
+  font-family: $thirdFont;
   @include responsive(tablet) {
     margin-top: 0;
   }
