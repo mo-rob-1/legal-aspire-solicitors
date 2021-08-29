@@ -72,7 +72,9 @@ get_header();
 					<div class="services__line"></div>
 				</div>
 				<div class="services__text-col-2">
-					<p class="services__desc">We offer the best legal services in the world. We are a small team of highly qualified professionals who are dedicated to providing the best legal advice and services to our clients. Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad.</p>
+					<p class="services__desc">We offer the best legal services in the world. We are a small team of highly qualified professionals who are dedicated to providing the best legal advice and services to our clients. 
+					We have 15 years of experience and our legal experts will provide you with the best available advice and representation. We specialise in areas such as personal injury, medical negligence, employment, property, family and immigration. 
+					We have offices across the UK and will offer you a free consultation for your case.</p>
 				</div>
 			</div>
 
@@ -151,7 +153,8 @@ get_header();
 					<h5 class="experience__title">Why Choose Us</h5>
 					<h1 class="experience__heading">15 Years of Experience</h1>
 					<div class="experience__line"></div>
-					<p class="experience__desc">Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad.</p>
+					<p class="experience__desc">Our highly experienced solicitors take great pride in being one of the best legal teams in the UK. 
+					We are here to help you achieve your desired result by listening to any questions you have and guiding you through the legal process.</p>
 				</div>
 			</div>
 		</section>

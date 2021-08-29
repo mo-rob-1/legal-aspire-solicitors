@@ -85,7 +85,7 @@
 
             <div class="location-input-wrapper">
                 <label class="location-form-label" for="email">Email:</label><br>
-                <input class="location-form-input" type="text" name="name">
+                <input class="location-form-input" type="text" name="email">
             </div>
 
             <div class="location-input-wrapper">

@@ -22,7 +22,7 @@ get_header();
 			<div class="locations-pg__text-container">
 				<div class="locations-pg__text-col-1">
 					<p class="locations-pg__intro-title">Legal Aspire Solicitors</p>
-					<h1 class="locations-pg__intro-heading">We can help you in the following practice areas.</h1>
+					<h1 class="locations-pg__intro-heading">We are based all over the UK</h1>
 				</div>
 				<div class="locations-pg__text-col-2">
 					<p class="locations-pg__intro-desc">Sale vivendum senserit an eum, ubique noster ex pro, at vel accommodare ullamcorper. Cu duo minim vocibus menandri, at omittam voluptatum usu. 

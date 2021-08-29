@@ -20,9 +20,9 @@
 	<div class="contact-pg__item-1-wrapper">
 		<div class="contact-pg__intro-wrapper">
 			<h2 class="contact-pg__intro-title">We Are Here To Help</h2>
-			<p class="contact-pg__intro-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+			<p class="contact-pg__intro-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 			Praesentium facere sit enim aliquid non reiciendis porro mollitia veniam soluta, 
-			itaque dolores assumenda, perspiciatis earum.</p>
+			itaque dolores assumenda perspiciatis earum.</p>
 			<div class="contact-pg__socials-wrapper">
 				<a class="contact-pg__social-icon" href="#"><i class="fab fa-twitter"></i></a>
 				<a class="contact-pg__social-icon" href="#"><i class="fab fa-instagram"></i></a>

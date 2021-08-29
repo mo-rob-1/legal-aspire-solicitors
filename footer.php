@@ -67,7 +67,7 @@
 			</div>
 			<div class="footer__col-4">
 				<h3 class="footer__newsletter-title">Newsletter</h3>
-				<p class="footer__newsletter-desc">Signup for our newsletter to get the latest news, updates and special offers in your inbox.</p>
+				<p class="footer__newsletter-desc">Sign up to our newsletter to get the latest news, updates and services in your inbox.</p>
 				<form class="newsletter__form">
 						<div class="foo">
 							<input class="input" type="text" placeholder="Email">

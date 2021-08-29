@@ -22,7 +22,7 @@ get_header();
 			<div class="case-studies-pg__text-container">
 				<div class="case-studies-pg__text-col-1">
 					<p class="case-studies-pg__intro-title">Our Recent Case Studies</p>
-					<h1 class="case-studies-pg__intro-heading">We can help you in the following practice areas.</h1>
+					<h1 class="case-studies-pg__intro-heading">Read our case studies to see what we have achieved</h1>
 				</div>
 				<div class="case-studies-pg__text-col-2">
 					<p class="case-studies-pg__intro-desc">Check out some of our recent projects. Professionals with exceptional legal background and years of law expertise.Impressive number of successful law cases in our portfolio is a confirmation of our quality.</p>

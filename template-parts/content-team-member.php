@@ -37,7 +37,7 @@
         <?php legal_aspire_solicitors_post_thumbnail(); ?>
         </div>
         
-        <p class="team-member-profile-overview-desc"><?php the_field('profile_overview'); ?></p>
+        <h4 class="team-member-profile-overview-desc"><?php the_field('profile_overview'); ?></h4>
     </div>
 
     <div class="team-member-main-content">

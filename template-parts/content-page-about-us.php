@@ -32,17 +32,17 @@
 
         <div class="about-us-pg__item-two-wrapper">
             <div class="about-us-pg__item-two-col-1">
-                <h3 class="about-us-pg__item-two-title"><span class="span-number">01</span> Experience</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">01</span> Reputation</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>
             <div class="about-us-pg__item-two-col-2">
-                <h3 class="about-us-pg__item-two-title"><span class="span-number">02</span> Experience</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">02</span> Respect</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>
             <div class="about-us-pg__item-two-col-3">
-                <h3 class="about-us-pg__item-two-title"><span class="span-number">03</span> Experience</h3>
+                <h3 class="about-us-pg__item-two-title"><span class="span-number">03</span> Result</h3>
                 <p class="about-us-pg__item-two-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis aspernatur a consequuntur tenetur. 
                 Necessitatibus aliquid totam in distinctio hic deserunt</p>
             </div>
@@ -73,6 +73,30 @@
     <div class="timeline">
         <div class="container left">
             <div class="content">
+            <h2 class="about-us-pg__timeline-heading">2021</h2>
+            <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+            <h2 class="about-us-pg__timeline-heading">2020</h2>
+            <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
+            <h2 class="about-us-pg__timeline-heading">2019</h2>
+            <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+        </div>
+        <div class="container right">
+            <div class="content">
+            <h2 class="about-us-pg__timeline-heading">2018</h2>
+            <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+            </div>
+        </div>
+        <div class="container left">
+            <div class="content">
             <h2 class="about-us-pg__timeline-heading">2017</h2>
             <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
             </div>
@@ -80,30 +104,6 @@
         <div class="container right">
             <div class="content">
             <h2 class="about-us-pg__timeline-heading">2016</h2>
-            <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content">
-            <h2 class="about-us-pg__timeline-heading">2015</h2>
-            <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content">
-            <h2 class="about-us-pg__timeline-heading">2012</h2>
-            <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-        </div>
-        <div class="container left">
-            <div class="content">
-            <h2 class="about-us-pg__timeline-heading">2011</h2>
-            <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-            </div>
-        </div>
-        <div class="container right">
-            <div class="content">
-            <h2 class="about-us-pg__timeline-heading">2007</h2>
             <p class="about-us-pg__timeline-desc">Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
             </div>
         </div>

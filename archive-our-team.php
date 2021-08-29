@@ -22,7 +22,7 @@ get_header();
 			<div class="team-pg__text-container">
 				<div class="team-pg__text-col-1">
 					<p class="team-pg__intro-title">The Legal Team</p>
-					<h1 class="team-pg__intro-heading">We can help you in the following practice areas.</h1>
+					<h1 class="team-pg__intro-heading">Our legal experts will provide the best available advice and representation</h1>
 				</div>
 				<div class="team-pg__text-col-2">
 					<p class="team-pg__intro-desc">Sale vivendum senserit an eum, ubique noster ex pro, at vel accommodare ullamcorper. Cu duo minim vocibus menandri, at omittam voluptatum usu. 
