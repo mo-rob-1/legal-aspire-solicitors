@@ -131,14 +131,27 @@
   }
   &__copyright {
     font-family: $thirdFont;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
     color: #fff !important;
+    @include responsive(mobile-lg) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__copyright-wrapper {
+    padding: 1rem;
   }
   &__newsletter-btn {
     cursor: pointer;
+  }
+  &__copyright-link {
+    color: #fff !important;
+    text-decoration: underline !important;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  &__copyright-link:hover {
+    color: #fff !important;
   }
 }
 
