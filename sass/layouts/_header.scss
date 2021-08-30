@@ -19,6 +19,9 @@
   }
   &__nav {
     display: none;
+    @include responsive(laptop) {
+      display: block;
+    }
   }
   &__nav-2,
   &__nav-3,
@@ -27,19 +30,23 @@
   }
   &__nav-list {
     margin: 0;
-    padding: 1rem;
+    display: flex;
   }
   &__nav-link {
-    text-decoration: none;
-    color: $Black !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 0.9rem;
   }
   &__nav-list-item {
     list-style-type: none;
     text-transform: uppercase;
-    border-bottom: 1px solid rgb(194, 194, 194);
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-family: $thirdFont;
+    margin-right: 2rem;
+  }
+  &__nav-list-item:nth-child(6) {
+    margin-right: 0;
   }
   &__logo-wrapper {
     display: flex;
@@ -56,7 +63,7 @@
   &__wrapper-mobile {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem 1rem;
     background-color: $LightNavy;
     @include responsive(tablet) {
       padding: 2rem 1.8rem;
@@ -104,6 +111,9 @@
 .hamburger-icon-uikit {
   padding: 0 !important;
   margin: 0 !important;
+  @include responsive(laptop) {
+    display: none;
+  }
 }
 
 .fas {
