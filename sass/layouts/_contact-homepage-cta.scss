@@ -45,5 +45,8 @@
     @include responsive(tablet) {
       padding: 1rem 3rem;
     }
+    @include responsive(laptop) {
+      font-size: 1.2rem;
+    }
   }
 }
