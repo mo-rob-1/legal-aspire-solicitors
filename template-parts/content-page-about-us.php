@@ -26,7 +26,7 @@
             </div>
 
             <div class="about-us-pg__col-2">
-                <img class="about-us-pg__img" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/solicitors-coversation.jpg" alt="Image" />
+                <img class="about-us-pg__img" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/solicitors-coversation.jpg" alt="Solicitors talking" />
             </div>
         </div>
 
@@ -126,11 +126,11 @@
                     $post_query->the_post();
                     ?>
                         <div class="about-us-pg__team-members">
-                            <div class="about-us-pg__team-members-img-wrapper"><?php the_post_thumbnail(); ?></div>
+                                <a href="<?php the_permalink(); ?>"><div class="about-us-pg__team-members-img-wrapper"><?php the_post_thumbnail(); ?></div></a>  
                                 <div class="about-us-pg__team-members-card-text-wrapper">
                                     <h2 class="about-us-pg__team-members-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                                     <p class="about-us-pg__team-members-job-title"><?php the_field('job_title'); ?></p>
-                                </div>
+                                </div>  
                         </div>
                     <?php
                         } wp_reset_postdata();
@@ -148,7 +148,7 @@
 			<div class="contact__container">
 				<h2 class="contact__heading">Get a Free Counsultation for Your Case.</h2>
 				<div class="contact__link-container">
-					<a class="contact__link" href="#">Contact Us</a>
+					<a class="contact__link" href="<?php echo site_url('/contact') ?>">Contact Us</a>
 				</div>
 			</div>
 		</section>

@@ -37,7 +37,19 @@
         <?php legal_aspire_solicitors_post_thumbnail(); ?>
         </div>
         
-        <h4 class="team-member-profile-overview-desc"><?php the_field('profile_overview'); ?></h4>
+        <h4 class="team-member-profile-overview-desc">
+            <?php the_field('profile_overview'); ?>
+
+            <div class="team-pg__socials-container team-member-socials-container">
+                <div class="team-pg__socials-item-one">
+                    <a href="#" class="team-pg__social-link"><i class="fab fa-linkedin linkedin-profile"></i></a>
+                </div>
+                <div class="team-pg__socials-item-one">
+                    <a href="#" class="team-pg__social-link"><i class="fab fa-twitter twitter-profile"></i></a>
+                </div>
+		    </div>
+        </h4>
+
     </div>
 
     <div class="team-member-main-content">

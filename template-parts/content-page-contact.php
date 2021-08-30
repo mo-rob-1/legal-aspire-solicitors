@@ -112,7 +112,7 @@
                     $post_query->the_post();
                     ?>
                         <div class="contact-pg__card">
-                            <div class="contact-pg__card-img-wrapper"><?php the_post_thumbnail(); ?></div>
+                            <a href="<?php the_permalink(); ?>"><div class="contact-pg__card-img-wrapper"><?php the_post_thumbnail(); ?></div></a>
                                 <div class="contact-pg__card-text-wrapper">
 									<div class="contact-pg__card-text-container">
 									<h2 class="contact-pg__title"><?php the_title(); ?></h2>
