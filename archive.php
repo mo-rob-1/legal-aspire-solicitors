@@ -11,41 +11,46 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
+		<section class="archive-pg">
 
-		<?php if ( have_posts() ) : ?>
+			<div class="archive-pg__banner-image-background">
+				<div class="archive-pg__banner-content">
+					<h1 class="archive-pg__banner-title">
+						<?php
+							the_archive_title( '<h1 class="page-title-archive">', '</h1>' );
+							the_archive_description( '<div class="archive-description">', '</div>' );
+						?>
+					</h1>
+				</div>
+			</div>
 
-			<header class="page-header">
+			<div class="archive-pg__container">
 				<?php
-				the_archive_title( '<h1 class="page-title">', '</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
+				if ( have_posts() ) {
+					while(have_posts()): the_post();
 				?>
-			</header><!-- .page-header -->
-
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
-
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
-
-			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
-
-	</main><!-- #main -->
-
+						<div class="archive-pg__container-item">
+							<div class="archive-pg__img"><?php the_post_thumbnail(); ?></div>
+							<div class="archive-pg__text-container">
+								<h2 class="archive-pg__title"><?php the_title(); ?></h2>
+								<div class="archive-pg__excerpt"><?php the_excerpt(); ?></div>
+								<div class="archive-pg__permalink-container">
+									<a class="archive-pg__permalink" href="<?php the_permalink(); ?>">Read more</a>
+								</div>
+							</div>
+						</div>
+				<?php endwhile; } ?>
+			</div>
+		</sectiion>
+		<section class="contact services-pg-contact">
+			<div class="contact__container">
+				<h2 class="contact__heading">Get a Free Counsultation for Your Case.</h2>
+				<div class="contact__link-container">
+					<a class="contact__link" href="#">Contact Us</a>
+				</div>
+			</div>
+		</section>
+	</main>
 <?php
-get_sidebar();
+
 get_footer();

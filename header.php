@@ -47,77 +47,17 @@
         </div>
 
         <button class="uk-button uk-button-default uk-margin-small-right hamburger-icon-uikit" type="button" uk-toggle="target: #offcanvas-nav-primary"><i class="fas fa-bars"></i></button>
-      </div>
 
         <nav class="header__nav show-nav">
           <ul class="header__nav-list">
-            <li class="header__nav-list-item"><a class="header__nav-link" href="#">Home</a></li>
-            <li class="header__nav-list-item clk" id="toggle_submenu-three"><div class="header__submenu-item-container"><div class="header__submenu-item header__services"><a class="header__nav-link" href="<?php echo site_url('/about-us') ?>">About Us</a></div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
-              <ul class="header__submenu-dropdown header__nav-4 show-nav-4">
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/our-team') ?>">Our Team</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/case-studies') ?>">Case Studies</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/locations') ?>">Locations</a>
-                  </li>
-                </ul>
-			      </li>
-            <li class="header__nav-list-item clk" id="toggle_submenu"><div class="header__submenu-item-container"><div class="header__submenu-item header__services"><a class="header__nav-link" href="<?php echo site_url('/services') ?>">Services</a></div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
-              <ul class="header__submenu-dropdown header__nav-2 show-nav-2">
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/services/personal-injury') ?>">Personal Injury</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/services/medical-negligence') ?>">Medical Negligence</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/services/employment') ?>">Employment</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/services/property') ?>">Property</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/services/family') ?>">Family</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/services/immigration') ?>">Immigration</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/services/pensions') ?>">Pensions</a>
-                  </li>
-                </ul>
-			      </li>
-            <li class="header__nav-list-item clk" id="toggle_submenu-two"><div class="header__submenu-item-container"><div class="header__submenu-item header__services"><a class="header__nav-link" href="<?php echo site_url('/sectors') ?>">Sectors</a></div> <div class="header__submenu-item"><i class="fas fa-chevron-down"></div></div></i>
-              <ul class="header__submenu-dropdown header__nav-3 show-nav-3">
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/sectors/real-estate-law') ?>">Real Estate Law</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/sectors/recruitment-law') ?>">Recruitment Law</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/sectors/healthcare-law') ?>">Healthcare Law</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/sectors/technology-law') ?>">Technology Law</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/sectors/insurance-law') ?>">Insurance Law</a>
-                  </li>
-                  <li class="header__nav-list-item">
-                    <a class="header__nav-link" href="<?php echo site_url('/sectors/retail-law') ?>">Retail Law</a>
-                  </li>
-                </ul>
-			      </li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="<?php echo home_url(); ?>">Home</a></li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="<?php echo site_url('/about-us') ?>">About Us</a></li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="<?php echo site_url('/services') ?>">Services</a></li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="<?php echo site_url('/sectors') ?>">Sectors</a></li>
             <li class="header__nav-list-item"><a class="header__nav-link" href="<?php echo site_url('/news') ?>">News</a></li>
-            <li class="header__nav-list-item"><a class="header__nav-link" href="#">Contact</a></li>
+            <li class="header__nav-list-item"><a class="header__nav-link" href="<?php echo site_url('/contact') ?>">Contact</a></li>
           </ul>
         </nav>
-        <div class="header__number-wrapper">
-        	<a class="header__number" href="tel:0800000000">0800 00 0000</a>
-        </div>
+      </div>
 	</div>
 </header>	

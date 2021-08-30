@@ -73,12 +73,14 @@
 							<input class="input" type="text" placeholder="Email">
 							<label class="label">Email</label>
 						</div>
-					<input class="footer__newsletter-btn" type="submit">
+					<button class="footer__newsletter-btn" type="submit">Submit</button>
 				</form>
 			</div>
 
 		</div>
-		<small class="footer__copyright">© 2021 Legal Aspire Solicitors</small>
+		<div class="footer__copyright-wrapper">
+			<small class="footer__copyright">© 2021 Legal Aspire Solicitors | Coded by <a class="footer__copyright-link" href="https://mocodes.co.uk/">Mo.</a>| View <a class="footer__copyright-link" href="https://github.com/mo-rob-1/legal-aspire-solicitors/blob/main/README.md">README</a></small>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

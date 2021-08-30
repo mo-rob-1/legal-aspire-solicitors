@@ -62,7 +62,7 @@ get_header();
 			<div class="contact__container">
 				<h2 class="contact__heading">Get a Free Counsultation for Your Case.</h2>
 				<div class="contact__link-container">
-					<a class="contact__link" href="#">Contact Us</a>
+					<a class="contact__link" href="<?php echo site_url('/contact') ?>">Contact Us</a>
 				</div>
 			</div>
 		</section>

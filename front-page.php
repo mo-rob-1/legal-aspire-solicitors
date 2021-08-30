@@ -16,13 +16,13 @@ get_header();
 ?>
 	<main>
 		<section class="hero">
-			<div class="hero__container carousel" data-flickity='{"autoPlay": true, "wrapAround": true}'>
+			<div class="hero__container carousel" data-flickity='{"autoPlay": 5000, "wrapAround": true}'>
 				<div class="hero__item-one carousel-cell">
 					<h5 class="hero__item-subheading"><?php the_field('subheading_one'); ?></h5>
 					<h1 class="hero__item-heading"><?php the_field('heading_one'); ?></h1>
 					<p class="hero__item-desc"><?php the_field('description_one'); ?></p>
 					<div class="hero__item-link-container">
-						<a href="<?php the_field('link__url_one'); ?>" class="hero__item-link"><?php the_field('link_name_one'); ?></a>
+						<a href="<?php the_field('link_url_one'); ?>" class="hero__item-link"><?php the_field('link_name_one'); ?></a>
 					</div>
 				</div>
 				<div class="hero__item-two carousel-cell">
@@ -30,7 +30,7 @@ get_header();
 					<h1 class="hero__item-heading"><?php the_field('heading_two'); ?></h1>
 					<p class="hero__item-desc"><?php the_field('description_two'); ?></p>
 					<div class="hero__item-link-container">
-						<a href="<?php the_field('link__url_two'); ?>" class="hero__item-link"><?php the_field('link_name_two'); ?></a>
+						<a href="<?php the_field('link_url_two'); ?>" class="hero__item-link"><?php the_field('link_name_two'); ?></a>
 					</div>
 				</div>
 				<div class="hero__item-three carousel-cell">
@@ -38,7 +38,7 @@ get_header();
 					<h1 class="hero__item-heading"><?php the_field('heading_three'); ?></h1>
 					<p class="hero__item-desc"><?php the_field('description_three'); ?></p>
 					<div class="hero__item-link-container">
-						<a href="<?php the_field('link__url_three'); ?>" class="hero__item-link"><?php the_field('link_name_three'); ?></a>
+						<a href="<?php the_field('link_url_three'); ?>" class="hero__item-link"><?php the_field('link_name_three'); ?></a>
 					</div>
 				</div>
 					<div class="hero__item-four carousel-cell">
@@ -46,7 +46,7 @@ get_header();
 						<h1 class="hero__item-heading"><?php the_field('heading_four'); ?></h1>
 						<p class="hero__item-desc"><?php the_field('description_four'); ?></p>
 						<div class="hero__item-link-container">
-							<a href="<?php the_field('link__url_four'); ?>" class="hero__item-link"><?php the_field('link_name_four'); ?></a>
+							<a href="<?php the_field('link_url_four'); ?>" class="hero__item-link"><?php the_field('link_name_four'); ?></a>
 						</div>
 					</div>
 				
@@ -82,7 +82,7 @@ get_header();
 				<div class="services__item-1">
 					<a href="<?php echo site_url('/services/personal-injury') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/wheelchair-user.jpg" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/wheelchair-user.jpg" alt="Wheelchair user" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Personal Injury</h3>
@@ -92,7 +92,7 @@ get_header();
 				<div class="services__item-2">
 					<a href="<?php echo site_url('/services/medical-negligence') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/gavel-as-a-symbol-of-medical-justice-scaled.jpeg" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/gavel-as-a-symbol-of-medical-justice-scaled.jpeg" alt="Gavel as a symbol of medical justice" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Medical Negligence</h3>
@@ -102,7 +102,7 @@ get_header();
 				<div class="services__item-3">
 					<a href="<?php echo site_url('/services/employment') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/judge-working-on-laptop.jpg" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/judge-working-on-laptop.jpg" class="Judge working on a laptop" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Employment</h3>
@@ -112,7 +112,7 @@ get_header();
 				<div class="services__item-4">
 					<a href="<?php echo site_url('/services/property') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/house-model-and-blurred-real-estate-agent-on-background-scaled.jpeg" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/house-model-and-blurred-real-estate-agent-on-background-scaled.jpeg" alt="Real estate agent working" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Property</h3>
@@ -122,7 +122,7 @@ get_header();
 				<div class="services__item-5">
 					<a href="<?php echo site_url('/services/family') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/family-signing-a-contract-scaled.jpeg" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/family-signing-a-contract-scaled.jpeg" alt="Family signing a contract" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Family</h3>
@@ -132,7 +132,7 @@ get_header();
 				<div class="services__item-6">
 					<a href="<?php echo site_url('/services/immigration') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/passport-next-to-a-gavel-scaled.jpeg" alt="Image" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/passport-next-to-a-gavel-scaled.jpeg" alt="Passport next to a gavel" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Immigration</h3>
@@ -147,7 +147,7 @@ get_header();
 		<section class="experience">
 			<div class="experience__container">	
 				<div class="experience__img-container">
-					<img class="experience__img" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/solicitor-writing-on-a-paper-scaled.jpeg" />
+					<img class="experience__img" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/solicitor-writing-on-a-paper-scaled.jpeg" alt="Solicitor writing on a paper" />
 				</div>
 				<div class="experience__text-container">
 					<h5 class="experience__title">Why Choose Us</h5>
@@ -203,11 +203,11 @@ get_header();
 							$post_query->the_post();
 							?>
 								<div class="solicitors__card">
-									<div class="solicitors__card-img"><?php the_post_thumbnail(); ?></div>
+									<a href="<?php the_permalink(); ?>"><div class="solicitors__card-img"><?php the_post_thumbnail(); ?></div></a>	
 										<div class="solicitors__name-info-wrapper">
 											<h3 class="solicitors__card-name"><a class="solicitors__card-name-link" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 											<p class="solicitors__card-title"><?php the_field('job_title'); ?></p>
-										</div>
+										</div>	
 								</div>
 							<?php
 								} wp_reset_postdata();
@@ -242,6 +242,7 @@ get_header();
             $post_query->the_post();
             ?>
 			<div class="news__card">
+				<a class="news__card-permalink" href="<?php the_permalink(); ?>">
 				<div class="news__date-wrapper">
 					<div class="news__day"><?php echo get_the_date('d'); ?></div>
 					<div class="news__month"><?php echo get_the_date('M'); ?></div>
@@ -253,6 +254,7 @@ get_header();
 					<div class="news__excerpt"><?php the_excerpt(); ?></div>
 					<a class="news__link" href="<?php the_permalink(); ?>">Read more</a>
 				</div>
+				</a>
 			</div>
             <?php
             }
