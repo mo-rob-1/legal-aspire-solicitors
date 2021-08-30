@@ -138,11 +138,15 @@
   &__contact-p {
     margin-top: 0;
   }
+  &__contact-address-p {
+    font-family: $thirdFont;
+  }
   &__contact-info-wrapper > .fas {
     margin-right: 1rem;
   }
   &__contact-link {
     color: #000;
+    font-family: $thirdFont !important;
   }
   &__contact-link:hover {
     color: #000 !important;
