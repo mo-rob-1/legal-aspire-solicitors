@@ -117,3 +117,10 @@
     object-fit: cover;
   }
 }
+.author a {
+  text-decoration: none !important;
+}
+.nav-next a:hover,
+.nav-previous a:hover {
+  text-decoration: none !important;
+}

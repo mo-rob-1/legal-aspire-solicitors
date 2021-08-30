@@ -112,3 +112,6 @@
 .posted-on {
   font-family: $thirdFont;
 }
+.posted-on a {
+  text-decoration: none !important;
+}
