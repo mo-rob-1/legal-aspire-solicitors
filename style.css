@@ -1220,27 +1220,38 @@ label {
 	display: none;
 }
 
+@media only screen and (min-width: 1024px) {
+	.header__nav {
+		display: block;
+	}
+}
+
 .header__nav-2, .header__nav-3, .header__nav-4 {
 	display: none;
 }
 
 .header__nav-list {
 	margin: 0;
-	padding: 1rem;
+	display: flex;
 }
 
 .header__nav-link {
-	text-decoration: none;
-	color: #111111 !important;
+	text-decoration: none !important;
+	color: #fff !important;
+	font-size: 0.9rem;
 }
 
 .header__nav-list-item {
 	list-style-type: none;
 	text-transform: uppercase;
-	border-bottom: 1px solid #c2c2c2;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	font-family: "Jost", sans-serif;
+	margin-right: 2rem;
+}
+
+.header__nav-list-item:nth-child(6) {
+	margin-right: 0;
 }
 
 .header__logo-wrapper {
@@ -1260,7 +1271,7 @@ label {
 .header__wrapper-mobile {
 	display: flex;
 	justify-content: space-between;
-	padding: 1rem;
+	padding: 2rem 1rem;
 	background-color: #112236;
 }
 
@@ -1322,6 +1333,12 @@ label {
 .hamburger-icon-uikit {
 	padding: 0 !important;
 	margin: 0 !important;
+}
+
+@media only screen and (min-width: 1024px) {
+	.hamburger-icon-uikit {
+		display: none;
+	}
 }
 
 .fas {
@@ -1493,8 +1510,9 @@ label {
 	background-color: #112236;
 	color: #fff !important;
 	padding: 1rem 2rem;
-	text-decoration: none;
+	text-decoration: none !important;
 	font-family: "Jost", sans-serif;
+	font-size: 1.2rem;
 }
 
 .carousel-cell {
@@ -1600,6 +1618,12 @@ label {
 @media only screen and (min-width: 768px) {
 	.contact__link {
 		padding: 1rem 3rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.contact__link {
+		font-size: 1.2rem;
 	}
 }
 
@@ -2145,6 +2169,11 @@ label {
 	font-size: 12px;
 }
 
+.news__card-permalink {
+	color: #000 !important;
+	text-decoration: none !important;
+}
+
 .footer {
 	background-color: #112236;
 }
@@ -2331,15 +2360,34 @@ label {
 
 .footer__copyright {
 	font-family: "Jost", sans-serif;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 1rem;
 	color: #fff !important;
+}
+
+@media only screen and (min-width: 425px) {
+	.footer__copyright {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+.footer__copyright-wrapper {
+	padding: 1rem;
 }
 
 .footer__newsletter-btn {
 	cursor: pointer;
+}
+
+.footer__copyright-link {
+	color: #fff !important;
+	text-decoration: underline !important;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.footer__copyright-link:hover {
+	color: #fff !important;
 }
 
 .fa-map-marker-alt {
@@ -2489,6 +2537,10 @@ label {
 
 .posted-on {
 	font-family: "Jost", sans-serif;
+}
+
+.posted-on a {
+	text-decoration: none !important;
 }
 
 .services-pg__container {
@@ -3447,6 +3499,7 @@ label {
 
 .locations-pg__contact-link {
 	color: #000;
+	text-decoration: none !important;
 }
 
 .locations-pg__contact-link:hover {
@@ -3620,6 +3673,15 @@ label {
 		height: 400px;
 		object-fit: cover;
 	}
+}
+
+.author a {
+	text-decoration: none !important;
+}
+
+.nav-next a:hover,
+.nav-previous a:hover {
+	text-decoration: none !important;
 }
 
 .col-2 {
@@ -4182,6 +4244,10 @@ h3 {
 	cursor: pointer;
 }
 
+.team-member-socials-container {
+	margin-top: 1rem;
+}
+
 .entry-bg-color {
 	height: 400px;
 	background-color: #2a3e57;
@@ -4553,12 +4619,17 @@ textarea {
 	margin-top: 0;
 }
 
+.contact-pg__contact-address-p {
+	font-family: "Jost", sans-serif;
+}
+
 .contact-pg__contact-info-wrapper > .fas {
 	margin-right: 1rem;
 }
 
 .contact-pg__contact-link {
 	color: #000;
+	font-family: "Jost", sans-serif !important;
 }
 
 .contact-pg__contact-link:hover {
@@ -4837,6 +4908,7 @@ textarea {
 .about-us-pg__team-members-title a {
 	font-family: "Julius Sans One", sans-serif;
 	color: #000 !important;
+	text-decoration: none !important;
 }
 
 .about-us-pg__team-members-job-title {
@@ -5006,6 +5078,7 @@ textarea {
 .solicitors__card-name-link {
 	color: #fff !important;
 	font-family: "Julius Sans One", sans-serif;
+	text-decoration: none !important;
 }
 
 .solicitors__card-title {
@@ -5083,6 +5156,161 @@ textarea {
 
 .page-title-404 {
 	font-family: "Julius Sans One", sans-serif;
+}
+
+.page-title-archive {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 2.3rem;
+	line-height: 1.5;
+}
+
+@media only screen and (min-width: 1440px) {
+	.page-title-archive {
+		font-size: 3rem;
+	}
+}
+
+.archive-pg__container {
+	display: grid;
+	gap: 2rem;
+	padding: 3rem 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+	.archive-pg__container {
+		padding-left: 1.8rem;
+		padding-right: 1.8rem;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 1fr;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.archive-pg__container {
+		padding-left: 4rem;
+		padding-right: 4rem;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+		margin-top: 2rem;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.archive-pg__container {
+		margin: 0 auto;
+		max-width: 1300px;
+		margin-top: 3rem;
+		margin-bottom: 4rem;
+	}
+}
+
+.archive-pg__text-container {
+	padding: 3rem 1rem;
+	padding-top: 2rem;
+}
+
+.archive-pg__intro-title {
+	font-family: "Jost", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 2px;
+}
+
+.archive-pg__intro-heading {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+}
+
+.archive-pg__intro-desc {
+	font-family: "Jost", sans-serif;
+}
+
+.archive-pg__icon {
+	width: 80px;
+}
+
+.archive-pg__title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+}
+
+.archive-pg__excerpt {
+	font-family: "Jost", sans-serif;
+}
+
+.archive-pg__container-item {
+	background: #f7f7f7;
+}
+
+.archive-pg__permalink-container {
+	margin-top: 2.5rem;
+}
+
+.archive-pg__permalink {
+	background-color: #061123;
+	color: #fff !important;
+	text-decoration: none !important;
+	font-family: "Jost", sans-serif;
+	text-transform: uppercase;
+	padding: 1rem;
+	margin-top: 1rem;
+	font-size: 0.9rem;
+}
+
+.archive-pg__banner-image-background {
+	background-image: url("images/justice-symbol.jpeg");
+	height: 400px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.archive-pg__banner-image-background::before {
+	content: "";
+	background: #263c53;
+	opacity: 0.7;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.archive-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.archive-pg__banner-content {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.archive-pg__banner-title {
+	font-family: "Julius Sans One", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	font-size: 2.3rem;
+}
+
+@media only screen and (min-width: 1440px) {
+	.archive-pg__banner-title {
+		font-size: 3rem;
+	}
+}
+
+.archive-pg .services-pg-contact {
+	background-color: #374454;
 }
 
 /*--------------------------------------------------------------
