@@ -42,10 +42,10 @@
 
             <div class="team-pg__socials-container team-member-socials-container">
                 <div class="team-pg__socials-item-one">
-                    <a href="#" class="team-pg__social-link"><i class="fab fa-linkedin linkedin-profile"></i></a>
+                    <a href="https://linkedin.com/" class="team-pg__social-link"><i class="fab fa-linkedin linkedin-profile"></i></a>
                 </div>
                 <div class="team-pg__socials-item-one">
-                    <a href="#" class="team-pg__social-link"><i class="fab fa-twitter twitter-profile"></i></a>
+                    <a href="https://twitter.com/" class="team-pg__social-link"><i class="fab fa-twitter twitter-profile"></i></a>
                 </div>
 		    </div>
         </h4>
