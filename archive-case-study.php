@@ -42,9 +42,9 @@ get_header();
 <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center case-studies-pg__css-grid-wrapper" uk-grid>
     <li data-color="injury">
         <div class="case-studies-pg__container-item">
-            <div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(171); ?></div>
+            <a href="<?php echo get_the_permalink(171); ?>"><div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(171); ?></div></a>
             <div class="case-studies-pg__card-text-container">
-            <h2 class="case-studies-pg__title"><?php echo get_the_title( 171 ); ?></h2>
+            <a class="case-studies-pg__title-link" href="<?php echo get_the_permalink(171); ?>"><h2 class="case-studies-pg__title"><?php echo get_the_title( 171 ); ?></h2></a>
             <div class="case-studies-pg__excerpt"><?php echo get_the_excerpt(171); ?></div>
             <div class="case-studies-pg__permalink-container">
             <a class="case-studies-pg__permalink" href="<?php echo get_the_permalink(171); ?>">Read more</a>
@@ -54,9 +54,9 @@ get_header();
     </li>
     <li data-color="business">
     <div class="case-studies-pg__container-item">
-            <div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(172); ?></div>
+            <a href="<?php echo get_the_permalink(172); ?>"><div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(172); ?></div></a>
             <div class="case-studies-pg__card-text-container">
-            <h2 class="case-studies-pg__title"><?php echo get_the_title( 172 ); ?></h2>
+            <a class="case-studies-pg__title-link" href="<?php echo get_the_permalink(172); ?>"><h2 class="case-studies-pg__title"><?php echo get_the_title( 172 ); ?></h2></a>
             <div class="case-studies-pg__excerpt"><?php echo get_the_excerpt(172); ?></div>
             <div class="case-studies-pg__permalink-container">
             <a class="case-studies-pg__permalink" href="<?php echo get_the_permalink(172); ?>">Read more</a>
@@ -66,9 +66,9 @@ get_header();
     </li>
     <li data-color="finance">
     <div class="case-studies-pg__container-item">
-            <div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(173); ?></div>
+            <a href="<?php echo get_the_permalink(173); ?>"><div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(173); ?></div></a>
             <div class="case-studies-pg__card-text-container">
-            <h2 class="case-studies-pg__title"><?php echo get_the_title( 173 ); ?></h2>
+            <a class="case-studies-pg__title-link" href="<?php echo get_the_permalink(173); ?>"><h2 class="case-studies-pg__title"><?php echo get_the_title( 173 ); ?></h2></a>
             <div class="case-studies-pg__excerpt"><?php echo get_the_excerpt(173); ?></div>
             <div class="case-studies-pg__permalink-container">
             <a class="case-studies-pg__permalink" href="<?php echo get_the_permalink(173); ?>">Read more</a>
@@ -78,9 +78,9 @@ get_header();
     </li>
     <li data-color="finance">
     <div class="case-studies-pg__container-item">
-            <div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(174); ?></div>
+            <a href="<?php echo get_the_permalink(174); ?>"><div class="case-studies-pg__thumbnail"><?php echo get_the_post_thumbnail(174); ?></div></a>
             <div class="case-studies-pg__card-text-container">
-            <h2 class="case-studies-pg__title"><?php echo get_the_title( 174 ); ?></h2>
+            <a class="case-studies-pg__title-link" href="<?php echo get_the_permalink(174); ?>"><h2 class="case-studies-pg__title"><?php echo get_the_title( 174 ); ?></h2></a>
             <div class="case-studies-pg__excerpt"><?php echo get_the_excerpt(174); ?></div>
             <div class="case-studies-pg__permalink-container">
             <a class="case-studies-pg__permalink" href="<?php echo get_the_permalink(171); ?>">Read more</a>

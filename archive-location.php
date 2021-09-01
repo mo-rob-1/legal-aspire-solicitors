@@ -39,7 +39,7 @@ get_header();
 						<div class="locations-pg__container-item">
                             <div class="locations-pg__thumbnail"><?php legal_aspire_solicitors_post_thumbnail(); ?></div>
 							<div class="locations-pg__card-text-container">
-								<h2 class="locations-pg__title"><?php the_title(); ?></h2>
+								<a class="locations-pg__title-link" href="<?php the_permalink(); ?>"><h2 class="locations-pg__title"><?php the_title(); ?></h2></a>
                                 <div class="locations-pg__contact-info-wrapper">
                                     <i class="fas fa-map-marker-alt"></i>
                                     <p class="locations-pg__contact-address-p"><?php the_field('location_address'); ?></p>

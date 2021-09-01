@@ -40,7 +40,7 @@ get_header();
                             <div class="team-pg__thumbnail"><?php legal_aspire_solicitors_post_thumbnail(); ?></div>
 							<div class="team-pg__card-text-container">
 								<p class="team-pg__expertise"><?php the_field('area_of_expertise'); ?></p>
-								<h2 class="team-pg__title"><?php the_title(); ?></h2>
+								<a class="team-pg__title-link" href="<?php the_permalink(); ?>"><h2 class="team-pg__title"><?php the_title(); ?></h2></a>
 								<p class="team-pg__job-role"><?php the_field('job_title'); ?></p>
 								<div class="team-pg__socials-container">
 									<div class="team-pg__socials-item-one">

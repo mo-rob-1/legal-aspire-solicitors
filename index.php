@@ -36,7 +36,7 @@ get_header();
 					<div class="news-pg__container-item">
 						<div class="news-pg__thumbnail"><?php legal_aspire_solicitors_post_thumbnail(); ?></div>
 						<p class="news-pg__date"><?php legal_aspire_solicitors_posted_on(); ?></p>
-						<h2 class="news-pg__title"><?php the_title(); ?></h2>
+						<a class="news-pg__permalink" href="<?php the_permalink(); ?>"><h2 class="news-pg__title"><?php the_title(); ?></h2></a>
 						<div class="news-pg__excerpt"><?php the_excerpt(); ?></div>
 						<a class="news-pg__permalink" href="<?php the_permalink(); ?>">Read more</a>
 					</div>

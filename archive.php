@@ -30,9 +30,9 @@ get_header();
 					while(have_posts()): the_post();
 				?>
 						<div class="archive-pg__container-item">
-							<div class="archive-pg__img"><?php the_post_thumbnail(); ?></div>
+							<a href="<?php the_permalink(); ?>"><div class="archive-pg__img"><?php the_post_thumbnail(); ?></div></a>
 							<div class="archive-pg__text-container">
-								<h2 class="archive-pg__title"><?php the_title(); ?></h2>
+								<a class="archive-pg__title-link" href="<?php the_permalink(); ?>"><h2 class="archive-pg__title"><?php the_title(); ?></h2></a>
 								<div class="archive-pg__excerpt"><?php the_excerpt(); ?></div>
 								<div class="archive-pg__permalink-container">
 									<a class="archive-pg__permalink" href="<?php the_permalink(); ?>">Read more</a>

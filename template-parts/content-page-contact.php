@@ -115,7 +115,7 @@
                             <a href="<?php the_permalink(); ?>"><div class="contact-pg__card-img-wrapper"><?php the_post_thumbnail(); ?></div></a>
                                 <div class="contact-pg__card-text-wrapper">
 									<div class="contact-pg__card-text-container">
-									<h2 class="contact-pg__title"><?php the_title(); ?></h2>
+									<a class="contact-pg__title-link" href="<?php the_permalink(); ?>"><h2 class="contact-pg__title"><?php the_title(); ?></h2></a>
 									<div class="contact-pg__contact-info-wrapper">
 										<i class="fas fa-map-marker-alt"></i>
 										<p class="contact-pg__contact-address-p"><?php the_field('location_address'); ?></p>
