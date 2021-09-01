@@ -17,10 +17,10 @@
   font-family: $primaryFont;
   font-size: 1.3rem;
   @include responsive(tablet) {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
   @include responsive(laptop-lg) {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: initial;
   }
 }
