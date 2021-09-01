@@ -3169,7 +3169,7 @@ label {
 .team-pg__title {
 	font-family: "Julius Sans One", sans-serif;
 	font-weight: bold;
-	margin-top: 1rem;
+	margin: 0;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -3263,7 +3263,13 @@ label {
 	transform: translate(-50%, -50%);
 }
 
+.team-pg__title-link {
+	text-decoration: none !important;
+	display: inline-block;
+}
+
 .team-pg__banner-title {
+	line-height: 1.5;
 	font-family: "Julius Sans One", sans-serif;
 	font-weight: bold;
 	color: #fff;
@@ -3377,6 +3383,11 @@ label {
 	font-weight: bold;
 	margin-top: 1rem;
 	margin-bottom: 2rem;
+}
+
+.locations-pg__title-link {
+	text-decoration: none !important;
+	display: inline-block;
 }
 
 .locations-pg__excerpt {
@@ -3540,13 +3551,13 @@ label {
 
 @media only screen and (min-width: 768px) {
 	.entry-title-custom {
-		font-size: 2.3rem;
+		font-size: 2rem;
 	}
 }
 
 @media only screen and (min-width: 1440px) {
 	.entry-title-custom {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		margin-top: initial;
 	}
 }
@@ -4117,6 +4128,7 @@ h3 {
 
 .team-member-profile-overview-desc {
 	font-family: "Jost", sans-serif;
+	margin-bottom: 3rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -4236,6 +4248,7 @@ h3 {
 }
 
 .team-member-form-submit-btn {
+	font-family: "Jost", sans-serif;
 	width: 100%;
 	margin-top: 1rem;
 	background-color: #112236;
@@ -4364,6 +4377,7 @@ textarea {
 }
 
 .location-form-submit-btn {
+	font-family: "Jost", sans-serif;
 	width: 100%;
 	margin-top: 1rem;
 	background-color: #112236;
@@ -4565,6 +4579,7 @@ textarea {
 }
 
 .contact-pg__form-submit-btn {
+	font-family: "Jost", sans-serif !important;
 	width: 100%;
 	background-color: #112236;
 	color: #fff !important;
@@ -4596,6 +4611,7 @@ textarea {
 .contact-pg__cards-container {
 	display: grid;
 	gap: 2rem;
+	margin-top: 2.5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -4653,10 +4669,21 @@ textarea {
 	}
 }
 
+.contact-pg__title-link {
+	text-decoration: none !important;
+	display: inline-block;
+}
+
 .contact-pg__line {
 	background-color: black;
 	height: 3px;
-	width: 10%;
+	width: 20%;
+}
+
+@media only screen and (min-width: 768px) {
+	.contact-pg__line {
+		width: 10%;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -5237,6 +5264,11 @@ textarea {
 .archive-pg__title {
 	font-family: "Julius Sans One", sans-serif;
 	font-weight: bold;
+}
+
+.archive-pg__title-link {
+	text-decoration: none !important;
+	display: inline-block;
 }
 
 .archive-pg__excerpt {
