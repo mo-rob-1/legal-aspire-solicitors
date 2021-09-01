@@ -58,6 +58,10 @@
     font-family: $primaryFont;
     font-weight: bold;
   }
+  &__title-link {
+    text-decoration: none !important;
+    display: inline-block;
+  }
   &__excerpt {
     font-family: $thirdFont;
   }
