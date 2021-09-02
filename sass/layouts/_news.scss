@@ -56,6 +56,7 @@
     font-family: $primaryFont;
     text-align: center;
     margin: 0;
+    margin-bottom: 1rem;
     @include responsive(laptop) {
       text-align: left;
     }
