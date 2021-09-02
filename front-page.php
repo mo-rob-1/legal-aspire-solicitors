@@ -67,7 +67,7 @@ get_header();
 
 			<div class="services__text-container">
 				<div class="services__text-col-1">
-					<h5 class="services__title">Our Services</h5>
+					<h6 class="services__title">Our Services</h6>
 					<h1 class="services__heading">Reputation. Respect. Result.</h1>
 					<div class="services__line"></div>
 				</div>
@@ -102,7 +102,7 @@ get_header();
 				<div class="services__item-3">
 					<a href="<?php echo site_url('/services/employment') ?>">
 						<div class="services__item-image-wrapper">
-							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/judge-working-on-laptop.jpg" class="Judge working on a laptop" />
+							<img class="services__item-image" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/07/judge-at-work.jpg" class="Judge working on a laptop" />
 						</div>
 						<div class="services__item-text-content">
 							<h3 class="services__item-title">Employment</h3>
@@ -150,7 +150,7 @@ get_header();
 					<img class="experience__img" src="http://legal-aspire-solicitors.local/wp-content/uploads/2021/08/solicitor-writing-on-a-paper-scaled.jpeg" alt="Solicitor writing on a paper" />
 				</div>
 				<div class="experience__text-container">
-					<h5 class="experience__title">Why Choose Us</h5>
+					<h6 class="experience__title">Why Choose Us</h6>
 					<h1 class="experience__heading">15 Years of Experience</h1>
 					<div class="experience__line"></div>
 					<p class="experience__desc">Our highly experienced solicitors take great pride in being one of the best legal teams in the UK. 
@@ -183,7 +183,7 @@ get_header();
 		<section class="solicitors">
 			<div class="solicitors__container">
 			<div class="solicitors__heading-wrapper">
-				<h5 class="solicitors__intro-heading">Meet Our Experts</h5>
+				<h6 class="solicitors__intro-heading">Meet Our Experts</h6>
 				<h1 class="solicitors__main-heading">Our Solicitors</h1>
 				<div class="solicitors__line-wrapper">
 					<div class="solicitors__line"></div>
