@@ -1,4 +1,4 @@
-# Legal Aspire Solicitors - How I Built the Site
+# Legal Aspire Solicitors - How I Built The Site
 
 I created this project so I can share, explain and showcase the process I take when it comes to creating a custom and bespoke site. In this case, I created a custom WordPress site for a fictional law firm. I used WordPress because it is versatile CMS and the main goal was to allow authorised users to log in and add their own content. Also, building a custom theme from scratch gives me full control of how the site will look.
 
